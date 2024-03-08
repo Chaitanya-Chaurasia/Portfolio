@@ -1,33 +1,28 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import Image from "next/image";
+import bg from "../../../public/artist.jpg"
 
 interface SpotifyCardProps {
   title: string;
   artist: string;
-  image: string;
 }
 
-const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist, image }) => {
+const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist }) => {
   return (
     <Card
       sx={{
         display: "flex",
         maxWidth: 300,
-        margin: "auto",
-        marginTop: 20,
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
       }}
     >
-      <CardMedia
-        component="img"
-        src={image}
-        title="Spotify Album"
-        sx={{
-          width: 100,
-          height: 100,
-          borderRadius: "50%",
-          margin: 10,
-        }}
+      <Image
+        src={bg}
+        alt="artist"
+        width={100}
+        height={100}
       />
+
       <div
         style={{
           flex: "1 0 auto",

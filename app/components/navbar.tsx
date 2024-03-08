@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+"use client";
+
+import React from "react";
 import "../styles/navbar.css";
 import { Button, Typography } from "@mui/material";
 

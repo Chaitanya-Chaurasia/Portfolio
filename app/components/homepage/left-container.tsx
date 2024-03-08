@@ -8,7 +8,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const LeftContainer = () => {
   return (
-    <div className="flex flex-row gap-10">
+    <div className="flex sm:flex-col lg:flex-row xl:flex-row gap-10">
       <div className="flex flex-col gap-1 ">
         <div className="flex flex-row items-center justify-center bg-gray-500/10 rounded-xl">
           <LocationOnIcon
@@ -42,8 +42,8 @@ const LeftContainer = () => {
           </span>
         </span>
         <span className="text-[15px]">
-          Three things you should know about me: studying cs 💻, playing soccer ⚽ & love
-          travelling 🧳.
+          Three things you should know about me: studying cs 💻, playing soccer
+          ⚽ & love travelling 🧳.
         </span>
         <span className="text-[15px]">
           If I had to describe myself in 3 words, they'd be-{" "}
@@ -78,7 +78,10 @@ const LeftContainer = () => {
         <span className="text-[25px]">
           If this was you, explore the website to learn more about me!
         </span>
-        {/* <Spotify /> */}
+        <div className="h-full bg-black p-1">
+          Things I am doing right now:
+          <Spotify title="Song" artist="song" />
+        </div>
       </div>
     </div>
   );
