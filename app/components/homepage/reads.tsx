@@ -1,15 +1,16 @@
-import { Card, CardContent, Typography, IconButton } from "@mui/material";
-import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
-import "../../styles/spotify.css";
-import spotify from "../../../public/spotify.svg";
+import React from "react";
+import spotify from "./spotify";
 import Image from "next/image";
 
-interface SpotifyCardProps {
-  title: string;
-  artist: string;
-}
+//www.newscientist.com/article/2420543-d-wave-says-its-quantum-computers-can-solve-otherwise-impossible-tasks/
 
-const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist }) => {
+const Reads = () => {
+
+  const news = {
+    title: "D-Wave Says Its Quantum Computers Can Solve Otherwise Impossible Tasks",
+    url: "https://www.newscientist.com/article/2420543-d-wave-says-its-quantum-computers-can-solve-otherwise-impossible-tasks/",
+
+  }
   return (
     <div className="card">
       <div className="top rounded-xl border p-1 border-white">
@@ -29,9 +30,9 @@ const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist }) => {
               fontFamily: "Signika, sans-serif",
             }}
           >
-            {title}
+            News{" "}
           </p>
-          <p className="title-2">{artist}</p>
+          <p className="title-2">hey</p>
         </div>
       </div>
       <div className="bg-none gap-2 p-1 flex flex-row items-center justify-center">
@@ -42,4 +43,4 @@ const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist }) => {
   );
 };
 
-export default SpotifyCard;
+export default Reads;

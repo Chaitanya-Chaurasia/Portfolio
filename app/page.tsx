@@ -15,7 +15,7 @@ export default function Home() {
       <div className=" flex flex-[0.1_0.1_0%] text-white rounded-2xl">
         <Navbar />
       </div>
-      <div className="flex flex-[3_3_0%] justify-center p-10 g-2 bg-gray-300/10 text-white rounded-2xl">
+      <div className="flex flex-[3_3_0%] justify-center p-10 g-2 text-white rounded-2xl">
         <LeftContainer />
       </div>
       <div className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center">

@@ -5,10 +5,12 @@ import profile from "../../../public/profile.jpeg";
 import Spotify from "./spotify";
 import { Typography } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import SongsContainer from "./songs-container";
+import Reads from "./reads";
 
 const LeftContainer = () => {
   return (
-    <div className="flex sm:flex-col lg:flex-row xl:flex-row gap-10">
+    <div className="flex xs:flex-col sm:flex-col lg:flex-row  gap-10 items-center justify-center">
       <div className="flex flex-col gap-1 ">
         <div className="flex flex-row items-center justify-center bg-gray-500/10 rounded-xl">
           <LocationOnIcon
@@ -29,7 +31,7 @@ const LeftContainer = () => {
 
         <Image src={profile} alt="profile" width={300} className="rounded-xl" />
       </div>
-      <div className="flex flex-col gap-1 ">
+      <div className="flex flex-col gap-4">
         <span className="text-[75px]">
           Hey there!{" "}
           <span
@@ -78,9 +80,9 @@ const LeftContainer = () => {
         <span className="text-[25px]">
           If this was you, explore the website to learn more about me!
         </span>
-        <div className="h-full bg-black p-1">
-          Things I am doing right now:
-          <Spotify title="Song" artist="song" />
+        <div className="h-full flex flex-row">
+          <SongsContainer />
+          {/* <Reads /> */}
         </div>
       </div>
     </div>
