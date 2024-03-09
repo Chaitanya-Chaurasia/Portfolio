@@ -14,3 +14,24 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Reduce the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 3px; /* You can adjust the width as per your preference */
+}
+
+/* Change the color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Change the color as needed */
+}
+
+/* Change the color and style of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Change the color as needed */
+  border-radius: 4px; /* Change the border-radius as needed */
+}
+
+/* Change the color of the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: none; /* Change the color as needed */
+}

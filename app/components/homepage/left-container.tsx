@@ -31,9 +31,9 @@ const LeftContainer = () => {
 
         <Image src={profile} alt="profile" width={300} className="rounded-xl" />
       </div>
-      <div className="flex flex-col gap-4">
-        <span className="text-[75px]">
-          Hey there!{" "}
+      <div className="flex flex-col gap-4 items-center justify-center">
+        <span className="text-[75px] ">
+          Hey!{" "}
           <span
             style={{
               fontFamily: "Dancing Script, sans-serif",
@@ -82,7 +82,6 @@ const LeftContainer = () => {
         </span>
         <div className="h-full flex flex-row">
           <SongsContainer />
-          {/* <Reads /> */}
         </div>
       </div>
     </div>
