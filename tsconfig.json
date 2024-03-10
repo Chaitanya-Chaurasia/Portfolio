@@ -27,6 +27,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "*.jpg"
-  ],
+, "app/components/about-me"  ],
   "exclude": ["node_modules"]
 }

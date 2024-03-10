@@ -2,11 +2,10 @@
 import Image from "next/image";
 import React from "react";
 import profile from "../../../public/profile.jpeg";
-import Spotify from "./spotify";
 import { Typography } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SongsContainer from "./songs-container";
-import Reads from "./reads";
+import Leetcode from "./leetcode";
 
 const LeftContainer = () => {
   return (
@@ -82,6 +81,7 @@ const LeftContainer = () => {
         </span>
         <div className="h-full flex flex-row">
           <SongsContainer />
+          <Leetcode />
         </div>
       </div>
     </div>

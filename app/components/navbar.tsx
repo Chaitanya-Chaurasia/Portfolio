@@ -13,9 +13,10 @@ const Navbar = () => {
             fontFamily: "Urbanist, sans-serif",
             textTransform: "none",
             fontSize: "15px",
+            textDecoration: "none",
           }}
         >
-          home
+          me
         </Typography>
       </Button>
       <Button className="hover-underline-animation">
@@ -24,9 +25,10 @@ const Navbar = () => {
             fontFamily: "Urbanist, sans-serif",
             textTransform: "none",
             fontSize: "15px",
+            textDecoration: "none",
           }}
         >
-          projects
+          skills & projects
         </Typography>
       </Button>
       <Button className="hover-underline-animation">
@@ -35,9 +37,10 @@ const Navbar = () => {
             fontFamily: "Urbanist, sans-serif",
             textTransform: "none",
             fontSize: "15px",
+            textDecoration: "none",
           }}
         >
-          resume
+          work exp.
         </Typography>
       </Button>
       <Button className="hover-underline-animation">
@@ -46,6 +49,7 @@ const Navbar = () => {
             fontFamily: "Urbanist, sans-serif",
             textTransform: "none",
             fontSize: "15px",
+            textDecoration: "none",
           }}
         >
           hobbies
@@ -57,6 +61,7 @@ const Navbar = () => {
             fontFamily: "Urbanist, sans-serif",
             textTransform: "none",
             fontSize: "15px",
+            textDecoration: "none",
           }}
         >
           photography
@@ -68,6 +73,7 @@ const Navbar = () => {
             fontFamily: "Urbanist, sans-serif",
             textTransform: "none",
             fontSize: "15px",
+            textDecoration: "none",
           }}
         >
           blog

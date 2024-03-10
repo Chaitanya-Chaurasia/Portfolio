@@ -7,6 +7,9 @@
     text-wrap: balance;
   }
 }
+body{
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
 
 * {
   font-family: "Urbanist", sans-serif;
@@ -17,7 +20,8 @@
 
 /* Reduce the width of the scrollbar */
 ::-webkit-scrollbar {
-  width: 3px; /* You can adjust the width as per your preference */
+  width: 6px; /* You can adjust the width as per your preference */
+  display: none;
 }
 
 /* Change the color of the scrollbar track */
@@ -31,7 +35,4 @@
   border-radius: 4px; /* Change the border-radius as needed */
 }
 
-/* Change the color of the scrollbar corner */
-::-webkit-scrollbar-corner {
-  background: none; /* Change the color as needed */
-}
+

@@ -1,5 +1,3 @@
-import { Card, CardContent, Typography, IconButton } from "@mui/material";
-import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import "../../styles/spotify.css";
 import spotify from "../../../public/spotify.svg";
 import Image from "next/image";
