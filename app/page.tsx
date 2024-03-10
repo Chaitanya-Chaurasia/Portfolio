@@ -17,25 +17,27 @@ export default function Home() {
       <div className="flex flex-[3_3_0%] justify-center p-1  text-white rounded-2xl border">
         <AboutMeContainer />
       </div>
-      <div className="flex flex-row items-center justify-center">
-        <Divider
-          orientation="horizontal"
-          sx={{
-            width: "100%",
-          }}
-        />
+      <Divider
+        orientation="horizontal"
+        sx={{
+          width: "50%",
+        }}
+      >
         <span className="text-[30px] text-white">skills & projects</span>
-        <Divider
-          orientation="horizontal"
-          sx={{
-            width: "100%",
-          }}
-        />
-      </div>
+      </Divider>
 
       <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full">
         <SkillsContainer />
       </div>
+
+      <Divider
+        orientation="horizontal"
+        sx={{
+          width: "50%",
+        }}
+      >
+        <span className="text-[30px] text-white">work exp.</span>
+      </Divider>
 
       <div className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center ">
         <Footer />

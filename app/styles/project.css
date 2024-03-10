@@ -21,8 +21,13 @@
 
 .heading-2-card {
   font: var(--var-small-heading);
-  color: var(--var-lightest);
-  font-size: 15px;
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  padding: 3px;
+  font-size: 35px;
+  font-weight: 400;
 }
 
 .para-card {
