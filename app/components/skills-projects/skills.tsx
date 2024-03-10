@@ -1,19 +1,25 @@
+import { Paper } from "@mui/material";
 import React from "react";
 
 const Skills = () => {
   return (
-    <div
+    <Paper
+      elevation={5}
       className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl w-full"
       style={{
         background: "linear-gradient(to right,  #0f0c29, #302b63, #24243e)",
       }}
     >
-      <span className="text-[40px]"> Things I have learnt so far!</span>
+      <span className="text-[40px] text-white">
+        {" "}
+        Things I have learnt so far!
+      </span>
       <div className="flex flex-col items-center gap-2">
         <span
           style={{
             fontFamily: "Courier New, sans-serif",
           }}
+          className="text-white"
         >
           Programming Languages
         </span>
@@ -89,6 +95,7 @@ const Skills = () => {
             fontFamily: "Dancing Script, sans-serif",
             fontSize: 20,
           }}
+          className="text-white"
         >
           Frontend
         </span>
@@ -122,10 +129,25 @@ const Skills = () => {
               width={40}
             />
           </div>
+          <div className="bg-white p-1 rounded-xl">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
+              height={40}
+              width={40}
+            />
+          </div>
+
+          <div className="bg-white p-1 rounded-xl">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
+              height={40}
+              width={40}
+            />
+          </div>
         </div>
       </div>
       <div className="flex flex-col items-center gap-2">
-        <span>JavaScript Frameworks & Tools</span>
+        <span className="text-white">JavaScript Frameworks & Tools</span>
         <div className="flex flex-row gap-3">
           <div className="bg-white p-1 rounded-xl">
             <img
@@ -178,6 +200,7 @@ const Skills = () => {
             fontFamily: "Madimi One, sans-serif",
             fontSize: 20,
           }}
+          className="text-white"
         >
           Python Libraries
         </span>
@@ -226,6 +249,7 @@ const Skills = () => {
             fontFamily: "Road Rage, sans-serif",
             fontSize: 20,
           }}
+          className="text-white"
         >
           SQL & Cloud Services
         </span>
@@ -328,7 +352,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      Tools I use almost daily!
+      <span className="text-white"> Tools I use almost daily!</span>
       <div className="w-full flex flex-row bg-none gap-2 items-center justify-center">
         <div className="bg-white p-1 rounded-xl">
           <img
@@ -337,6 +361,7 @@ const Skills = () => {
             width={40}
           />
         </div>
+
         <div className="bg-white p-1 rounded-xl">
           {" "}
           <img
@@ -353,9 +378,15 @@ const Skills = () => {
           />
         </div>
         <div className="bg-white p-1 rounded-xl">
-          {" "}
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            height={40}
+            width={40}
+          />
+        </div>
+        <div className="bg-white p-1 rounded-xl">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg"
             height={40}
             width={40}
           />
@@ -391,7 +422,7 @@ const Skills = () => {
           />
         </div>
       </div>
-    </div>
+    </Paper>
   );
 };
 

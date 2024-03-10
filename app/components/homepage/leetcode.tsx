@@ -1,5 +1,4 @@
 import React from "react";
-import SpotifyCard from "./spotify";
 import LeetcodeCard from "./leetcode-card";
 
 const Leetcode = () => {

@@ -4,7 +4,7 @@ import Projects from "./projects";
 
 const SkillsContainer = () => {
   return (
-    <div className="flex flex-col gap-10 w-full justify-center items-center">
+    <div className="flex flex-col p-1 gap-10 w-full justify-center items-center rounded-3xl">
       <Skills /> <Projects />
     </div>
   );
