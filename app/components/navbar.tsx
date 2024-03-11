@@ -3,6 +3,7 @@
 import React from "react";
 import "../styles/navbar.css";
 import { Button, Typography } from "@mui/material";
+import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 
 const Navbar = () => {
   return (

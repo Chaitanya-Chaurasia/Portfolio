@@ -247,7 +247,7 @@ const Skills = () => {
         <span
           style={{
             fontFamily: "Road Rage, sans-serif",
-            fontSize: 20,
+            fontSize: 25,
           }}
           className="text-white"
         >
