@@ -11,7 +11,7 @@ const SongsContainer = () => {
 
   return (
     <div className="flex flex-col gap-3 p-1 rounded-xl items-center ">
-      <span>Current favorite shower song 🧑‍🎤</span>
+      <span>Playing on loop 🎵</span>
       {songs.map((song) => {
         return <SpotifyCard title={song.title} artist={song.artist} />;
       })}
