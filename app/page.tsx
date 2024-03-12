@@ -30,7 +30,6 @@ export default function Home() {
       <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full">
         <SkillsContainer />
       </div>
-
       <Divider
         orientation="horizontal"
         sx={{
@@ -39,8 +38,24 @@ export default function Home() {
       >
         <span className="text-[30px] text-white">work exp.</span>
       </Divider>
-
-      <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full">
+      <span className="text-[40px] text-center text-white">
+        From My Desk to the World:{" "}
+        <span
+          style={{
+            fontFamily: "Anton, sans-serif",
+          }}
+        >
+          Engineering a Better Tomorrow!!
+        </span>{" "}
+      </span>
+      <div
+        className="flex flex-col flex-[3_3_0%] justify-center p-1 text-white w-full items-center gap-10 rounded-3xl"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle, rgb(18, 18, 56) 0%, black 100%)",
+          // backgroundImage: "linear-gradient(to right, black, #203a43, black)",
+        }}
+      >
         <WorkExpContainer />
       </div>
 

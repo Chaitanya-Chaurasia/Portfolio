@@ -23,7 +23,7 @@ export default function RootLayout({
       <link
         rel="stylesheet"
         precedence="default"
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Dangrek&family=Delius+Unicase:wght@400;700&family=Madimi+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&family=The+Girl+Next+Door&family=Tilt+Neon&family=Tilt+Prism&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Dangrek&family=Delius+Unicase:wght@400;700&family=Madimi+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&family=The+Girl+Next+Door&family=Tilt+Neon&family=Tilt+Prism&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
       />
       <body className="min-h-screen flex flex-col">
         <div className=" flex flex-[0.1_0.1_0%] bg-none rounded-2xl">
