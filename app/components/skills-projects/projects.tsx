@@ -64,9 +64,9 @@ export default function Project() {
         out there!
       </span>
       <div className="flex flex-col lg:flex-row justify-center items-center rounded-3xl gap-5">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
-            <Paper elevation={7} className="card-container h-full">
+            <Paper elevation={7} className="card-container h-full" key={index}>
               <main className="main-content">
                 <h1 className="heading-card">
                   <div
