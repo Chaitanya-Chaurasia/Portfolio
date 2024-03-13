@@ -24,7 +24,7 @@ import { LocationOn } from "@mui/icons-material";
 
 const companies = [
   {
-    name: "IDEXX Laboratories",
+    name: "IDEXX",
     position: "Incoming Embedded Software Engineering Intern",
     date: "May - August, 2024",
     location: "Portland, Maine, United States",
@@ -67,9 +67,9 @@ const companies = [
     position: "Data Science Intern",
     date: "February - April, 2023",
     location: "Remote",
-    task: "Utilizing Apache PySpark and Python within the realm of big data analytics, I contributed to biomedical computational sciences with the overarching objective of augmenting pharmaceutical industry productions by 33%. Collaborating within an agile team framework, our efforts were directed towards the development of multiple polynomial regression models. These models were instrumental in accurately forecasting the potency of time-releasing drugs with an impressive precision rate of 87%, consequently facilitating an upscale in pharmaceutical productions by up to 1.5 times. Furthermore, employing data science libraries such as Numpy, I conducted comprehensive analyses to extract valuable insights pertaining to five distinct pharmaceutical properties of Divalproex and Quetiapine. These insights hold significant implications for various biomedical applications, thus reinforcing the bridge between computational sciences and biomedicine.",
+    task: "Utilizing Apache Spark and Python within the realm of big data analytics, I contributed to biomedical computational sciences with the overarching objective of augmenting pharmaceutical industry productions by 33%. Collaborating within an agile team framework, our efforts were directed towards the development of multiple polynomial regression models. These models were instrumental in accurately forecasting the potency of time-releasing drugs with an impressive precision rate of 87%, consequently facilitating an upscale in pharmaceutical productions by up to 1.5 times. Furthermore, employing data science libraries such as Numpy, I conducted comprehensive analyses to extract valuable insights pertaining to five distinct pharmaceutical properties of Divalproex and Quetiapine. These insights hold significant implications for various biomedical applications, thus reinforcing the bridge between computational sciences and biomedicine.",
     layman:
-      "So, what if I told you that I used fancy computer stuff like Apache PySpark and Python to help make medicines better? Yeah, I worked with a team to develop really smart models that can predict how strong certain drugs will be over time. By doing this, we've been able to make more drugs faster, which is pretty cool. Plus, we've found out some really important things about some specific medicines that could help make even better medicines in the future. It's like using super-smart math to make medicine-making faster and better!",
+      "So, what if I told you that I used fancy computer stuff like Apache Spark and Python to help make medicines better? Yeah, I worked with a team to develop really smart models that can predict how strong certain drugs will be over time. By doing this, we've been able to make more drugs faster, which is pretty cool. Plus, we've found out some really important things about some specific medicines that could help make even better medicines in the future. It's like using super-smart math to make medicine-making faster and better!",
     image: int,
     font: "Quicksand, sans-serif",
     skills: "",
@@ -80,7 +80,7 @@ const companies = [
 const WorkExpContainer = () => {
   return (
     <Paper
-      elevation={0}
+      elevation={5}
       className=" paper rounded-3xl w-full p-5"
       sx={{
         color: "white",
@@ -128,8 +128,11 @@ const WorkExpContainer = () => {
                   >
                     <span
                       style={{
-                        fontFamily: company.font,
+                        fontFamily: "Montserrat, sans-serif",
+                        fontSize: 20,
+                        fontWeight: 600,
                       }}
+                      className="exp-details"
                     >
                       {company.position} @ {company.name}
                     </span>
@@ -137,50 +140,35 @@ const WorkExpContainer = () => {
                   <div
                     className="flex flex-row items-center justify-center "
                     style={{
-                      fontSize: 16,
+                      fontFamily: "Montserrat, sans-serif",
+                      fontSize: 15,
+                      fontWeight: 100,
                     }}
                   >
                     <LocationOn />
                     {company.location}
                   </div>
-                  {company.name === "IDEXX Laboratories" ? (
-                    <>
-                      <div>what i'll be doing</div>
-                      <div className="flex flex-col">
-                        <div
-                          className="text-[22px]"
-                          style={{
-                            fontFamily: company.font,
-                          }}
-                        >
-                          {company.layman}
-                        </div>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="flex flex-col justify-center items-center text-center gap-5">
-                        <div
-                          className="text-[21px]"
-                          style={{
-                            fontFamily: company.font,
-                          }}
-                        >
-                          {company.header}
-                        </div>
-                        <div className="text-[18px]">{company.layman}</div>
 
-                        <div
-                          className="text-[15px]"
-                          style={{
-                            fontFamily: company.font,
-                          }}
-                        >
-                          {company.task}
-                        </div>
-                      </div>
-                    </>
-                  )}
+                  <div className="flex flex-col justify-center items-center text-center gap-5">
+                    <div
+                      className="text-[21px]"
+                      style={{
+                        fontFamily: company.font,
+                      }}
+                    >
+                      {company.header}
+                    </div>
+                    <div className="text-[18px]">{company.layman}</div>
+
+                    <div
+                      className="text-[15px]"
+                      style={{
+                        fontFamily: company.font,
+                      }}
+                    >
+                      {company.task}
+                    </div>
+                  </div>
                 </div>
               </div>
             </TimelineContent>

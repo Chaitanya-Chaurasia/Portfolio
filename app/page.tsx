@@ -49,12 +49,14 @@ export default function Home() {
         </span>{" "}
       </span>
       <div
-        className="flex flex-col flex-[3_3_0%] justify-center p-1 text-white w-full items-center gap-10 rounded-3xl"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle, rgb(18, 18, 56) 0%, black 100%)",
-          // backgroundImage: "linear-gradient(to right, black, #203a43, black)",
-        }}
+        className="flex flex-[3_3_0%] justify-center p-1 text-white w-full"
+        style={
+          {
+            // backgroundImage:
+            // "radial-gradient(circle, rgb(18, 18, 56) 0%, black 100%)",
+            // backgroundImage: "linear-gradient(to right, black, #203a43, black)",
+          }
+        }
       >
         <WorkExpContainer />
       </div>
