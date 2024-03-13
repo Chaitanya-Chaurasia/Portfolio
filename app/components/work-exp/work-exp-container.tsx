@@ -28,14 +28,10 @@ const companies = [
     position: "Incoming Embedded Software Engineering Intern",
     date: "May - August, 2024",
     location: "Portland, Maine, United States",
-    description: "",
     image: idexx,
-    font: "Quicksand, sans-serif",
     task: "",
-    skills: "",
     layman:
       "This summer, I will be working on integrating hardware with software that IDEXX is developing, developing new software and in the process, discover my creative side & of course, learn a lot!",
-    laymanfont: "Quicksand, sans-serif",
   },
   {
     name: "Arizona State University",
@@ -43,12 +39,9 @@ const companies = [
     date: "January, 2024 - present",
     location: "Arizona State University, United States",
     image: asu,
-    font: "Quicksand, sans-serif",
     layman:
       " So, I'm a teaching assistant for two classes: Intro to Software Development and Game Development. My job is to make sure students get the hang of the stuff without feeling overwhelmed. I hold regular office hours, answer questions through emails and Discord, and help out during classes. Basically, I'm here to make sure students stay engaged and interested in what they're learning!",
-    skills: "",
     task: "CSE360 introduces students to Agile software development stages, employing tools such as Java, JavaFX GUI, Astah, JUnit, and client documentation practices. Conversely, Game Development focuses on 2-D game creation using Gamemaker Studio, equipping students with practical skills in game design and implementation. Both courses offer valuable insights into software development practices, catering to diverse interests within computer science and technology.",
-    laymanfont: "Quicksand, sans-serif",
   },
   {
     name: "Indian Institute of Technology, Delhi",
@@ -56,11 +49,8 @@ const companies = [
     date: "May - July, 2023",
     location: "New Delhi, India",
     image: iit,
-    font: "Quicksand, sans-serif",
     header: "Reimagining Power Distribution!",
     task: "So, imagine you have a bunch of electric towers distributing power. Now, what if I told you that we could actually make the whole system work better by changing things up a bit? Using some fancy computer programs like PyPSA and Panoply, we figured out how to improve the efficiency of these power systems by about 25%. Here's the deal: we looked at all the different factors that go into running these systems, like how much energy they produce, how much it costs, and how much pollution they create. By tweaking more than 10 different settings, such as the size of the power plants and how they're connected, we managed to make everything work way more efficiently. And we didn't just stop there - we also made sure to consider things like environmental impact and cost-effectiveness. To make all this happen, we used Graph algorithms, Clustering, Machine Learning, Python scripts and data visualization. Basically, we wrote programs that analyzed the network of electric towers and figured out the best way to optimize everything. And the result? A more sustainable and cost-effective way of powering Kenya and Great Britain's homes and businesses.",
-    skills: "",
-    laymanfont: "Quicksand, sans-serif",
   },
   {
     name: "Intuicomp Terascience",
@@ -71,9 +61,6 @@ const companies = [
     layman:
       "So, what if I told you that I used fancy computer stuff like Apache Spark and Python to help make medicines better? Yeah, I worked with a team to develop really smart models that can predict how strong certain drugs will be over time. By doing this, we've been able to make more drugs faster, which is pretty cool. Plus, we've found out some really important things about some specific medicines that could help make even better medicines in the future. It's like using super-smart math to make medicine-making faster and better!",
     image: int,
-    font: "Quicksand, sans-serif",
-    skills: "",
-    laymanfont: "Quicksand, sans-serif",
   },
 ];
 
@@ -114,7 +101,7 @@ const WorkExpContainer = () => {
                 variant="h6"
                 component="span"
                 sx={{
-                  fontFamily: company.font,
+                  fontFamily: "Montserrat, sans-serif",
                 }}
               >
                 {company.date}
@@ -153,7 +140,7 @@ const WorkExpContainer = () => {
                     <div
                       className="text-[21px]"
                       style={{
-                        fontFamily: company.font,
+                        fontFamily: "Montserrat, sans-serif",
                       }}
                     >
                       {company.header}
@@ -163,7 +150,7 @@ const WorkExpContainer = () => {
                     <div
                       className="text-[15px]"
                       style={{
-                        fontFamily: company.font,
+                        fontFamily: "Montserrat, sans-serif",
                       }}
                     >
                       {company.task}
