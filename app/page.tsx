@@ -61,7 +61,7 @@ export default function Home() {
         <span className="text-[30px] text-white">hobbies</span>
       </Divider>
 
-      <div className="bg-black flex flex-[3_3_0%] w-full">
+      <div className="bg-none flex flex-[3_3_0%] w-full">
         <HobbyContainer />
       </div>
       <div className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center ">

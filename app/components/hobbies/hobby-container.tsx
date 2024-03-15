@@ -1,10 +1,20 @@
 import React from "react";
+import { Paper, Typography } from "@mui/material";
+import Image from "next/image";
+import leh from "../../../public/leh.jpeg";
+import LocationOn from "@mui/icons-material/LocationOn";
+import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
+import mara from "../../../public/mara.jpg";
+import MovieContainer from "./movie-container";
 
 const HobbyContainer = () => {
   return (
     <div className="flex flex-col text-black w-full ">
-      <div className="flex flex-row justify-center p-5 ">
-        <div className="flex flex-col flex-[3_3_0%] bg-white">
+      <div className="flex flex-col lg:flex-row gap-4 justify-center p-5 ">
+        <Paper
+          elevation={10}
+          className="flex flex-col flex-[3_3_0%] bg-white rounded-3xl p-5"
+        >
           <span
             className="text-[50px]"
             style={{ fontFamily: "Playfair Display, sans-serif" }}
@@ -25,9 +35,14 @@ const HobbyContainer = () => {
             perhaps even defining what we ultimately choose to do with our
             lives.
           </span>
-        </div>
-        <div className="flex flex-[2_2_0%] flex-col bg-green-400">
-          <span className="text-[25px]">Sports</span>
+        </Paper>
+        <Paper
+          elevation={10}
+          className="flex flex-[2_2_0%] flex-col bg-white rounded-3xl p-5"
+        >
+          <span className="text-[30px]" style={{ fontFamily: "Bungee Shade" }}>
+            Sports
+          </span>
           <span>
             Sports, especially football has been a major factor of my life. What
             it has taught me and still continues to, till date, is priceless and
@@ -35,22 +50,75 @@ const HobbyContainer = () => {
             my life to sports and will continue to do so, striving to push my
             limits, both on the field and beyond.
           </span>
-        </div>
-        <div className="flex flex-[2_2_0%] bg-green-300 flex-col">
-          <span className="text-[25px]">Travelling</span>
+          <div className="flex flex-col gap-1 items-center justify-center text-[white]">
+            <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
+              <DirectionsRunIcon
+                sx={{
+                  height: 20,
+                  width: 20,
+                }}
+              />
+              <Typography
+                sx={{
+                  fontSize: "11px",
+                  fontFamily: "Urbanist, sans-serif",
+                }}
+              >
+                My first marathon at 11{" "}
+              </Typography>
+            </div>
+
+            <Image src={mara} alt="leh" width={150} className="rounded-xl" />
+          </div>
+        </Paper>
+        <Paper
+          elevation={10}
+          className="flex flex-[2_2_0%] bg-white flex-col rounded-3xl p-5"
+        >
+          <span className="text-[30px]" style={{ fontFamily: "Nabla" }}>
+            Travelling
+          </span>
           <span>
-            Traveling and exploring the wonders of our planet is a privilege I
+            Travelling and exploring the wonders of our planet is a privilege I
             deeply cherish. Immersing myself in diverse cultures, living amongst
             unique communities, and interacting with a tapestry of individuals
             has broadened my horizons in profound ways. Ultimately, it's the
             richness of these experiences that shapes us and becomes a treasure
             trove of memories to revisit in the years to come.
           </span>
-        </div>
+          <div className="flex flex-col gap-1 items-center justify-center text-[white]">
+            <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
+              <LocationOn
+                sx={{
+                  height: 20,
+                  width: 20,
+                }}
+              />
+              <Typography
+                sx={{
+                  fontSize: "11px",
+                  fontFamily: "Urbanist, sans-serif",
+                }}
+              >
+                The breathtaking mountains of Ladakh, India
+              </Typography>
+            </div>
+
+            <Image src={leh} alt="leh" width={300} className="rounded-xl" />
+          </div>
+        </Paper>
       </div>
-      <div className="flex flex-row items-center justify-center p-5">
-        <div className="flex flex-col flex-[2_2_0%] bg-white">
-          <span>Exploring my Curiosity</span>
+      <div className="flex flex-col lg:flex-row gap-4  justify-center p-5">
+        <Paper
+          elevation={10}
+          className="flex flex-col flex-[2_2_0%] bg-white rounded-3xl p-5"
+        >
+          <span
+            style={{ fontFamily: "Sono, sans-serif" }}
+            className="text-[23px] "
+          >
+            Exploring my Curiosity
+          </span>
           <span>
             Imagine a world devoid of curiosity. A world where Newton, struck by
             a falling apple, felt no urge to unravel the mystery of its descent.
@@ -67,9 +135,17 @@ const HobbyContainer = () => {
             advancement, the fire that ignites the path towards a brighter
             future.
           </span>
-        </div>
-        <div className="flex flex-[3_3_0%] bg-green-400 flex-col">
-          <span>Watching Movies</span>
+        </Paper>
+        <Paper
+          elevation={10}
+          className="flex flex-[3_3_0%] bg-white flex-col rounded-3xl p-5 w-full"
+        >
+          <span
+            style={{ fontFamily: "Shantell Sans, sans-serif" }}
+            className="text-[30px]"
+          >
+            Watching Movies
+          </span>
           <span>
             Movies have always been a cornerstone of my upbringing. My dad has
             always stressed upon their importance in broadening our horizons and
@@ -82,7 +158,9 @@ const HobbyContainer = () => {
             empathy, and, most importantly, envisioning the limitless bounds of
             our imagination.
           </span>
-        </div>
+
+          <MovieContainer />
+        </Paper>
       </div>
     </div>
   );
