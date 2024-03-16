@@ -10,19 +10,19 @@
 
 .inner-card {
   background: none;
-  color: black;
+  color: white;
 }
 .paper {
   background-color: #8ec5fc;
   box-shadow: 0 0 10px 1px rgba(227, 222, 222, 0.982);
 
-  background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center /
-    cover no-repeat fixed;
+  background: url("../../public/bgv.jpg") center / cover no-repeat fixed;
 }
 
 .box {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(64, 30, 137, 0.196);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
+  backdrop-filter: blur(2.5px);
 }
