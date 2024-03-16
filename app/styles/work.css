@@ -8,15 +8,21 @@
   opacity: 0;
 }
 
+.inner-card {
+  background: none;
+  color: black;
+}
 .paper {
-  background: linear-gradient(to right, #2f0493, #3c1039, rgb(1, 10, 52));
-  color: white;
+  background-color: #8ec5fc;
+  box-shadow: 0 0 10px 1px rgba(227, 222, 222, 0.982);
+
+  background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center /
+    cover no-repeat fixed;
 }
 
 .box {
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
 }
