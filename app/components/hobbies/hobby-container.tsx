@@ -40,16 +40,6 @@ const HobbyContainer = () => {
           elevation={10}
           className="flex flex-[2_2_0%] flex-col bg-white rounded-3xl p-5"
         >
-          <span className="text-[30px]" style={{ fontFamily: "Bungee Shade" }}>
-            Sports
-          </span>
-          <span>
-            Sports, especially football has been a major factor of my life. What
-            it has taught me and still continues to, till date, is priceless and
-            I will forever be grateful for that! I've dedicated a huge part of
-            my life to sports and will continue to do so, striving to push my
-            limits, both on the field and beyond.
-          </span>
           <div className="flex flex-col gap-1 items-center justify-center text-[white]">
             <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
               <DirectionsRunIcon
@@ -64,11 +54,24 @@ const HobbyContainer = () => {
                   fontFamily: "Urbanist, sans-serif",
                 }}
               >
-                My first marathon at 11{" "}
+                My first marathon , 2014, Dar-es Salaam, Tanzania{" "}
               </Typography>
             </div>
 
-            <Image src={mara} alt="leh" width={150} className="rounded-xl" />
+            <Image src={mara} alt="sports" width={150} className="rounded-xl" />
+            <span
+              className="text-[30px] text-[black]"
+              style={{ fontFamily: "Bungee Shade" }}
+            >
+              Sports
+            </span>
+            <span className=" text-[black]">
+              Sports, especially football has been a major factor of my life.
+              What it has taught me and still continues to, till date, is
+              priceless and I will forever be grateful for that! I've dedicated
+              a huge part of my life to sports and will continue to do so,
+              striving to push my limits, both on the field and beyond.
+            </span>
           </div>
         </Paper>
         <Paper
@@ -78,7 +81,11 @@ const HobbyContainer = () => {
           <span className="text-[30px]" style={{ fontFamily: "Nabla" }}>
             Travelling
           </span>
-          <span>
+          <span
+            style={{
+              fontSize: 15,
+            }}
+          >
             Travelling and exploring the wonders of our planet is a privilege I
             deeply cherish. Immersing myself in diverse cultures, living amongst
             unique communities, and interacting with a tapestry of individuals
@@ -104,11 +111,11 @@ const HobbyContainer = () => {
               </Typography>
             </div>
 
-            <Image src={leh} alt="leh" width={300} className="rounded-xl" />
+            <Image src={leh} alt="leh" className="rounded-xl" />
           </div>
         </Paper>
       </div>
-      <div className="flex flex-col lg:flex-row gap-4  justify-center p-5">
+      <div className="flex flex-col lg:flex-row gap-4 justify-center p-5">
         <Paper
           elevation={10}
           className="flex flex-col flex-[2_2_0%] bg-white rounded-3xl p-5"
@@ -138,7 +145,7 @@ const HobbyContainer = () => {
         </Paper>
         <Paper
           elevation={10}
-          className="flex flex-[3_3_0%] bg-white flex-col rounded-3xl p-5 w-full"
+          className="flex flex-[3_3_0%] bg-white flex-col rounded-3xl p-5"
         >
           <span
             style={{ fontFamily: "Shantell Sans, sans-serif" }}

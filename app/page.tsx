@@ -49,7 +49,7 @@ export default function Home() {
           Engineering a Better Tomorrow!!
         </span>{" "}
       </span>
-      <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full">
+      <div className="flex f uyuy lex-[3_3_0%] justify-center p-1 text-white w-full">
         <WorkExpContainer />
       </div>
       <Divider
