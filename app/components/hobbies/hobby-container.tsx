@@ -6,10 +6,11 @@ import LocationOn from "@mui/icons-material/LocationOn";
 import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import mara from "../../../public/mara.jpg";
 import MovieContainer from "./movie-container";
+import "../../styles/hobby.css";
 
 const HobbyContainer = () => {
   return (
-    <div className="flex flex-col text-black w-full ">
+    <div className="paper-hobby flex flex-col text-black w-full ">
       <div className="flex flex-col lg:flex-row gap-4 justify-center p-5 ">
         <Paper
           elevation={10}
