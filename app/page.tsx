@@ -49,7 +49,7 @@ export default function Home() {
           Engineering a Better Tomorrow!!
         </span>{" "}
       </span>
-      <div className="flex flex-[3_3_0%] justify-center items-center p-2 w-full">
+      <div className="flex flex-col flex-[3_3_0%] justify-center items-center p-3 rounded-3xl">
         <WorkExpContainer />
       </div>
       <Divider
@@ -60,6 +60,24 @@ export default function Home() {
       >
         <span className="text-[30px] text-white">hobbies</span>
       </Divider>
+      <span className="text-[40px] text-center text-white">
+        Unleashing{" "}
+        <span
+          style={{
+            fontFamily: "Anton, sans-serif",
+          }}
+        >
+          Passions{" "}
+        </span>
+        , Crafting{" "}
+        <span
+          style={{
+            fontFamily: "Shrikhand, sans-serif",
+          }}
+        >
+          Futures{" "}
+        </span>
+      </span>
 
       <div className="bg-none flex flex-[3_3_0%] w-full">
         <HobbyContainer />

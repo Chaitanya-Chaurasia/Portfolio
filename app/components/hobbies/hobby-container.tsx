@@ -7,6 +7,8 @@ import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import mara from "../../../public/mara.jpg";
 import MovieContainer from "./movie-container";
 import "../../styles/hobby.css";
+import { SportsFootball, SportsSoccer } from "@mui/icons-material";
+import im from "../../../public/im.jpeg";
 
 const HobbyContainer = () => {
   return (
@@ -38,41 +40,75 @@ const HobbyContainer = () => {
           </span>
         </Paper>
         <Paper
-          elevation={10}
-          className="flex flex-[2_2_0%] flex-col bg-white rounded-3xl p-5"
+          elevation={0}
+          className="flex flex-[2_2_0%] flex-col rounded-3xl p-5"
+          sx={{
+            background: "none",
+          }}
         >
-          <div className="flex flex-col gap-1 items-center justify-center text-[white]">
-            <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
-              <DirectionsRunIcon
-                sx={{
-                  height: 20,
-                  width: 20,
-                }}
-              />
-              <Typography
-                sx={{
-                  fontSize: "11px",
-                  fontFamily: "Urbanist, sans-serif",
-                }}
-              >
-                My first marathon , 2014, Dar-es Salaam, Tanzania{" "}
-              </Typography>
-            </div>
+          <div className="flex flex-col gap-5 items-center justify-center text-[white]">
+            <div className="flex flex-row items-center justify-center gap-1">
+              <div className="flex flex-col items-center justify-center gap-1 w-full">
+                <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
+                  <DirectionsRunIcon
+                    sx={{
+                      height: 20,
+                      width: 20,
+                    }}
+                  />
+                  <Typography
+                    sx={{
+                      fontSize: "11px",
+                      fontFamily: "Urbanist, sans-serif",
+                    }}
+                  >
+                    My first marathon, 2014, Tanzania
+                  </Typography>
+                </div>
 
-            <Image src={mara} alt="sports" width={150} className="rounded-xl" />
-            <span
-              className="text-[30px] text-[black]"
-              style={{ fontFamily: "Bungee Shade" }}
-            >
-              Sports
-            </span>
-            <span className=" text-[black]">
-              Sports, especially football has been a major factor of my life.
-              What it has taught me and still continues to, till date, is
-              priceless and I will forever be grateful for that! I've dedicated
-              a huge part of my life to sports and will continue to do so,
-              striving to push my limits, both on the field and beyond.
-            </span>
+                <Image src={mara} alt="sports" className="rounded-xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center ">
+                <div className="flex flex-col gap-1 items-center justify-center w-full">
+                  <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
+                    <SportsSoccer
+                      sx={{
+                        height: 20,
+                        width: 20,
+                      }}
+                    />
+                    <Typography
+                      sx={{
+                        fontSize: "11px",
+                        fontFamily: "Urbanist, sans-serif",
+                      }}
+                    >
+                      Intramural Soccer Champs, ASU
+                    </Typography>
+                  </div>
+
+                  <Image src={im} alt="sports" className="rounded-xl" />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col hobby-card p-4 ">
+              <span
+                className="text-[30px] text-[white]"
+                style={{ fontFamily: "Bungee Shade" }}
+              >
+                Sports
+              </span>
+              <span
+                className=" text-[black]"
+                style={{ fontFamily: "Poiret One" }}
+              >
+                Sports, especially football has been a major factor of my life.
+                What it has taught me and still continues to, till date, is
+                priceless and I will forever be grateful for that! I've
+                dedicated a huge part of my life to sports and will continue to
+                do so, striving to push my limits, both on the field and beyond.
+              </span>
+            </div>
           </div>
         </Paper>
         <Paper
@@ -95,7 +131,7 @@ const HobbyContainer = () => {
             trove of memories to revisit in the years to come.
           </span>
           <div className="flex flex-col gap-1 items-center justify-center text-[white]">
-            <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
+            {/* <div className="flex flex-row items-center justify-center bg-black rounded-xl p-1">
               <LocationOn
                 sx={{
                   height: 20,
@@ -112,7 +148,7 @@ const HobbyContainer = () => {
               </Typography>
             </div>
 
-            <Image src={leh} alt="leh" className="rounded-xl" />
+            <Image src={leh} alt="leh" className="rounded-xl" /> */}
           </div>
         </Paper>
       </div>

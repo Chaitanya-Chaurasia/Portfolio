@@ -2,3 +2,11 @@
   background-color: #8ec5fc;
   background: url("../../public/bgc.jpg") center / cover no-repeat fixed;
 }
+
+.hobby-card {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(212, 200, 200, 0.659);
+  backdrop-filter: blur(2.5px);
+  border: 1px solid white;
+}

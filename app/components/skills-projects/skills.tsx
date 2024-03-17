@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <Paper
       elevation={5}
-      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl w-full skillspaper"
+      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl  skillspaper"
     >
       <span className="text-[40px] text-white">
         {" "}
