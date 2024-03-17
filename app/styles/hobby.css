@@ -1,6 +1,4 @@
 .paper-hobby {
   background-color: #8ec5fc;
-  box-shadow: 0 0 10px 1px rgba(227, 222, 222, 0.982);
-
   background: url("../../public/bgc.jpg") center / cover no-repeat fixed;
 }

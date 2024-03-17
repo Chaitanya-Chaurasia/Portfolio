@@ -14,7 +14,7 @@
 }
 .paper {
   background-color: #8ec5fc;
-  box-shadow: 0 0 10px 1px rgba(14, 2, 33, 0.982);
+  box-shadow: 0 0 10px 1px rgba(14, 2, 33, 0.214);
   background: url("../../public/bgv.jpg") center / cover no-repeat fixed;
   color: white;
 }

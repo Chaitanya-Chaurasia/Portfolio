@@ -56,18 +56,7 @@ const Navbar = () => {
           hobbies
         </Typography>
       </Button>
-      <Button className="hover-underline-animation">
-        <Typography
-          sx={{
-            fontFamily: "Urbanist, sans-serif",
-            textTransform: "none",
-            fontSize: "15px",
-            textDecoration: "none",
-          }}
-        >
-          photography
-        </Typography>
-      </Button>
+
       <Button className="hover-underline-animation">
         <Typography
           sx={{

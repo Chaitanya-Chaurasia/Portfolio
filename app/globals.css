@@ -7,8 +7,9 @@
     text-wrap: balance;
   }
 }
-body {
-  background: linear-gradient(-45deg, #c557c3, #e73c7e, #23a6d5, #23d5ab);
+.bodymain {
+  background-color: #8ec5fc;
+  background: url("../public/bgm.jpg") center / cover no-repeat fixed;
 }
 
 * {

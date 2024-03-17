@@ -13,14 +13,14 @@ const HobbyContainer = () => {
     <div className="paper-hobby flex flex-col text-black w-full ">
       <div className="flex flex-col lg:flex-row gap-4 justify-center p-5 ">
         <Paper
-          elevation={10}
-          className="flex flex-col flex-[3_3_0%] bg-white rounded-3xl p-5"
+          elevation={0}
+          className="flex flex-col flex-[3_3_0%] rounded-3xl p-5 bg-transparent text-[white]"
         >
           <span
-            className="text-[50px]"
+            className="text-[50px] "
             style={{ fontFamily: "Playfair Display, sans-serif" }}
           >
-            my hobby pallete
+            my hobby palette
           </span>
           <span>
             Reflecting over my brief yet a rich & diverse past, I've held firm

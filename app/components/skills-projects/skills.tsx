@@ -1,15 +1,13 @@
 import { Paper } from "@mui/material";
 import React from "react";
 import Image from "next/image";
+import "../../styles/skills.css";
 
 const Skills = () => {
   return (
     <Paper
       elevation={5}
-      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl w-full"
-      style={{
-        background: "linear-gradient(to right,  #0f0c29, #302b63, #24243e)",
-      }}
+      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl w-full skillspaper"
     >
       <span className="text-[40px] text-white">
         {" "}
