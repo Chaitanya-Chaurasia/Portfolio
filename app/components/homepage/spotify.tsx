@@ -20,7 +20,7 @@ const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist }) => {
             <div className="greenline line-5"></div>
           </div>
         </div>
-        <div className="texts">
+        <div className="flex flex-col">
           <p
             className="title-1"
             style={{

@@ -97,7 +97,7 @@ const HobbyContainer = () => {
                   >
                     8.8M views 9 months ago
                   </span>
-                  <span className="flex flex-row items-center gap-2">
+                  <span className="flex flex-row items-center gap-2 text-black">
                     <Image
                       alt="avatar"
                       src={av}

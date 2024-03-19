@@ -4,8 +4,8 @@ import SpotifyCard from "./spotify";
 const SongsContainer = () => {
   let songs = [
     {
-      artist: "21 Savage",
-      title: "redrum",
+      artist: "Arijit Singh",
+      title: "Laal Ishq",
     },
   ];
 

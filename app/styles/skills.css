@@ -1,6 +1,6 @@
 .skillspaper {
   border-radius: 20px;
   background-color: rgba(79, 68, 175, 0.174);
-  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.659);
+  /* box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.659); */
   backdrop-filter: blur(2.5px);
 }

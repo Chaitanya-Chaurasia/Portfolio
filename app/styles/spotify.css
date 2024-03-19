@@ -1,6 +1,5 @@
 .card {
   position: relative;
-
   background: #191414;
   border-radius: 10px;
   padding: 10px;
@@ -98,28 +97,11 @@
   opacity: 1;
 }
 
-.timetext {
-  color: white;
-  font-size: 8px;
-  position: absolute;
-}
-
-.time_now {
-  bottom: 11px;
-  left: 10px;
-}
-
-.time_full {
-  bottom: 11px;
-  right: 10px;
-}
-
 .playing {
   display: flex;
   position: relative;
   justify-content: center;
   gap: 1px;
-  width: 30px;
   height: 20px;
 }
 

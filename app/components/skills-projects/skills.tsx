@@ -7,11 +7,11 @@ const Skills = () => {
   return (
     <Paper
       elevation={5}
-      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl  skillspaper"
+      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl skillspaper w-full"
     >
       <span className="text-[40px] text-white">
         {" "}
-        Things I have learnt so far!
+        Technical Skills I have learnt so far!
       </span>
       <div className="flex flex-col items-center gap-2">
         <span
