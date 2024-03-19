@@ -1,6 +1,36 @@
-.paper-hobby {
+/* .paper-hobby {
   background-color: #8ec5fc;
   background: url("../../public/bgc.jpg") center / cover no-repeat fixed;
+}
+
+.hobby-card {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(212, 200, 200, 0.659);
+  backdrop-filter: blur(2.5px);
+  border: 1px solid white;
+} */
+.palette {
+  background: url("../../public/bgc.jpg") center / cover no-repeat fixed;
+  box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37);
+}
+
+.travel {
+  background: url("../../public/bgt.jpg") center / cover no-repeat fixed;
+  box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37);
+}
+
+.sports {
+  background: url("../../public/bgs.jpg") center / cover no-repeat fixed;
+  box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37);
+}
+
+.paper-hobby {
+  background-color: #8ec5fc;
+  background: none;
+  /* border-top: 1px solid white; */
+  border: 2px solid white;
+  border-radius: 20px;
 }
 
 .hobby-card {

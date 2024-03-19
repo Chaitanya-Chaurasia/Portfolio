@@ -13,14 +13,18 @@
   color: white;
 }
 .paper {
-  background-color: #8ec5fc;
-  box-shadow: 0 0 10px 1px rgba(14, 2, 33, 0.214);
-  background: url("../../public/bgv.jpg") center / cover no-repeat fixed;
+  border-radius: 20px;
+  /* background-color: rgba(197, 48, 152, 0.192); */
+  background: none;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
+  backdrop-filter: blur(2.5px);
   color: white;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
+  border: 3px solid rgba(255, 255, 255, 0.25);
 }
 
 .box {
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  /* border: 0px solid rgba(255, 255, 255, 0.25); */
   border-radius: 20px;
   background-color: rgba(64, 30, 137, 0.196);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);

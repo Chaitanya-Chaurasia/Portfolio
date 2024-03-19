@@ -7,7 +7,7 @@ import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 
 const Navbar = () => {
   return (
-    <div className="w-full p-4 flex flex-row justify-center items-center">
+    <div className="w-full p-4 flex flex-row justify-center items-center text-[white]">
       <Button className="hover-underline-animation">
         <Typography
           sx={{

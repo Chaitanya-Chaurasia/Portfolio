@@ -4,8 +4,9 @@ import idexx from "../../../public/idexx.jpg";
 import int from "../../../public/intui.jpg";
 import asu from "../../../public/asu.jpg";
 import Image from "next/image";
-import LaptopChromebookIcon from "@mui/icons-material/LaptopChromebook";
 
+import LaptopChromebookIcon from "@mui/icons-material/LaptopChromebook";
+import LinkedIn from "@mui/icons-material/LinkedIn";
 import {
   Timeline,
   TimelineItem,
@@ -16,8 +17,7 @@ import {
 } from "@mui/lab";
 import Typography from "@mui/material/Typography";
 import "../../styles/work.css";
-import { Paper, Divider } from "@mui/material";
-import FunctionsIcon from "@mui/icons-material/Functions";
+import { Paper } from "@mui/material";
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from "@mui/lab/TimelineOppositeContent";
@@ -113,7 +113,7 @@ const WorkExpContainer = () => {
                     <span
                       style={{
                         fontFamily: "Signika, sans-serif",
-                        fontSize: 20,
+                        fontSize: 25,
                         fontWeight: 600,
                       }}
                       className="exp-details"
@@ -121,30 +121,32 @@ const WorkExpContainer = () => {
                       {company.position} @ {company.name}
                     </span>
                   </div>
-                  <div
-                    className="flex flex-row items-center justify-center "
-                    style={{
-                      fontFamily: "Signika, sans-serif",
-                      fontSize: 15,
-                    }}
-                  >
-                    <LocationOn />
-                    {company.location}
+                  <div className="flex flex-row items-center justify-center gap-3 ">
+                    <div
+                      style={{
+                        fontFamily: "Signika, sans-serif",
+                        fontSize: 15,
+                      }}
+                    >
+                      <LocationOn />
+                      {company.location}
+                    </div>
+                    <LinkedIn />
                   </div>
 
                   <div className="flex flex-col justify-center items-center text-center gap-5">
                     <div
-                      className="text-[21px]"
+                      className="text-[18px]"
                       style={{
-                        fontFamily: "Urbanist, sans-serif",
+                        fontFamily: "Signika, sans-serif",
                       }}
                     >
                       {company.header}
                     </div>
                     <div
-                      className="text-[18px]"
+                      className="text-[17px]"
                       style={{
-                        fontFamily: "Urbanist, sans-serif",
+                        fontFamily: "Signika, sans-serif",
                       }}
                     >
                       {company.layman}

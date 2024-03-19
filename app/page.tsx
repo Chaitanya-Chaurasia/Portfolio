@@ -49,7 +49,7 @@ export default function Home() {
           Engineering a Better Tomorrow!!
         </span>{" "}
       </span>
-      <div className="flex flex-col flex-[3_3_0%] justify-center items-center p-3 rounded-3xl">
+      <div className="flex flex-col flex-[3_3_0%] justify-center items-center p-3 ">
         <WorkExpContainer />
       </div>
       <Divider
@@ -79,7 +79,7 @@ export default function Home() {
         </span>
       </span>
 
-      <div className="bg-none flex flex-[3_3_0%] w-full">
+      <div className="bg-none flex flex-[3_3_0%] w-full p-3">
         <HobbyContainer />
       </div>
       <div className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center ">
