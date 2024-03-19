@@ -175,7 +175,12 @@ const AboutMeContainer = () => {
             Princeton University, NY, United States
           </Typography>
         </div>
-        <Image src={princeton} alt="nyc" height={250} className="rounded-xl" />
+        <Image
+          src={princeton}
+          alt="nyc"
+          height={250}
+          className="rounded-xl z-10"
+        />
       </div>
     </div>
   );

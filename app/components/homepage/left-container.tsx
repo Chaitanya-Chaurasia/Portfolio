@@ -28,7 +28,12 @@ const LeftContainer = () => {
           </Typography>
         </div>
 
-        <Image src={profile} alt="profile" width={300} className="rounded-xl" />
+        <Image
+          src={profile}
+          alt="profile"
+          width={300}
+          className="rounded-xl z-10"
+        />
       </div>
       <div className="flex flex-col gap-4 items-center justify-center">
         <span className="text-[75px] ">
