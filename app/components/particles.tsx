@@ -54,24 +54,20 @@ export default function ParticlesBackground() {
           value: "#ffffff",
         },
         links: {
-          color: "#ffffff",
-          distance: 100,
-          enable: true,
-          opacity: 0.6,
-          width: 1,
+          enable: false,
         },
         move: {
           direction: "none",
           enable: true,
           random: false,
-          speed: 2,
+          speed: 1,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 100,
+          value: 200,
         },
         opacity: {
           value: 0.5,
