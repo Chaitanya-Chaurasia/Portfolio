@@ -117,7 +117,7 @@ export default function Project() {
         })}
       </div>
       <a href="https://github.com/Chaitanya-Chaurasia/">
-        <span className="text-[15px] text-center flex flex-row items-center justify-center gap-2 bg-black p-2 rounded-full">
+        <span className="text-[15px] text-center flex flex-row items-center justify-center gap-2 bg-black p-2 rounded-full border-2 border-white">
           Checkout more on my Github
           <GitHub />
         </span>

@@ -7,10 +7,7 @@ const SoftSkills = () => {
   return (
     <Paper
       elevation={0}
-      className="flex flex-col items-center gap-4 p-5 rounded-3xl w-full"
-      sx={{
-        background: "none",
-      }}
+      className="flex flex-col items-center justify-center  gap-4 p-5 rounded-3xl w-full skillspaper"
     >
       <span className="text-[40px] text-white">
         {" "}
@@ -32,19 +29,25 @@ const SoftSkills = () => {
         boundless curiosity, a reminder that life, in its essence, is an endless
         quest for understanding.
       </span>
-      <span className="text-[20px] text-white text-center">
+      <span
+        className="text-[20px] text-white text-center"
+        style={{ fontWeight: "bold" }}
+      >
         Some skills that I hold in very high regard and hope to keep on
         polishing upon:
       </span>
-      <span
-        className="text-[24px] text-white text-center"
-        style={{
-          fontFamily: "Montserrat",
-        }}
-      >
-        Be disciplined and patient! There's light at the end of every tunnel.
-        Strive to be a leader! Achieve Excellence! & lastly, Staying humble and
-        always giving to the world
+      <span className="text-[20px] text-white text-center">
+        <ul>
+          <li>
+            {" "}
+            Be disciplined and patient! There's light at the end of every
+            tunnel.
+          </li>
+          <li>Lead by example!</li>
+          <li>Achieve Excellence in whatever I do!</li>
+          <li>& lastly, </li>
+          <li> Staying humble and always giving to the world</li>
+        </ul>
       </span>
     </Paper>
   );

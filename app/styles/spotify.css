@@ -1,8 +1,10 @@
 .card {
   position: relative;
-  background: #191414;
+  background: #ffffff;
   border-radius: 10px;
   padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
 }
 
 .top {
@@ -26,13 +28,13 @@
 }
 
 .title-1 {
-  color: white;
+  color: black;
   font-size: 25px;
   font-weight: bolder;
 }
 
 .title-2 {
-  color: white;
+  color: black;
   font-size: 12px;
   font-weight: bold;
 }
@@ -45,56 +47,6 @@
   left: 0;
   width: 100%;
   justify-content: center;
-}
-
-.air {
-  height: 100%;
-  width: 48px;
-}
-
-.controls svg {
-  cursor: pointer;
-  transition: 0.1s;
-}
-
-.controls svg:hover {
-  color: #1db954;
-}
-
-.volume {
-  opacity: 0;
-  position: relative;
-  transition: 0.2s;
-}
-
-.volume .slider {
-  height: 4px;
-  background-color: #5e5e5e;
-  width: 80%;
-  border-radius: 2px;
-  margin-top: 8px;
-  margin-left: 10%;
-}
-
-.volume .slider .green {
-  background-color: #1db954;
-  height: 100%;
-  width: 80%;
-  border-radius: 3px;
-}
-
-.volume .circle {
-  background-color: white;
-  height: 6px;
-  width: 6px;
-  border-radius: 3px;
-  position: absolute;
-  right: 20%;
-  top: 60%;
-}
-
-.volume_button:hover ~ .volume {
-  opacity: 1;
 }
 
 .playing {

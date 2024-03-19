@@ -73,8 +73,11 @@ const HobbyContainer = () => {
                   />
                 </span>
               </div>
-              <div className="flex flex-row w-full bg-white rounded-3xl border-2 border-red-600 p-3 items-center">
-                <div className="flex flex-col gap-5 text-[15px] h-full rounded-2xl">
+              <div className="flex flex-row w-full bg-white rounded-3xl border-2 p-1 gap-3 items-center">
+                <div className="flex flex-[2_2_0%]">
+                  <Image src={yt} alt="yt" className="rounded-2xl" />
+                </div>
+                <div className="flex flex-col text-[15px] h-full rounded-2xl flex-[3_3_0%]">
                   <a
                     href="https://www.youtube.com/watch?v=yVTNge3sXpg&ab_channel=BeerBiceps"
                     className="href"
@@ -106,9 +109,6 @@ const HobbyContainer = () => {
                     />
                     BeerBiceps
                   </span>
-                </div>
-                <div className="flex">
-                  <Image src={yt} alt="yt" className="rounded-2xl" />
                 </div>
               </div>
             </div>

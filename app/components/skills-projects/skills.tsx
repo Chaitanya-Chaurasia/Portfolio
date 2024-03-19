@@ -55,14 +55,7 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aarch64/aarch64-original.svg"
-              height={40}
-              width={40}
-            />
-          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -79,14 +72,7 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prolog/prolog-original-wordmark.svg"
-              height={40}
-              width={40}
-            />
-          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -141,14 +127,6 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
-              height={40}
-              width={40}
-            />
-          </div>
 
           <div className="bg-white p-1 rounded-xl">
             <Image
@@ -163,14 +141,6 @@ const Skills = () => {
       <div className="flex flex-col items-center gap-2">
         <span className="text-white">JavaScript Frameworks & Tools</span>
         <div className="flex flex-row gap-3">
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
-              height={40}
-              width={40}
-            />
-          </div>
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -196,6 +166,17 @@ const Skills = () => {
               width={40}
             />
           </div>
+
+          <div className="bg-white p-1 rounded-xl">
+            {" "}
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg"
+              alt="axios"
+              height={40}
+              width={40}
+            />
+          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -222,9 +203,17 @@ const Skills = () => {
           }}
           className="text-white"
         >
-          Python Libraries
+          Python Tools & Libraries
         </span>
         <div className="flex flex-row gap-3">
+          <div className="bg-white p-1 rounded-xl">
+            <Image
+              alt="logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original-wordmark.svg"
+              height={40}
+              width={40}
+            />
+          </div>
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -241,14 +230,7 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
-              height={40}
-              width={40}
-            />
-          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -262,6 +244,52 @@ const Skills = () => {
             <Image
               alt="logo"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg"
+              height={40}
+              width={40}
+            />
+          </div>
+          <div className="bg-white p-1 rounded-xl">
+            {" "}
+            <Image
+              alt="logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg"
+              height={40}
+              width={40}
+            />
+          </div>
+          <div className="bg-white p-1 rounded-xl">
+            {" "}
+            <Image
+              alt="logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg"
+              height={40}
+              width={40}
+            />
+          </div>
+          <div className="bg-white p-1 rounded-xl">
+            {" "}
+            <Image
+              alt="logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+              height={40}
+              width={40}
+            />
+          </div>
+          <div className="bg-white p-1 rounded-xl">
+            {" "}
+            <Image
+              alt="logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg"
+              height={40}
+              width={40}
+            />
+          </div>
+
+          <div className="bg-white p-1 rounded-xl">
+            {" "}
+            <Image
+              alt="logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg"
               height={40}
               width={40}
             />
@@ -306,14 +334,7 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg"
-              height={40}
-              width={40}
-            />
-          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -338,15 +359,7 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            {" "}
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg"
-              height={40}
-              width={40}
-            />
-          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -372,14 +385,7 @@ const Skills = () => {
               width={40}
             />
           </div>
-          <div className="bg-white p-1 rounded-xl">
-            <Image
-              alt="logo"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original-wordmark.svg"
-              height={40}
-              width={40}
-            />
-          </div>
+
           <div className="bg-white p-1 rounded-xl">
             <Image
               alt="logo"
@@ -395,7 +401,23 @@ const Skills = () => {
         <div className="bg-white p-1 rounded-xl">
           <Image
             alt="logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"
+            height={40}
+            width={40}
+          />
+        </div>
+        <div className="bg-white p-1 rounded-xl">
+          <Image
+            alt="logo"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+            height={40}
+            width={40}
+          />
+        </div>
+        <div className="bg-white p-1 rounded-xl">
+          <Image
+            alt="logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg"
             height={40}
             width={40}
           />
@@ -410,14 +432,7 @@ const Skills = () => {
             width={40}
           />
         </div>
-        <div className="bg-white p-1 rounded-xl">
-          <Image
-            alt="logo"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original-wordmark.svg"
-            height={40}
-            width={40}
-          />
-        </div>
+
         <div className="bg-white p-1 rounded-xl">
           <Image
             alt="logo"
@@ -434,10 +449,23 @@ const Skills = () => {
             width={40}
           />
         </div>
+
+        <div className="bg-white p-1 rounded-xl">
+          {" "}
+          <Image
+            alt="logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stackoverflow/stackoverflow-original-wordmark.svg"
+            height={40}
+            width={40}
+          />
+        </div>
+      </div>
+      <span className="text-white">I am finding my way about:</span>
+      <div className="w-full flex flex-row bg-none gap-2 items-center justify-center">
         <div className="bg-white p-1 rounded-xl">
           <Image
             alt="logo"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original-wordmark.svg"
             height={40}
             width={40}
           />
@@ -445,7 +473,7 @@ const Skills = () => {
         <div className="bg-white p-1 rounded-xl">
           <Image
             alt="logo"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-plain.svg"
             height={40}
             width={40}
           />
@@ -453,7 +481,7 @@ const Skills = () => {
         <div className="bg-white p-1 rounded-xl">
           <Image
             alt="logo"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
             height={40}
             width={40}
           />
@@ -463,7 +491,15 @@ const Skills = () => {
           {" "}
           <Image
             alt="logo"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stackoverflow/stackoverflow-original-wordmark.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
+            height={40}
+            width={40}
+          />
+        </div>
+        <div className="bg-white p-1 rounded-xl">
+          <Image
+            alt="logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg"
             height={40}
             width={40}
           />
