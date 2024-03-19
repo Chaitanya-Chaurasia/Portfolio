@@ -16,73 +16,48 @@ export default function Home() {
       <div className="flex flex-[3_3_0%] justify-center p-10 g-2 text-white rounded-2xl ">
         <LeftContainer />
       </div>
-      <div className="flex flex-[3_3_0%] justify-center p-1 border  text-white rounded-2xl">
+
+      {/* About Me Section */}
+      <div
+        id="me"
+        className="flex flex-[3_3_0%] justify-center p-1 border text-white rounded-2xl"
+      >
         <AboutMeContainer />
       </div>
+
+      {/* Skills & Projects Section */}
       <Divider
         orientation="horizontal"
-        sx={{
-          width: "50%",
-        }}
+        sx={{ width: "50%" }}
+        id="skillsProjects"
       >
         <span className="text-[30px] text-white">skills & projects</span>
       </Divider>
-
       <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full">
         <SkillsContainer />
       </div>
-      <Divider
-        orientation="horizontal"
-        sx={{
-          width: "50%",
-        }}
-      >
+
+      {/* Work Experience Section */}
+      <Divider orientation="horizontal" sx={{ width: "50%" }} id="work-exp">
         <span className="text-[30px] text-white">work exp.</span>
       </Divider>
-      <span className="text-[40px] text-center text-white">
-        From My Desk to the World:{" "}
-        <span
-          style={{
-            fontFamily: "Anton, sans-serif",
-          }}
-        >
-          Engineering a Better Tomorrow!!
-        </span>{" "}
-      </span>
       <div className="flex flex-col flex-[3_3_0%] justify-center items-center p-3 ">
         <WorkExpContainer />
       </div>
-      <Divider
-        orientation="horizontal"
-        sx={{
-          width: "50%",
-        }}
-      >
+
+      {/* Hobbies Section */}
+      <Divider orientation="horizontal" sx={{ width: "50%" }} id="hobbies">
         <span className="text-[30px] text-white">hobbies</span>
       </Divider>
-      <span className="text-[40px] text-center text-white">
-        Unleashing{" "}
-        <span
-          style={{
-            fontFamily: "Anton, sans-serif",
-          }}
-        >
-          Passions{" "}
-        </span>
-        , Crafting{" "}
-        <span
-          style={{
-            fontFamily: "Shrikhand, sans-serif",
-          }}
-        >
-          Futures{" "}
-        </span>
-      </span>
-
       <div className="bg-none flex flex-[3_3_0%] w-full p-3">
         <HobbyContainer />
       </div>
-      <div className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center ">
+
+      {/* Footer */}
+      <div
+        className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center "
+        id="contact"
+      >
         <Footer />
       </div>
     </main>
