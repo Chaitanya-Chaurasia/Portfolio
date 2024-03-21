@@ -27,7 +27,7 @@
 }
 
 .sports {
-  background: url("../../public/bgs.jpg") center / cover no-repeat fixed;
+  /* background: url("../../public/bgs.jpg") center / cover no-repeat fixed; */
   box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37);
 }
 

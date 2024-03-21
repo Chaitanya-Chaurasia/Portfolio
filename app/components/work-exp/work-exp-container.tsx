@@ -67,10 +67,7 @@ const companies = [
 
 const WorkExpContainer = () => {
   return (
-    <Paper
-      elevation={5}
-      className="w-full p-5 rounded-3xl bg-transparent paper"
-    >
+    <Paper className="w-full p-5 rounded-3xl bg-transparent paper ">
       <Timeline
         position="alternate"
         sx={{
@@ -102,13 +99,13 @@ const WorkExpContainer = () => {
                 component="span"
                 sx={{
                   fontFamily: "Signika, sans-serif",
-                  color: "white",
+                  color: "black",
                 }}
               >
                 {company.date}
               </Typography>
               <div className="flex flex-col lg:flex-row gap-5 p-5 rounded-3xl box">
-                <div className="flex flex-[2_2_0%] flex-col gap-2 items-center rounded-3xl p-2 inner-card">
+                <div className="flex flex-[2_2_0%] flex-col gap-2 items-center rounded-3xl p-2 inner-card ">
                   <div
                     style={{
                       fontSize: 30,
@@ -120,12 +117,12 @@ const WorkExpContainer = () => {
                         fontSize: 25,
                         fontWeight: 600,
                       }}
-                      className="exp-details"
+                      className="exp-details text-black"
                     >
                       {company.position} @ {company.name}
                     </span>
                   </div>
-                  <div className="flex flex-row items-center justify-center gap-3 ">
+                  <div className="flex flex-row items-center justify-center gap-3 text-black ">
                     <div
                       style={{
                         fontFamily: "Signika, sans-serif",
@@ -138,7 +135,7 @@ const WorkExpContainer = () => {
                     <LinkedIn />
                   </div>
 
-                  <div className="flex flex-col justify-center items-center text-center gap-5">
+                  <div className="flex flex-col justify-center items-center text-center gap-5 text-black">
                     <div
                       className="text-[18px]"
                       style={{

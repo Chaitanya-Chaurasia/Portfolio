@@ -30,7 +30,7 @@ export default function Home() {
         sx={{ width: "50%" }}
         id="skillsProjects"
       >
-        <span className="text-[30px] text-white">skills & projects</span>
+        <span className="text-[30px] text-black">skills & projects</span>
       </Divider>
       <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full">
         <SkillsContainer />
@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* Work Experience Section */}
       <Divider orientation="horizontal" sx={{ width: "50%" }} id="work-exp">
-        <span className="text-[30px] text-white">work exp.</span>
+        <span className="text-[30px] text-black">work exp.</span>
       </Divider>
       <div className="flex flex-col flex-[3_3_0%] justify-center items-center p-3 ">
         <WorkExpContainer />
@@ -46,10 +46,10 @@ export default function Home() {
 
       {/* Hobbies Section */}
       <Divider orientation="horizontal" sx={{ width: "50%" }} id="hobbies">
-        <span className="text-[30px] text-white">hobbies</span>
+        <span className="text-[30px] text-black">hobbies</span>
       </Divider>
       <div className="bg-none flex flex-[3_3_0%] w-full p-3">
-        {/* <HobbyContainer /> */}
+        <HobbyContainer />
       </div>
 
       {/* Footer */}

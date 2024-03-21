@@ -57,6 +57,7 @@ export default function Project() {
         <span
           style={{
             fontFamily: "Anton, sans-serif",
+            color: "orange",
           }}
         >
           difference

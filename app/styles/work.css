@@ -1,31 +1,22 @@
-.tl-content {
-  transform: translate3d(0, 0, 0) translateY(25px);
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  margin: 0 1.618em;
-  top: 55%;
-  opacity: 0;
-}
-
 .inner-card {
   background: none;
   color: white;
 }
 .paper {
   border-radius: 20px;
+  box-shadow: none;
   /* background: none;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
   backdrop-filter: blur(2.5px);
   color: white;*/
-  box-shadow: 0 0 8px 1px rgba(15, 2, 62, 0.997);
-  background: linear-gradient(to bottom, rgb(3, 3, 48), rgba(0, 0, 0, 0.904));
+  /* box-shadow: 0 0 8px 1px rgba(15, 2, 62, 0.997); */
+  /* background: linear-gradient(to bottom, rgb(243, 243, 243), rgba(0, 0, 0, 0.904)); */
 }
 
 .box {
   /* border: 0px solid rgba(255, 255, 255, 0.25); */
   border-radius: 20px;
-  background-color: rgba(113, 105, 128, 0.067);
-  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.126);
+  background-color: rgba(240, 239, 241, 0.33);
+  box-shadow: 0 0 10px 1px rgba(240, 239, 241, 0.33);
   backdrop-filter: blur(2.5px);
 }
