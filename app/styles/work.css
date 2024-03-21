@@ -17,9 +17,9 @@
   /* background: none;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
   backdrop-filter: blur(2.5px);
-  color: white;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216); */
-  border: 1px solid rgb(255, 255, 255);
+  color: white;*/
+  box-shadow: 0 0 8px 1px rgba(15, 2, 62, 0.997);
+  background: linear-gradient(to bottom, rgb(3, 3, 48), rgba(0, 0, 0, 0.904));
 }
 
 .box {
