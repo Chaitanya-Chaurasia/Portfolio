@@ -11,10 +11,12 @@ export default function Home() {
   return (
     <main
       id="background"
-      className="flex flex-col items-center justify-center gap-20 overflow-auto"
+      className="flex flex-col items-center justify-center gap-40 overflow-auto mt-20"
     >
-      <div className="flex flex-[3_3_0%] justify-center p-10 g-2 text-white rounded-2xl ">
-        <LeftContainer />
+      <div className="flex items-center justify-center p-2 bg-black rounded-3xl mt-10">
+        <div className="flex flex-[3_3_0%] justify-center p-10 g-2 text-black rounded-2xl bg-white ">
+          <LeftContainer />
+        </div>
       </div>
 
       {/* About Me Section */}
@@ -50,7 +52,7 @@ export default function Home() {
         <span className="text-[30px] text-white">hobbies</span>
       </Divider>
       <div className="bg-none flex flex-[3_3_0%] w-full p-3">
-        <HobbyContainer />
+        {/* <HobbyContainer /> */}
       </div>
 
       {/* Footer */}

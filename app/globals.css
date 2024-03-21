@@ -8,8 +8,8 @@
   }
 }
 .bodymain {
-  background-color: #8ec5fc;
   background: url("../public/bgm2.jpg") center / cover no-repeat fixed;
+  /* background: linear-gradient(to right, black, rgb(9, 9, 61), black); */
 }
 
 * {

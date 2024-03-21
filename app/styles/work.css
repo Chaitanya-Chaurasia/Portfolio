@@ -14,19 +14,18 @@
 }
 .paper {
   border-radius: 20px;
-  /* background-color: rgba(197, 48, 152, 0.192); */
-  background: none;
+  /* background: none;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
   backdrop-filter: blur(2.5px);
   color: white;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
-  border: 3px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216); */
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .box {
   /* border: 0px solid rgba(255, 255, 255, 0.25); */
   border-radius: 20px;
-  background-color: rgba(64, 30, 137, 0.196);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.216);
+  background-color: rgba(113, 105, 128, 0.067);
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.126);
   backdrop-filter: blur(2.5px);
 }

@@ -67,7 +67,10 @@ const companies = [
 
 const WorkExpContainer = () => {
   return (
-    <Paper elevation={5} className=" paper w-full p-5 rounded-3xl">
+    <Paper
+      elevation={5}
+      className="w-full p-5 rounded-3xl bg-transparent paper"
+    >
       <Timeline
         position="alternate"
         sx={{
@@ -99,6 +102,7 @@ const WorkExpContainer = () => {
                 component="span"
                 sx={{
                   fontFamily: "Signika, sans-serif",
+                  color: "white",
                 }}
               >
                 {company.date}

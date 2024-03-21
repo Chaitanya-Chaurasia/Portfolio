@@ -7,7 +7,7 @@ import { Button, Typography } from "@mui/material";
 
 const Navbar = () => {
   return (
-    <div className="w-full p-4 flex flex-row justify-center items-center text-[white]">
+    <div className="w-full p-4 flex flex-row justify-center items-center text-black bg-white">
       {/* Each button now contains a Link component that scrolls to the corresponding section */}
       <Button className="hover-underline-animation">
         <Link to="aboutMe" smooth={true} duration={1500} offset={-70}>

@@ -10,7 +10,7 @@ interface SpotifyCardProps {
 const SpotifyCard: React.FC<SpotifyCardProps> = ({ title, artist }) => {
   return (
     <div className="card">
-      <div className="top rounded-xl border p-1 border-white">
+      <div className="top rounded-xl border p-1 border-white gap-8">
         <div className="pfp">
           <div className="playing">
             <div className="greenline line-1"></div>

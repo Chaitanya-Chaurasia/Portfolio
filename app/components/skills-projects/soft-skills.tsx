@@ -32,7 +32,7 @@ const SoftSkills = () => {
         Some skills that I hold in very high regard and hope to keep on
         polishing upon:
       </span>
-      <span className="text-[20px] text-white text-center border-2 border-white p-3 rounded-3xl skillspaper">
+      <span className="text-[20px] text-white text-center border-2 border-white p-3 rounded-3xl">
         <ul>
           <li style={{ fontWeight: "bold" }}>
             {" "}
