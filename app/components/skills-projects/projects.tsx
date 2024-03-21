@@ -52,7 +52,7 @@ const projects = [
 export default function Project() {
   return (
     <div className="flex flex-col justify-center items-center gap-5 p-5">
-      <span className="text-[40px] text-center">
+      <span className="text-[40px] text-center text-black">
         Projects I think can make a{" "}
         <span
           style={{

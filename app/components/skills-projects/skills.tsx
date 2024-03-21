@@ -7,9 +7,9 @@ const Skills = () => {
   return (
     <Paper
       elevation={5}
-      className="flex flex-col justify-center items-center gap-4 p-5 rounded-3xl skillspaper w-full"
+      className="flex flex-col justify-center items-center gap-4 p-5 skillspaper w-full"
     >
-      <span className="text-[40px] text-white">
+      <span className="text-[40px] text-blue-900">
         {" "}
         Technical Skills I have learnt so far!
       </span>
@@ -18,7 +18,7 @@ const Skills = () => {
           style={{
             fontFamily: "Courier New, sans-serif",
           }}
-          className="text-white"
+          className="text-blue-900"
         >
           Programming Languages
         </span>
@@ -89,7 +89,7 @@ const Skills = () => {
             fontFamily: "Dancing Script, sans-serif",
             fontSize: 20,
           }}
-          className="text-white"
+          className="text-blue-900"
         >
           Frontend
         </span>
@@ -139,7 +139,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="flex flex-col items-center gap-2">
-        <span className="text-white">JavaScript Frameworks & Tools</span>
+        <span className="text-blue-900">JavaScript Frameworks & Tools</span>
         <div className="flex flex-row gap-3">
           <div className="bg-white p-1 rounded-xl">
             <Image
@@ -201,7 +201,7 @@ const Skills = () => {
             fontFamily: "Madimi One, sans-serif",
             fontSize: 20,
           }}
-          className="text-white"
+          className="text-blue-900"
         >
           Python Tools & Libraries
         </span>
@@ -302,7 +302,7 @@ const Skills = () => {
             fontFamily: "Road Rage, sans-serif",
             fontSize: 25,
           }}
-          className="text-white"
+          className="text-blue-900"
         >
           SQL & Cloud Services
         </span>
@@ -396,7 +396,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <span className="text-white"> Tools I use almost daily!</span>
+      <span className="text-blue-900"> Tools I use almost daily!</span>
       <div className="w-full flex flex-row bg-none gap-2 items-center justify-center">
         <div className="bg-white p-1 rounded-xl">
           <Image
@@ -460,7 +460,7 @@ const Skills = () => {
           />
         </div>
       </div>
-      <span className="text-white">I am finding my way about:</span>
+      <span className="text-blue-900">I am finding my way about:</span>
       <div className="w-full flex flex-row bg-none gap-2 items-center justify-center">
         <div className="bg-white p-1 rounded-xl">
           <Image

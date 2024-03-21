@@ -5,8 +5,8 @@ import { Typography } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 const AboutMeContainer = () => {
   return (
-    <div className="flex xs:flex-col sm:flex-col lg:flex-row xs:gap-2 sm:gap-1 md:gap-10 lg:gap-20 p-1 ">
-      <div className="flex flex-col gap-1 p-1">
+    <div className="flex xs:flex-col sm:flex-col lg:flex-row xs:gap-2 sm:gap-1 md:gap-10 lg:gap-20 p-1">
+      <div className="flex flex-col gap-1 p-1 text-center">
         <span
           className="text-[40px]"
           style={{
@@ -36,29 +36,7 @@ const AboutMeContainer = () => {
             </span>
           </span>
         </span>
-        <span
-          style={{
-            fontFamily: "Courier New",
-            fontWeight: "bold",
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "Courier New",
-              fontWeight: "",
-            }}
-          >
-            Age:{" "}
-          </span>
-          <span
-            style={{
-              fontFamily: "Courier New",
-              fontWeight: "bold",
-            }}
-          >
-            young enough
-          </span>
-        </span>
+
         <span>
           <span>
             <span

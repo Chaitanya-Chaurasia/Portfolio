@@ -6,6 +6,7 @@ import { Typography } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SongsContainer from "./songs-container";
 import Leetcode from "./leetcode";
+import AboutMeContainer from "../about-me/about-me-container";
 
 const LeftContainer = () => {
   return (
@@ -81,7 +82,7 @@ const LeftContainer = () => {
           .
         </span>
 
-        <span className="text-[25px]">
+        <span className="text-[20px]">
           If this was you, explore the website to learn more about me!
         </span>
         <div className="h-full flex flex-row">

@@ -13,19 +13,16 @@ export default function Home() {
       id="background"
       className="flex flex-col items-center justify-center gap-40 overflow-auto mt-20"
     >
-      <div className="flex items-center justify-center p-2 bg-black rounded-3xl mt-10">
+      <div
+        className="flex items-center justify-center p-2 bg-black rounded-3xl mt-10"
+        id="me"
+      >
         <div className="flex flex-[3_3_0%] justify-center p-10 g-2 text-black rounded-2xl bg-white ">
           <LeftContainer />
         </div>
       </div>
 
-      {/* About Me Section */}
-      <div
-        id="me"
-        className="flex flex-[3_3_0%] justify-center p-1 border text-white rounded-2xl"
-      >
-        <AboutMeContainer />
-      </div>
+      {/* <div className="flex flex-[3_3_0%] justify-center p-1 border-4 border-white text-white bg-black rounded-2xl"></div> */}
 
       {/* Skills & Projects Section */}
       <Divider
