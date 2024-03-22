@@ -29,18 +29,19 @@ const HobbyContainer = () => {
               my hobby palette 🎨
             </span>
             <span className="text-[15px]">
-              Reflecting over my brief yet a rich & diverse past, I've held firm
-              to the belief that everyone should nurture a certain creative
-              side, a certain imaginative side that encourages you to think like
-              the "little you" within, think outside the box and that lends you
-              a new lens to view the world with. This is what I think a hobby
-              builds within oneself. After all, life's brevity compels me to
-              seize every moment, exploring every avenue that might enrich my
-              existence. The hobbies and pursuits I've engaged in over the years
-              have not only shaped my personality but also stand as a testament
-              to the diverse paths our lives can take. It's through these
-              endeavors that we often stumble upon our true passions, perhaps
-              even defining what we ultimately choose to do with our lives.
+              Reflecting over my brief yet a rich &amp; diverse past, I&apos;ve
+              held firm to the belief that everyone should nurture a certain
+              creative side, a certain imaginative side that encourages you to
+              think like the &quot;little you&quot; within, think outside the
+              box and that lends you a new lens to view the world with. This is
+              what I think a hobby builds within oneself. After all, life&apos;s
+              brevity compels me to seize every moment, exploring every avenue
+              that might enrich my existence. The hobbies and pursuits I&apos;ve
+              engaged in over the years have not only shaped my personality but
+              also stand as a testament to the diverse paths our lives can take.
+              It&apos;s through these endeavors that we often stumble upon our
+              true passions, perhaps even defining what we ultimately choose to
+              do with our lives.
             </span>
           </div>
           <div className="flex flex-col w-full rounded-3xl gap-8">
@@ -83,7 +84,7 @@ const HobbyContainer = () => {
                       fontWeight: 600,
                     }}
                   >
-                    India & International Relations, Geopolitics, Foreign
+                    India &amp; International Relations, Geopolitics, Foreign
                     Policies explained | Dr. Jaishankar | TRS 314
                   </a>
                   <span
@@ -148,9 +149,9 @@ const HobbyContainer = () => {
             springboard for curious minds like yours. This ever-growing well of
             knowledge allows me to delve into diverse concepts and
             collaboratively push the boundaries of discovery. Therefore,
-            curiosity isn't merely a privilege; it's the very lifeblood of human
-            advancement, the fire that ignites the path towards a brighter
-            future.
+            curiosity isn&apos;t merely a privilege; it&apos;s the very
+            lifeblood of human advancement, the fire that ignites the path
+            towards a brighter future.
           </span>
         </Paper>
       </div>
@@ -209,7 +210,7 @@ const HobbyContainer = () => {
               <span className="text-[15px]" style={{ fontFamily: "Urbanist" }}>
                 Sports, especially football has been a major factor of my life.
                 What it has taught me and still continues to, till date, is
-                priceless and I will forever be grateful for that! I've
+                priceless and I will forever be grateful for that! I&apos;ve
                 dedicated a huge part of my life to sports and will continue to
                 do so, striving to push my limits, both on the field and beyond.
               </span>
@@ -233,9 +234,10 @@ const HobbyContainer = () => {
                 privilege I deeply cherish. Trying to immerse myself in
                 different cultures, adapting & living amongst unique
                 communities, and interacting with a tapestry of individuals has
-                broadened my horizons in just so many ways. At the end, it's the
-                richness of these experiences that has shaped me and becomes a
-                treasure trove of memories to revisit in the years to come.
+                broadened my horizons in just so many ways. At the end,
+                it&apos;s the richness of these experiences that has shaped me
+                and becomes a treasure trove of memories to revisit in the years
+                to come.
               </span>
             </div>
             <div className="flex flex-col gap-1 items-center justify-center text-[white]">
@@ -275,14 +277,14 @@ const HobbyContainer = () => {
             <span className="text-[15px] text-black ">
               Movies have always been a cornerstone of my upbringing. My dad has
               always stressed upon their importance in broadening our horizons
-              and nurturing creativity. He believed, and I've come to agree,
-              that they're not just entertainment but a vital tool for enhancing
-              our creative intellect. Through the art of cinema, we're invited
-              into diverse worlds, exposed to different perspectives, and
-              inspired by the endless possibilities of storytelling. This has
-              ingrained in me a deep appreciation for film as a powerful medium
-              for education, empathy, and, most importantly, envisioning the
-              limitless bounds of our imagination.
+              and nurturing creativity. He believed, and I&apos;ve come to
+              agree, that they&apos;re not just entertainment but a vital tool
+              for enhancing our creative intellect. Through the art of cinema,
+              we&apos;re invited into diverse worlds, exposed to different
+              perspectives, and inspired by the endless possibilities of
+              storytelling. This has ingrained in me a deep appreciation for
+              film as a powerful medium for education, empathy, and, most
+              importantly, envisioning the limitless bounds of our imagination.
             </span>
             <MovieContainer />
           </Paper>

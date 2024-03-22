@@ -26,9 +26,9 @@ const games = [
 const GameContainer = () => {
   return (
     <div className="flex flex-row gap-1 items-center">
-      {games.map((game) => {
+      {games.map((game, index) => {
         return (
-          <div className="flex flex-1 items-center justify-center">
+          <div className="flex flex-1 items-center justify-center" key={index}>
             <Image
               src={game.image}
               alt="game"
