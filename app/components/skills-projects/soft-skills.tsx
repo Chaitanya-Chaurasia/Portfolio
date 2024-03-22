@@ -40,8 +40,8 @@ const SoftSkills = () => {
         </div>
       </div>
 
-      <span className="text-center text-black rounded-3xl p-2">
-        <p>
+      <span className="text-center text-black rounded-3xl p-2 text-[16px]">
+        <p className="italic">
           Life, to me, is an infinite odyssey of discovery, an insatiable quest
           for knowledge that keeps moving me forward. From delving into the
           depths of the oceans to gazing upon galaxies light-years away,
@@ -54,15 +54,18 @@ const SoftSkills = () => {
           awaits, reminding me that I am merely scratching the surface of what
           is possible.
         </p>{" "}
-        In aspiring towards excellence, I hold steadfast to certain virtues.
-        Discipline and patience serve as guiding lights, illuminating the path
-        even in the darkest of tunnels. Leading by example, I strive to inspire
-        those around me to reach for their highest potential. Yet, amidst
-        achievements, I remain grounded, understanding the importance of
-        humility and the duty to give back to the world that has granted me so
-        much. These qualities intertwine, forming the fabric of my journey, as I
-        navigate through the boundless realms of discovery with purpose and
-        grace.
+        <br />
+        <p className="italic">
+          In aspiring towards excellence, I hold steadfast to certain virtues.
+          Discipline and patience serve as guiding lights, illuminating the path
+          even in the darkest of tunnels. Leading by example, I strive to
+          inspire those around me to reach for their highest potential. Yet,
+          amidst achievements, I remain grounded, understanding the importance
+          of humility and the duty to give back to the world that has granted me
+          so much. These qualities intertwine, forming the fabric of my journey,
+          as I navigate through the boundless realms of discovery with purpose
+          and grace.
+        </p>
       </span>
     </Paper>
   );

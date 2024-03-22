@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main
       id="background"
-      className="flex flex-col items-center justify-center gap-40 overflow-auto mt-20"
+      className="flex flex-col items-center justify-center gap-40 overflow-auto mt-48"
     >
       <div
         className="flex items-center justify-center p-2 bg-black rounded-3xl mt-10"
@@ -77,11 +77,11 @@ export default function Home() {
           Futures{" "}
         </span>
       </span>
-      <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full ">
+      <div className="flex flex-[3_3_0%] justify-center p-3 text-white w-full ">
         <HobbyContainer />
       </div>
 
-      <div className="flex flex-row gap-2">
+      <div className="text-center p-2">
         This website was built using{" "}
         <span className="font-bold">
           Typescript, Tailwind CSS, CSS3, Next.js & Axios{" "}
