@@ -304,7 +304,7 @@ const Skills = () => {
           }}
           className="text-blue-900"
         >
-          SQL & Cloud Services
+          SQL, Cloud Services & many more...
         </span>
         <div className="flex flex-row gap-3">
           <div className="bg-white p-1 rounded-xl">

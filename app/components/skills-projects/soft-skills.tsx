@@ -41,37 +41,27 @@ const SoftSkills = () => {
       </div>
 
       <span className="text-center text-black rounded-3xl p-2">
-        The way I see it, life is an endless journey of discovery. It is a quest
-        that fuels me with a certain insatiable desire to learn. Think about it,
-        why are we humans constantly looking to fathom miles deep into the
-        oceans or observing galaxies trillions and trillions of light years away
-        from us- to grow, and to strive for the betterment of humanity all
-        along. And after so many years of learning, I can say that the beauty of
-        this journey lies not just in acquiring knowledge, but in the
-        realization that there's always more to learn, more to explore and that
-        I am merely at the tip of the iceberg.
-      </span>
-      <span className="text-[20px] text-black text-center underline">
-        Some skills that I hold in very high regard and hope to keep on
-        polishing upon:
-      </span>
-      <span className=" text-black text-center p-3 rounded-3xl">
-        <ul>
-          <li style={{ fontWeight: 500 }}>
-            {" "}
-            Be disciplined and patient! There's light at the end of every
-            tunnel.
-          </li>
-          <li style={{ fontWeight: 500 }}>Lead by example!</li>
-          <li style={{ fontWeight: 500 }}>
-            Achieve Excellence in whatever I do.
-          </li>
-          <li>& lastly, </li>
-          <li style={{ fontWeight: 500 }}>
-            {" "}
-            Staying humble and always giving to the world.
-          </li>
-        </ul>
+        <p>
+          Life, to me, is an infinite odyssey of discovery, an insatiable quest
+          for knowledge that propels me forward. From delving into the depths of
+          the oceans to gazing upon galaxies light-years away, humanity's
+          relentless pursuit of understanding fuels our growth and endeavors for
+          the betterment of our world. Through years of exploration, I've come
+          to appreciate that the true beauty of this journey transcends mere
+          acquisition of knowledge; it lies in the perpetual realization that
+          there's always more to learn, more to explore. Each revelation is but
+          a glimpse of the vast expanse of knowledge that awaits, reminding me
+          that I am merely scratching the surface of what is possible.{" "}
+        </p>{" "}
+        In aspiring towards excellence, I hold steadfast to certain virtues.
+        Discipline and patience serve as guiding lights, illuminating the path
+        even in the darkest of tunnels. Leading by example, I strive to inspire
+        those around me to reach for their highest potential. Yet, amidst
+        achievements, I remain grounded, understanding the importance of
+        humility and the duty to give back to the world that has granted me so
+        much. These qualities intertwine, forming the fabric of my journey, as I
+        navigate through the boundless realms of discovery with purpose and
+        grace.
       </span>
     </Paper>
   );

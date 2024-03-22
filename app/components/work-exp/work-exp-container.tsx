@@ -67,7 +67,7 @@ const companies = [
 
 const WorkExpContainer = () => {
   return (
-    <Paper className="w-full p-5 rounded-3xl bg-transparent paper ">
+    <Paper className="w-full p-5 rounded-3xl bg-transparent paper  ">
       <Timeline
         position="alternate"
         sx={{
