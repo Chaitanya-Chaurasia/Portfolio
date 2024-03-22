@@ -45,12 +45,12 @@ const SoftSkills = () => {
           Life, to me, is an infinite odyssey of discovery, an insatiable quest
           for knowledge that keeps moving me forward. From delving into the
           depths of the oceans to gazing upon galaxies light-years away,
-          humanity's relentless pursuit of understanding fuels our growth and
-          endeavors for the betterment of our world. After these many years,
-          I've come to appreciate that the true beauty of this journey
+          humanity&apos;s relentless pursuit of understanding fuels our growth
+          and endeavors for the betterment of our world. After these many years,
+          I&apos;ve come to appreciate that the true beauty of this journey
           transcends mere acquisition of knowledge; it is when you come to the
-          realization that there's always more to learn, more to explore. Each
-          revelation is but a glimpse of the vast expanse of knowledge that
+          realization that there&apos;s always more to learn, more to explore.
+          Each revelation is but a glimpse of the vast expanse of knowledge that
           awaits, reminding me that I am merely scratching the surface of what
           is possible.
         </p>{" "}

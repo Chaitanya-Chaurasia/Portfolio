@@ -45,7 +45,7 @@ const LeftContainer = () => {
               fontWeight: "100",
             }}
           >
-            I'm Chaitanya.
+            I&apos;m Chaitanya.
           </span>
         </span>
         <span className="text-[15px]">
@@ -53,7 +53,7 @@ const LeftContainer = () => {
           ⚽ & love travelling 🧳.
         </span>
         <span className="text-[15px]">
-          If I had to describe myself in 3 words, they'd be-{" "}
+          If I had to describe myself in 3 words, they&apos;d be-{" "}
           <span
             style={{
               fontFamily: "Delius Unicase, sans-serif",
