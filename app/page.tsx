@@ -6,6 +6,7 @@ import LeftContainer from "./components/homepage/left-container";
 import SkillsContainer from "./components/skills-projects/skills-container";
 import WorkExpContainer from "./components/work-exp/work-exp-container";
 import HobbyContainer from "./components/hobbies/hobby-container";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -52,6 +53,13 @@ export default function Home() {
         <HobbyContainer />
       </div>
 
+      <div className="flex flex-row gap-2">
+        This website was built using{" "}
+        <span className="font-bold">
+          Typescript, Tailwind CSS, CSS3, Next.js & Axios{" "}
+        </span>
+        & of course, a lot of creativity and love. More to come soon!
+      </div>
       {/* Footer */}
       <div
         className="flex flex-[0.1_0.1_0%] p-5 m-1 text-white rounded-md items-center justify-center "
