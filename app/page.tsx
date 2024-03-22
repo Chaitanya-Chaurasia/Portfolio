@@ -41,6 +41,16 @@ export default function Home() {
       <Divider orientation="horizontal" sx={{ width: "50%" }} id="work-exp">
         <span className="text-[30px] text-black">work exp.</span>
       </Divider>
+      <span className="text-[40px] text-center text-black">
+        From My Desk to the World:{" "}
+        <span
+          style={{
+            fontFamily: "Anton, sans-serif",
+          }}
+        >
+          Engineering a Better Tomorrow!!
+        </span>{" "}
+      </span>
       <div className="flex flex-col flex-[3_3_0%] justify-center items-center p-3 ">
         <WorkExpContainer />
       </div>
@@ -49,6 +59,24 @@ export default function Home() {
       <Divider orientation="horizontal" sx={{ width: "50%" }} id="hobbies">
         <span className="text-[30px] text-black">hobbies</span>
       </Divider>
+      <span className="text-[40px] text-center text-black">
+        Unleashing{" "}
+        <span
+          style={{
+            fontFamily: "Anton, sans-serif",
+          }}
+        >
+          Passions{" "}
+        </span>
+        , Crafting{" "}
+        <span
+          style={{
+            fontFamily: "Shrikhand, sans-serif",
+          }}
+        >
+          Futures{" "}
+        </span>
+      </span>
       <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full ">
         <HobbyContainer />
       </div>

@@ -43,15 +43,16 @@ const SoftSkills = () => {
       <span className="text-center text-black rounded-3xl p-2">
         <p>
           Life, to me, is an infinite odyssey of discovery, an insatiable quest
-          for knowledge that propels me forward. From delving into the depths of
-          the oceans to gazing upon galaxies light-years away, humanity's
-          relentless pursuit of understanding fuels our growth and endeavors for
-          the betterment of our world. Through years of exploration, I've come
-          to appreciate that the true beauty of this journey transcends mere
-          acquisition of knowledge; it lies in the perpetual realization that
-          there's always more to learn, more to explore. Each revelation is but
-          a glimpse of the vast expanse of knowledge that awaits, reminding me
-          that I am merely scratching the surface of what is possible.{" "}
+          for knowledge that keeps moving me forward. From delving into the
+          depths of the oceans to gazing upon galaxies light-years away,
+          humanity's relentless pursuit of understanding fuels our growth and
+          endeavors for the betterment of our world. After these many years,
+          I've come to appreciate that the true beauty of this journey
+          transcends mere acquisition of knowledge; it is when you come to the
+          realization that there's always more to learn, more to explore. Each
+          revelation is but a glimpse of the vast expanse of knowledge that
+          awaits, reminding me that I am merely scratching the surface of what
+          is possible.
         </p>{" "}
         In aspiring towards excellence, I hold steadfast to certain virtues.
         Discipline and patience serve as guiding lights, illuminating the path

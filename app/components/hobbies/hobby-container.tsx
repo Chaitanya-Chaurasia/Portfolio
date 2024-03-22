@@ -18,8 +18,8 @@ import av from "../../../public/av.jpg";
 
 const HobbyContainer = () => {
   return (
-    <div className="paper-hobby flex flex-col p-2">
-      <div className="flex flex-col lg:flex-row gap-4 justify-center items-center p-5 ">
+    <div className="flex flex-col lg:flex-row p-2 bg-white rounded-3xl gap-2">
+      <div className="flex flex-[2_2_0%] flex-col gap-20">
         <div className="flex flex-col flex-[3_3_0%] p-2 gap-5 text-[white] rounded-3xl">
           <div className="flex flex-col p-4 rounded-3xl palette">
             <span
@@ -126,110 +126,6 @@ const HobbyContainer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col flex-[2_2_0%] gap-5">
-          <div className="flex flex-row gap-3 text-white">
-            <div className="flex flex-col gap-1">
-              <div className="flex flex-row rounded-3xl gap-1 p-1">
-                <DirectionsRunIcon />
-                <Typography
-                  sx={{
-                    fontSize: "11px",
-                    fontFamily: "Urbanist, sans-serif",
-                  }}
-                >
-                  My first marathon, 2014, Tanzania
-                </Typography>
-              </div>
-              <Image
-                src={mara}
-                alt="sports"
-                className="rounded-3xl"
-                height={400}
-              />
-            </div>
-            <div className="flex flex-col gap-1">
-              <div className="flex flex-col gap-1 items-center justify-center">
-                <div className="flex flex-row items-center justify-center rounded-3xl p-1 gap-1">
-                  <SportsSoccer />
-                  <Typography
-                    sx={{
-                      fontSize: "11px",
-                      fontFamily: "Urbanist, sans-serif",
-                    }}
-                  >
-                    Intramural Soccer Champs, ASU
-                  </Typography>
-                </div>
-                <Image
-                  src={im}
-                  alt="sports"
-                  className="rounded-3xl"
-                  height={400}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col p-3.5 rounded-3xl bg-white text-[white] sports">
-            <span
-              className="text-[30px] "
-              style={{ fontFamily: "Bungee Shade" }}
-            >
-              Sports 🏆
-            </span>
-            <span className="text-[15px]" style={{ fontFamily: "Urbanist" }}>
-              Sports, especially football has been a major factor of my life.
-              What it has taught me and still continues to, till date, is
-              priceless and I will forever be grateful for that! I've dedicated
-              a huge part of my life to sports and will continue to do so,
-              striving to push my limits, both on the field and beyond.
-            </span>
-          </div>
-          <div className="flex flex-col items-center justify-center ">
-            <Image src={ftbl} alt="sports" className="rounded-3xl" />
-          </div>
-        </div>
-        <div className="flex flex-[2_2_0%] flex-col gap-4">
-          <div className="flex flex-col p-2 rounded-3xl travel">
-            <span className=" text-[30px]" style={{ fontFamily: "Nabla" }}>
-              Travelling ✈️🧳🏖️
-            </span>
-            <span
-              style={{
-                fontSize: 15,
-              }}
-            >
-              Travelling and exploring the wonders of our planet is a privilege
-              I deeply cherish. Readily immersing myself in diverse cultures,
-              adapting & living amongst unique communities, and interacting with
-              a tapestry of individuals has broadened my horizons in just so
-              many ways. Ultimately, it's the richness of these experiences that
-              has shaped me and becomes a treasure trove of memories to revisit
-              in the years to come.
-            </span>
-          </div>
-          <div className="flex flex-col gap-1 items-center justify-center text-[white]">
-            <div className="flex flex-row items-center justify-center bg-black rounded-3xl p-1">
-              <LocationOn
-                sx={{
-                  height: 20,
-                  width: 20,
-                }}
-              />
-              <Typography
-                sx={{
-                  fontSize: "11px",
-                  fontFamily: "Urbanist, sans-serif",
-                }}
-              >
-                The Petronas Towers, Kuala Lumpur, Malaysia, 2022
-              </Typography>
-            </div>
-
-            <Image src={petr} alt="leh" className="rounded-3xl " />
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col lg:flex-row gap-4 justify-center p-5 ">
         <Paper
           elevation={0}
           className="flex flex-col flex-[2_2_0%] bg-transparent rounded-3xl p-5  "
@@ -257,31 +153,140 @@ const HobbyContainer = () => {
             future.
           </span>
         </Paper>
-        <Paper
-          elevation={0}
-          className="flex flex-[3_3_0%] bg-transparent flex-col gap-3 rounded-3xl p-5"
-        >
-          <span
-            style={{ fontFamily: "Shantell Sans, sans-serif" }}
-            className="text-[30px] text-black flex gap-2 items-center"
+      </div>
+      <div className="flex flex-[3_3_0%] flex-col">
+        <div className="flex flex-col lg:flex-row gap-4">
+          <div className="flex flex-col flex-[2_2_0%] gap-5">
+            <div className="flex flex-row gap-3 text-white">
+              <div className="flex flex-col gap-1">
+                <div className="flex flex-row rounded-3xl gap-1 p-1">
+                  <DirectionsRunIcon />
+                  <Typography
+                    sx={{
+                      fontSize: "11px",
+                      fontFamily: "Urbanist, sans-serif",
+                    }}
+                  >
+                    My first marathon, 2014, Tanzania
+                  </Typography>
+                </div>
+                <Image
+                  src={mara}
+                  alt="sports"
+                  className="rounded-3xl"
+                  height={400}
+                />
+              </div>
+              <div className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1 items-center justify-center">
+                  <div className="flex flex-row items-center justify-center rounded-3xl p-1 gap-1">
+                    <SportsSoccer />
+                    <Typography
+                      sx={{
+                        fontSize: "11px",
+                        fontFamily: "Urbanist, sans-serif",
+                      }}
+                    >
+                      Intramural Soccer Champs, ASU
+                    </Typography>
+                  </div>
+                  <Image
+                    src={im}
+                    alt="sports"
+                    className="rounded-3xl"
+                    height={400}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col p-3.5 rounded-3xl bg-white text-[white] sports">
+              <span
+                className="text-[30px] "
+                style={{ fontFamily: "Bungee Shade" }}
+              >
+                Sports 🏆
+              </span>
+              <span className="text-[15px]" style={{ fontFamily: "Urbanist" }}>
+                Sports, especially football has been a major factor of my life.
+                What it has taught me and still continues to, till date, is
+                priceless and I will forever be grateful for that! I've
+                dedicated a huge part of my life to sports and will continue to
+                do so, striving to push my limits, both on the field and beyond.
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center ">
+              <Image src={ftbl} alt="sports" className="rounded-3xl" />
+            </div>
+          </div>
+          <div className="flex flex-[2_2_0%] flex-col gap-4">
+            <div className="flex flex-col p-2 rounded-3xl travel">
+              <span className=" text-[30px]" style={{ fontFamily: "Nabla" }}>
+                Travelling ✈️🧳🏖️
+              </span>
+              <span
+                style={{
+                  fontSize: 15,
+                  color: "black",
+                }}
+              >
+                Travelling and exploring the wonders of our planet is a
+                privilege I deeply cherish. Trying to immerse myself in
+                different cultures, adapting & living amongst unique
+                communities, and interacting with a tapestry of individuals has
+                broadened my horizons in just so many ways. At the end, it's the
+                richness of these experiences that has shaped me and becomes a
+                treasure trove of memories to revisit in the years to come.
+              </span>
+            </div>
+            <div className="flex flex-col gap-1 items-center justify-center text-[white]">
+              <div className="flex flex-row items-center justify-center bg-black rounded-3xl p-1">
+                <LocationOn
+                  sx={{
+                    height: 20,
+                    width: 20,
+                  }}
+                />
+                <Typography
+                  sx={{
+                    fontSize: "11px",
+                    fontFamily: "Urbanist, sans-serif",
+                  }}
+                >
+                  The Petronas Towers, Kuala Lumpur, Malaysia, 2022
+                </Typography>
+              </div>
+
+              <Image src={petr} alt="leh" className="rounded-3xl " />
+            </div>
+          </div>
+        </div>
+        <div className="flex w-full">
+          <Paper
+            elevation={0}
+            className="flex flex-[3_3_0%] bg-transparent flex-col gap-3 rounded-3xl p-5"
           >
-            Watching Movies
-            <CameraRollIcon />
-          </span>
-          <span className="text-[15px] text-black ">
-            Movies have always been a cornerstone of my upbringing. My dad has
-            always stressed upon their importance in broadening our horizons and
-            nurturing creativity. He believed, and I've come to agree, that
-            they're not just entertainment but a vital tool for enhancing our
-            creative intellect. Through the art of cinema, we're invited into
-            diverse worlds, exposed to different perspectives, and inspired by
-            the endless possibilities of storytelling. This has ingrained in me
-            a deep appreciation for film as a powerful medium for education,
-            empathy, and, most importantly, envisioning the limitless bounds of
-            our imagination.
-          </span>
-          <MovieContainer />
-        </Paper>
+            <span
+              style={{ fontFamily: "Shantell Sans, sans-serif" }}
+              className="text-[30px] text-black flex gap-2 items-center"
+            >
+              Watching Movies
+              <CameraRollIcon />
+            </span>
+            <span className="text-[15px] text-black ">
+              Movies have always been a cornerstone of my upbringing. My dad has
+              always stressed upon their importance in broadening our horizons
+              and nurturing creativity. He believed, and I've come to agree,
+              that they're not just entertainment but a vital tool for enhancing
+              our creative intellect. Through the art of cinema, we're invited
+              into diverse worlds, exposed to different perspectives, and
+              inspired by the endless possibilities of storytelling. This has
+              ingrained in me a deep appreciation for film as a powerful medium
+              for education, empathy, and, most importantly, envisioning the
+              limitless bounds of our imagination.
+            </span>
+            <MovieContainer />
+          </Paper>
+        </div>
       </div>
     </div>
   );
