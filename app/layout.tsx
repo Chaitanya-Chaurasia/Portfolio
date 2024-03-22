@@ -20,7 +20,6 @@ export default function RootLayout({
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link
         rel="stylesheet"
-        precedence="default"
         href="https://fonts.googleapis.com/css2?family=Anton&family=Honk&family=Bungee+Shade&family=Poiret+One&family=Shrikhand&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Dangrek&family=Delius+Unicase:wght@400;700&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Road+Rage&family=Signika:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap&family=Nabla&family=Sono:wght@200..800&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Potta+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900"
       />
       <body className="min-h-screen flex flex-col bodymain">
