@@ -11,30 +11,24 @@
   border: 1px solid white;
 } */
 .palette {
-  background: white;
-  color: black;
   /* box-shadow: 0 0 10px 1px rgba(41, 5, 34, 0.762); */
+  color: black;
 }
 
 .travel {
-  background: white;
-  color: black;
-
   /* box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37); */
 }
 
 .sports {
   /* background: url("../../public/bgs.jpg") center / cover no-repeat fixed; */
-  background: white;
   color: black;
 }
-
 .paper-hobby {
-  background-color: #8ec5fc;
-  background: none;
+  background-color: #ffffff;
   /* border-top: 1px solid white; */
   border: 2px solid white;
   border-radius: 20px;
+  color: black;
 }
 
 .hobby-card {

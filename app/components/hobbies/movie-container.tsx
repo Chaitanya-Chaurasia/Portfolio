@@ -31,8 +31,8 @@ const movies = [
 ];
 const MovieContainer = () => {
   return (
-    <div className="flex flex-row rounded-3xl bg-black p-1 gap-1">
-      <div className="flex flex-col items-center justify-center text-center bg-black text-white rounded-2xl p-1 text-[15px]">
+    <div className="flex flex-row rounded-3xl  p-1 gap-1">
+      <div className="flex flex-col items-center justify-center text-center  text-black rounded-2xl p-1 text-[15px]">
         some of my favorites
         <div>
           <LocalMoviesIcon />

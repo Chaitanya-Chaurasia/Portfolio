@@ -18,8 +18,8 @@ import av from "../../../public/av.jpg";
 
 const HobbyContainer = () => {
   return (
-    <div className="paper-hobby flex flex-col">
-      <div className="flex flex-col lg:flex-row gap-4 justify-center p-5">
+    <div className="paper-hobby flex flex-col p-2">
+      <div className="flex flex-col lg:flex-row gap-4 justify-center items-center p-5 ">
         <div className="flex flex-col flex-[3_3_0%] p-2 gap-5 text-[white] rounded-3xl">
           <div className="flex flex-col p-4 rounded-3xl palette">
             <span
@@ -51,33 +51,29 @@ const HobbyContainer = () => {
               }}
             >
               {" "}
-              My Game Collection 🎮
+              Games I grew up playing! 🎮
             </span>
             <GameContainer />
             <div className="flex flex-col gap-3">
               <div className="flex flex-row">
                 <span
-                  className="flex gap-3 items-center text-black"
+                  className="flex gap-3 items-center  text-black"
                   style={{
                     fontFamily: "Potta One",
-                    fontSize: 35,
+                    fontSize: 30,
                   }}
                 >
-                  i found this interesting@
-                  <YouTube
-                    sx={{
-                      height: 40,
-                      width: 40,
-                      fill: "Red",
-                    }}
-                  />
+                  i found this interesting
                 </span>
               </div>
-              <div className="flex flex-row w-full bg-white rounded-3xl border-2 p-1 gap-3 items-center">
+              <div className="flex flex-row w-full bg-white rounded-3xl border-2 border-black p-5 gap-3 items-center">
                 <div className="flex flex-[2_2_0%]">
                   <Image src={yt} alt="yt" className="rounded-2xl" />
                 </div>
-                <div className="flex flex-col text-[15px] h-full rounded-2xl flex-[3_3_0%]">
+                <div
+                  className="flex flex-col text-[15px] h-full rounded-2xl flex-[3_3_0%] gap-2
+                "
+                >
                   <a
                     href="https://www.youtube.com/watch?v=yVTNge3sXpg&ab_channel=BeerBiceps"
                     className="href"
@@ -96,11 +92,27 @@ const HobbyContainer = () => {
                       color: "black",
                       fontWeight: 300,
                       fontSize: 12,
+                      display: "flex",
+                      gap: 10,
                     }}
                   >
+                    <YouTube
+                      sx={{
+                        height: 20,
+                        width: 20,
+                        fill: "red",
+                      }}
+                    />
                     8.8M views 9 months ago
                   </span>
-                  <span className="flex flex-row items-center gap-2 text-black">
+                  <span
+                    className="flex flex-row items-center gap-2 text-black"
+                    style={{
+                      fontFamily: "Noto Sans, sans-serif",
+                      fontWeight: 500,
+                      fontSize: 12,
+                    }}
+                  >
                     <Image
                       alt="avatar"
                       src={av}
@@ -157,7 +169,7 @@ const HobbyContainer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col p-3.5 rounded-3xl bg-white text-[white] shadow-lg sports">
+          <div className="flex flex-col p-3.5 rounded-3xl bg-white text-[white] sports">
             <span
               className="text-[30px] "
               style={{ fontFamily: "Bungee Shade" }}
@@ -217,14 +229,14 @@ const HobbyContainer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-4 justify-center p-5">
+      <div className="flex flex-col lg:flex-row gap-4 justify-center p-5 ">
         <Paper
-          elevation={10}
-          className="flex flex-col flex-[2_2_0%] bg-white rounded-3xl p-5"
+          elevation={0}
+          className="flex flex-col flex-[2_2_0%] bg-transparent rounded-3xl p-5  "
         >
           <span
             style={{ fontFamily: "Sono, sans-serif" }}
-            className="text-[23px] "
+            className="text-[23px] text-black "
           >
             Exploring my Curiosity
           </span>
@@ -246,17 +258,17 @@ const HobbyContainer = () => {
           </span>
         </Paper>
         <Paper
-          elevation={10}
-          className="flex flex-[3_3_0%] bg-white flex-col gap-3 rounded-3xl p-5"
+          elevation={0}
+          className="flex flex-[3_3_0%] bg-transparent flex-col gap-3 rounded-3xl p-5"
         >
           <span
             style={{ fontFamily: "Shantell Sans, sans-serif" }}
-            className="text-[30px] flex gap-2 items-center"
+            className="text-[30px] text-black flex gap-2 items-center"
           >
             Watching Movies
             <CameraRollIcon />
           </span>
-          <span className="text-[15px]">
+          <span className="text-[15px] text-black ">
             Movies have always been a cornerstone of my upbringing. My dad has
             always stressed upon their importance in broadening our horizons and
             nurturing creativity. He believed, and I've come to agree, that
@@ -268,7 +280,6 @@ const HobbyContainer = () => {
             empathy, and, most importantly, envisioning the limitless bounds of
             our imagination.
           </span>
-
           <MovieContainer />
         </Paper>
       </div>
