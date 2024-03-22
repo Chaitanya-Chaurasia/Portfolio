@@ -48,7 +48,7 @@ export default function Home() {
       <Divider orientation="horizontal" sx={{ width: "50%" }} id="hobbies">
         <span className="text-[30px] text-black">hobbies</span>
       </Divider>
-      <div className="bg-none flex flex-[3_3_0%] w-full p-3">
+      <div className="flex flex-[3_3_0%] justify-center p-1 text-white w-full ">
         <HobbyContainer />
       </div>
 

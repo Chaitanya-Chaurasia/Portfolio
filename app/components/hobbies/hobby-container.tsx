@@ -43,7 +43,7 @@ const HobbyContainer = () => {
               even defining what we ultimately choose to do with our lives.
             </span>
           </div>
-          <div className="flex flex-col w-full rounded-3xl">
+          <div className="flex flex-col w-full rounded-3xl gap-8">
             <span
               style={{
                 fontFamily: "Honk",
@@ -184,7 +184,6 @@ const HobbyContainer = () => {
             <span
               style={{
                 fontSize: 15,
-                color: "white",
               }}
             >
               Travelling and exploring the wonders of our planet is a privilege

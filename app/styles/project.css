@@ -42,10 +42,10 @@
 
 .card-container {
   width: 100%;
+  height: auto;
   background: var(--var-card-dark);
   border-radius: 15px;
   padding: 1rem;
-  border: 1px solid white;
 }
 
 div.coin-base,

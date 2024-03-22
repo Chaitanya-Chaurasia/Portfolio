@@ -11,24 +11,22 @@
   border: 1px solid white;
 } */
 .palette {
-  background: linear-gradient(to right, rgba(80, 48, 159, 0.618), purple) center /
-    cover no-repeat fixed;
+  background: white;
+  color: black;
   /* box-shadow: 0 0 10px 1px rgba(41, 5, 34, 0.762); */
 }
 
 .travel {
-  background: linear-gradient(
-      to left,
-      rgba(138, 197, 28, 0.618),
-      rgb(14, 18, 74)
-    )
-    center / cover no-repeat;
+  background: white;
+  color: black;
+
   /* box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37); */
 }
 
 .sports {
   /* background: url("../../public/bgs.jpg") center / cover no-repeat fixed; */
-  box-shadow: 0 0 10px 1px rgba(164, 42, 42, 0.37);
+  background: white;
+  color: black;
 }
 
 .paper-hobby {
