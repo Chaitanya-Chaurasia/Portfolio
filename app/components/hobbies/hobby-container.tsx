@@ -158,9 +158,9 @@ const HobbyContainer = () => {
       <div className="flex flex-[3_3_0%] flex-col">
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="flex flex-col flex-[2_2_0%] gap-5">
-            <div className="flex flex-row gap-3 text-white">
-              <div className="flex flex-col gap-1">
-                <div className="flex flex-row rounded-3xl gap-1 p-1">
+            <div className="flex flex-row gap-3 text-black">
+              <div className="flex flex-col gap-1 ">
+                <div className=" text-black flex flex-row rounded-3xl gap-1 p-1">
                   <DirectionsRunIcon />
                   <Typography
                     sx={{
