@@ -1,5 +1,5 @@
 import React from "react";
-import iit from "../../../public/iit.png";
+import iit from "../../../public/iit.jpg";
 import idexx from "../../../public/idexx.jpg";
 import int from "../../../public/intui.jpg";
 import asu from "../../../public/asu.jpg";
