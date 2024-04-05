@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex flex-col lg:flex-row h-screen font-new-font w-full text-white overflow-auto">
       <div className="bg-black flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start">
-        <Image src={ellipse} alt="" className=" h-5 lg:mt-6" />
+        <Image src={ellipse} alt="" className=" h-5 lg:mt-5" />
         <Image src={ellipse} alt="" className=" h-5" />
         <Image src={ellipse} alt="" className=" h-5" />
       </div>
