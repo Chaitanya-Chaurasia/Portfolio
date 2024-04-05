@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import Navbar from "./components/navbar";
 import ParticlesContainer from "./components/particles";
 import "./globals.css";
-import "./styles/navbar.css";
 
 export const metadata: Metadata = {
   title: "Chaitanya Chaurasia",
@@ -20,13 +18,9 @@ export default function RootLayout({
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Honk&family=Bungee+Shade&family=Poiret+One&family=Shrikhand&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Dangrek&family=Delius+Unicase:wght@400;700&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Road+Rage&family=Signika:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap&family=Nabla&family=Sono:wght@200..800&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Potta+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900"
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       />
-      <body className="min-h-screen flex flex-col bodymain">
-        <Navbar />
-        <ParticlesContainer />
-        {children}
-      </body>
+      <body className="min-h-screen flex flex-col bodymain">{children}</body>
     </html>
   );
 }

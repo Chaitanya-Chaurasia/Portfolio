@@ -8,7 +8,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "new-font": "Urbanist, sans-serif",
+        "new-font": "Anonymous Pro, sans-serif",
+      },
+      colors: {
+        "purple-new": "#5B0EFF",
+        "yellow-new": "#DBFF00",
       },
     },
   },
