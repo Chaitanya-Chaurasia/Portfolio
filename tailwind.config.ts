@@ -13,6 +13,10 @@ const config: Config = {
       colors: {
         "purple-new": "#5B0EFF",
         "yellow-new": "#DBFF00",
+        neon: "#CAE815",
+        "green-new": "#2BEE6D",
+        "maroon-new": "#23022C",
+        "red-new": "#920808",
       },
     },
   },
