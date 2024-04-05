@@ -3,17 +3,22 @@ import Navbar from "./components/navbar";
 import profile from "@/public/profile.jpeg";
 import ellipse from "@/public/ellipse.svg";
 import pattern from "@/public/pattern.jpg";
+import github from "@/public/github.svg";
+import linkedin from "@/public/linkedin.svg";
+import devpost from "@/public/devpost.svg";
+import gmail from "@/public/gmail.svg";
+
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col lg:flex-row h-screen font-new-font w-full text-white overflow-hidden">
+    <main className="flex flex-col lg:flex-row h-screen font-new-font w-full text-white overflow-auto">
       <div className="bg-black flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start">
         <Image src={ellipse} alt="" className=" h-5 lg:mt-6" />
         <Image src={ellipse} alt="" className=" h-5" />
         <Image src={ellipse} alt="" className=" h-5" />
       </div>
-      <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-10 ">
+      <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20 ">
         <Navbar />
         <div className="flex flex-col ml-10">
           <span className="font-bold h-1">he/him</span>
@@ -70,7 +75,28 @@ export default function Home() {
           className="h-full w-full bg-cover bg-center"
         />
       </div>
-      <div className="bg-black flex-col flex-[0.2_0.2_0%]">5</div>
+      <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%]  p-0 items-center justify-center lg:items-center lg:justify-end">
+        <div className="flex flex-row lg:flex-col h-full ">
+          <div className="bg-gray-new lg:mt-20 flex items-center justify-center">
+            <Image src={github} alt="" height={40} />
+          </div>
+          <div className="bg-blue-new p-1 flex items-center justify-center">
+            <Image src={linkedin} alt="" height={30} />
+          </div>
+          <div className="bg-pink-new p-1 flex items-center justify-center">
+            <Image src={devpost} alt="" height={30} />
+          </div>
+          <div className="bg-white p-1 flex items-center justify-center">
+            <Image src={gmail} alt="" height={20} />
+          </div>
+        </div>
+        <div className="flex-1"></div>
+        <div className="flex flex-row lg:flex-col gap-0 lg:gap-1 p-1">
+          <Image src={ellipse} alt="" className=" h-5 " />
+          <Image src={ellipse} alt="" className=" h-5" />
+          <Image src={ellipse} alt="" className=" h-5 lg:mb-6" />
+        </div>
+      </div>
     </main>
   );
 }
