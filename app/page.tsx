@@ -18,24 +18,39 @@ export default function Home() {
         <Image src={ellipse} alt="" className=" h-5" />
         <Image src={ellipse} alt="" className=" h-5" />
       </div>
-      <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20 ">
+      <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20">
         <Navbar />
         <div className="flex flex-col ml-10">
           <span className="font-bold h-1">he/him</span>
-          <span className="text-[50px] h-12">Hey, I'm</span>
+          <span className="text-[50px] h-12">Hey,I'm</span>
           <span className="text-[50px] font-bold h-12">Chaitanya,</span>
-          <span className="text-[50px] flex flex-row gap-6 h-14">
+          <span className="text-[50px] flex flex-row gap-6">
             a
             <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text">
-              &lt;full stack/&gt;
+              &lt;full-stack/&gt;
             </span>
           </span>
           <span className="text-black text-[50px]">developer.</span>
           <hr className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-red-700" />
+
           <span className="text-[16px]">
-            building something sustainable for the
+            building something innovative & sustainable for the future!
           </span>
-          <span className="text-[16px]">future!</span>
+
+          <div className="flex flex-row h-full w-full mt-10">
+            <button className="bg-gray-new flex items-center justify-center hover:scale-125 transition-transform duration-300">
+              <Image src={github} alt="" height={40} />
+            </button>
+            <button className="bg-blue-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+              <Image src={linkedin} alt="" height={30} />
+            </button>
+            <button className="bg-pink-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+              <Image src={devpost} alt="" height={30} />
+            </button>
+            <button className="bg-white p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+              <Image src={gmail} alt="" height={20} />
+            </button>
+          </div>
         </div>
       </div>
       <div className="bg-yellow-new flex flex-col flex-[2.5_2.5_0%] items-center justify-start">
@@ -44,28 +59,26 @@ export default function Home() {
             <Image src={pattern} alt="me" className="" />
           </div>
           <div className="flex flex-col flex-[3_3_0%] text-black border-x border-t border-black px-10 w-full h-full text-[22px] items-left justify-center">
-            <span className="font-bold h-5">i'm a/an</span>
-            <span className="h-5">engineer,</span>
+            <span className="font-bold h-5">i'm</span>
+            <span className="h-5">an engineer,</span>
             <span className="h-5">curious,</span>
             <span className="h-5">creative,</span>
             <span className="h-5">passionate,</span>
-            <span className="font-bold h-5">footballer,</span>
+            <span className="font-bold h-5">a footballer,</span>
             <span className="h-5">love travelling,</span>
+
+            <span className="h-5">in tempe, az</span>
             <span className="flex flex-row gap-2 h-5">
+              <span className="font-bold">from</span>
+              <span className="font-bold">india,</span>
+            </span>
+            <span className="flex flex-row gap-2">
               <span className="font-bold">junior</span>
               <span>at</span>
               <span className="font-bold">arizona state,</span>
             </span>
-            <span className="h-5">in tempe, az</span>
-            <span className="flex flex-row gap-2 h-5">
-              <span className="font-bold">from</span>
-              <span className="font-bold">delhi,india,</span>
-            </span>
-            <span className="flex flex-col">
-              <span className="h-5">still learning</span>
-              <span className="font-bold">& exploring!</span>
-            </span>
           </div>
+          <div></div>
         </div>
       </div>
       <div className="flex-[3_3_0%]">
@@ -76,20 +89,6 @@ export default function Home() {
         />
       </div>
       <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%]  p-0 items-center justify-center lg:items-center lg:justify-end">
-        <div className="flex flex-row lg:flex-col h-full ">
-          <div className="bg-gray-new lg:mt-20 flex items-center justify-center">
-            <Image src={github} alt="" height={40} />
-          </div>
-          <div className="bg-blue-new p-1 flex items-center justify-center">
-            <Image src={linkedin} alt="" height={30} />
-          </div>
-          <div className="bg-pink-new p-1 flex items-center justify-center">
-            <Image src={devpost} alt="" height={30} />
-          </div>
-          <div className="bg-white p-1 flex items-center justify-center">
-            <Image src={gmail} alt="" height={20} />
-          </div>
-        </div>
         <div className="flex-1"></div>
         <div className="flex flex-row lg:flex-col gap-0 lg:gap-1 p-1">
           <Image src={ellipse} alt="" className=" h-5 " />
