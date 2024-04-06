@@ -26,8 +26,8 @@ export default function Home() {
           <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text text-[40px]">
             &lt;skills/&gt;
           </span>
-          <div className="flex flex-col flex-[3_3_0%] text-white border-x border-t border-white px-10 py-2 w-full h-full text-[16px] items-left justify-center mt-5 font-bold">
-            python, java, c++, swift <br />
+          <div className="flex flex-[3_3_0%] text-white border-x border-t border-white px-10 py-5 w-full h-full text-[16px] mt-5 font-bold flex-wrap gap-1">
+            {/* python, java, c++, swift <br />
             javascript, typescript
             <br /> html, scss, tailwind <br /> react.js, node.js, express.js
             <br />
@@ -44,6 +44,344 @@ export default function Home() {
             <br />
             machine learning & ai technologies
             <br />
+             */}
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-plain-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+
+            <div className="bg-white p-1 ">
+              {" "}
+              <Image
+                alt="logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
+                height={40}
+                width={40}
+              />
+            </div>
+            <br />
             <span className="font-bold text-[20px]">
               and always learning more!
             </span>
@@ -52,10 +390,6 @@ export default function Home() {
       </div>
 
       <div className="bg-yellow-new flex flex-col flex-[4_4_0%] items-center justify-start"></div>
-      {/* <div className="flex-[1.5_1.5_0%] h-full">
-        <Image src={profile2} alt="me" className="w-full h-full" />
-      </div> */}
-
       <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%]  p-0 items-center justify-center lg:items-center lg:justify-end">
         <div className="flex flex-row lg:flex-col h-full ">
           <div className="bg-gray-new lg:mt-20 flex items-center justify-center">
