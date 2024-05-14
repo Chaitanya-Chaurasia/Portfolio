@@ -1,417 +1,151 @@
 "use client";
 import Navbar from "../components/navbar";
-import profile2 from "@/public/profile2.jpeg";
-import ellipse from "@/public/ellipse.svg";
+import ellipse from "@/public/Ellipse 1.svg";
+import ellipse2 from "@/public/Ellipse 2.svg";
+import ellipse3 from "@/public/Ellipse 3.svg";
 import pattern from "@/public/pattern.jpg";
 import github from "@/public/github.svg";
 import linkedin from "@/public/linkedin.svg";
 import devpost from "@/public/devpost.svg";
 import gmail from "@/public/gmail.svg";
 
+// import "../../styles/project.css";
+import inc from "@/public/incognito.png";
+// import doc from "../../../public/doc.png";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import { Paper } from "@mui/material";
+import legalaid from "@/public/legalaid.png";
+import pattern2 from "@/public/pattern_white.svg";
 import Image from "next/image";
+
+const projects = [
+  {
+    name: "Legal AId",
+    loc: "HackHarvard 2023 Winner, Harvard University",
+    date: "October 22nd, 2023",
+    image: legalaid,
+    description:
+      "Got involved in an accident? Need help with insurance? Introducing Your New Generation Legal AI Chatbot- powered by Google Cloud!",
+    techstack:
+      "Python (Flask), React.js, Chakra UI, HTML, CSS, Google Vertex, GC PaLM, OAuth2, Firebase, Kubernetes Vector Search",
+    link: "https://github.com/Chaitanya-Chaurasia/LegalAid",
+  },
+  {
+    name: "Incognito",
+    loc: "TreeHacks, Stanford University",
+    image: inc,
+    date: "February 16th, 2024",
+    description:
+      "Unveiling digital vulnerability through facial recognition: Incognito puts control back in your hands.",
+    link: "https://devpost.com/software/icognito",
+    techstack:
+      "Python (Flask), React.js, Material UI, Selenium, VGG Facial Recognition Models, DeepFace Validation, Together.AI",
+  },
+
+  {
+    name: "WealthyWise",
+    loc: "HackPrinceton 2024 Winner, Princeton University",
+    date: "November 10th, 2023",
+    prize: true,
+    // image: doc,
+    description:
+      "Don't want to go to the embassy to submit your visa application? Use our application to securely transfer confidential information over blockchain!",
+    techstack:
+      "Javascript, React.js, Solidity, Material UI, Aleo for Blockchain Services, Tailwind CSS, Smart Contracts",
+    link: "https://github.com/Chaitanya-Chaurasia/HackPrinceton",
+  },
+];
 
 export default function Home() {
   return (
-    <main className="flex flex-col lg:flex-row h-screen font-new-font w-full text-white overflow-auto bg-black">
-      <div className="bg-black flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start">
+    <main className="flex flex-col lg:flex-row h-screen font-new-font w-full text-white overflow-hidden bg-black">
+      {/* <div className="bg-black flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start">
         <Image src={ellipse} alt="" className=" h-5 lg:mt-5" />
-        <Image src={ellipse} alt="" className=" h-5" />
-        <Image src={ellipse} alt="" className=" h-5" />
-      </div>
-      <div className="bg-purple-new flex flex-col flex-[2_2_0%] p-1 gap-2 ">
-        <Navbar />
-        <div className="flex flex-col px-10">
-          <span className="text-[40px] h-12">i specialize</span>
-          <span className="text-[40px] h-12">in the following</span>
-          <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text text-[40px]">
-            &lt;skills/&gt;
-          </span>
-          <div className="flex flex-[3_3_0%] text-white border-x border-t border-white px-10 py-5 w-full h-full text-[16px] mt-5 font-bold flex-wrap gap-1">
-            {/* python, java, c++, swift <br />
-            javascript, typescript
-            <br /> html, scss, tailwind <br /> react.js, node.js, express.js
-            <br />
-            flask, keras, opencv <br />
-            git, github <br />
-            postgres, mysql mongodb <br />
-            amazon web services <br />
-            google cloud
-            <br /> rest apis <br />
-            docker, linux <br />
-            software qa & testing- selenium, jUnit
-            <br />
-            product design & figma
-            <br />
-            machine learning & ai technologies
-            <br />
-             */}
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-plain-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-
-            <div className="bg-white p-1 ">
-              {" "}
-              <Image
-                alt="logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
-                height={40}
-                width={40}
-              />
-            </div>
-            <br />
-            <span className="font-bold text-[20px]">
-              and always learning more!
+        <Image src={ellipse2} alt="" className=" h-5" />
+        <Image src={ellipse3} alt="" className=" h-5" />
+      </div> */}
+      <div className="bg-black flex flex-col flex-[2_2_0%] gap-2 ">
+        <div className="flex-[0.2_0.2_0%]">
+          <Navbar />
+        </div>
+        <div className="flex flex-col px-10 py-10 flex-[0.9_0.9_0%]">
+          <span className="flex flex-col">
+            <span className="font-bold text-yellow-new text-transparent bg-clip-text text-[38px] h-10">
+              &lt;Skills/&gt;
             </span>
-          </div>
+            <span className="text-[37px] ">I have learnt over the years.</span>
+          </span>
         </div>
+        <span className="px-10 text-[15px]">
+          <span className="font-bold">Python</span>, React, Node, HTML, CSS,
+          Express, C++, Java, JavaScript, TypeScript, Next.js, SQL, AWS, Google
+          Cloud, Docker, Maven, Gradle, GraphQL, Rest API, Tailwind, Bootstrap,
+          Keras, Tensorflow, OpenCV, PyTorch, Git, Linux, JUnit, Figma, GSAP,
+          Swift, Firebase, Postman, FastAPI, Spline, GSAP, API Integrations,
+          Operating Systems, Multimedia Processing, Machine Learning and AI
+          Concepts, Data Structures & Algorithms!
+        </span>
+
+        <span className="flex-1 px-10 font-bold">
+          and always learning more!
+        </span>
       </div>
 
-      <div className="bg-yellow-new flex flex-col flex-[4_4_0%] items-center justify-start"></div>
-      <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%]  p-0 items-center justify-center lg:items-center lg:justify-end">
-        <div className="flex flex-row lg:flex-col h-full ">
-          <div className="bg-gray-new lg:mt-20 flex items-center justify-center">
-            <Image src={github} alt="" height={40} />
-          </div>
-          <div className="bg-blue-new p-1 flex items-center justify-center">
-            <Image src={linkedin} alt="" height={30} />
-          </div>
-          <div className="bg-pink-new p-1 flex items-center justify-center">
-            <Image src={devpost} alt="" height={30} />
-          </div>
-          <div className="bg-white p-1 flex items-center justify-center">
-            <Image src={gmail} alt="" height={20} />
-          </div>
-        </div>
-        <div className="flex-1"></div>
+      <div className="bg-white flex flex-col flex-[4_4_0%] text-black w-full overflow-scroll gap-2 p-2">
+        {projects.map((project, index) => {
+          return (
+            <div
+              className="flex-1 flex flex-col p-4 gap-2 mb-0 rounded-3xl"
+              key={index}
+              style={{
+                height: "100%",
+              }}
+            >
+              <div className="flex flex-row items-center">
+                <span className="font-bold text-[40px] ">{project.name}</span>
+                <div className="flex-1" />
+                <a href={project.link}>
+                  <Image
+                    src={github}
+                    alt=""
+                    height={30}
+                    className="hover:scale-125 transition-transform duration-300"
+                  />
+                </a>
+              </div>
+
+              <span className="text-[15px] font-bold">{project.loc}</span>
+              {/* <Image src={project.image} alt="" /> */}
+
+              <span className="text-[25px] font-bold">
+                {project.description}
+              </span>
+              <span className="text-[15px]">
+                <ul>
+                  <li>
+                    Ask any problem related to state or federal law. Get
+                    recommended actions, and closest help centers including law
+                    firms, rehab centers, hospitals etc.
+                  </li>
+                </ul>
+                <span className="font-bold text-[15px]">
+                  Developed with {project.techstack}
+                </span>
+              </span>
+
+              <hr className=" border-black border-2" />
+            </div>
+          );
+        })}
+      </div>
+
+      {/* <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%]  p-0 items-center justify-center lg:items-center lg:justify-end">
         <div className="flex flex-row lg:flex-col gap-0 lg:gap-1 p-1">
-          <Image src={ellipse} alt="" className=" h-5 " />
-          <Image src={ellipse} alt="" className=" h-5" />
+          <Image src={ellipse3} alt="" className=" h-5 " />
+          <Image src={ellipse2} alt="" className=" h-5" />
           <Image src={ellipse} alt="" className=" h-5 lg:mb-6" />
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }

@@ -1,7 +1,10 @@
 "use client";
 import Navbar from "./components/navbar";
 import profile from "@/public/profile.jpeg";
-import ellipse from "@/public/ellipse.svg";
+import ellipse from "@/public/Ellipse 1.svg";
+import ellipse2 from "@/public/Ellipse 2.svg";
+import ellipse3 from "@/public/Ellipse 3.svg";
+
 import pattern from "@/public/pattern.jpg";
 import github from "@/public/github.svg";
 import linkedin from "@/public/linkedin.svg";
@@ -12,11 +15,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col lg:flex-row h-screen font-new-font w-full text-white overflow-auto">
+    <main className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-white overflow-hidden">
       <div className="bg-black flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start">
         <Image src={ellipse} alt="" className=" h-5 lg:mt-5" />
-        <Image src={ellipse} alt="" className=" h-5" />
-        <Image src={ellipse} alt="" className=" h-5" />
+        <Image src={ellipse2} alt="" className=" h-5" />
+        <Image src={ellipse3} alt="" className=" h-5" />
       </div>
       <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20">
         <Navbar />
@@ -87,12 +90,13 @@ export default function Home() {
           alt="me"
           className="h-full w-full bg-cover bg-center"
         />
+        n
       </div>
       <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%]  p-0 items-center justify-center lg:items-center lg:justify-end">
         <div className="flex-1"></div>
         <div className="flex flex-row lg:flex-col gap-0 lg:gap-1 p-1">
-          <Image src={ellipse} alt="" className=" h-5 " />
-          <Image src={ellipse} alt="" className=" h-5" />
+          <Image src={ellipse3} alt="" className=" h-5 " />
+          <Image src={ellipse2} alt="" className=" h-5" />
           <Image src={ellipse} alt="" className=" h-5 lg:mb-6" />
         </div>
       </div>
