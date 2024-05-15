@@ -115,14 +115,11 @@ export default function Home() {
             As an engineer, I always strive to learn as much as possible. Given
             how dynamic the field is, I need to be requipped with the latest
             technology out in the market- be it the modern age AI or traditional
-            operating systems!
+            operating systems! Below are some skills I've picked up that make
+            development easy for me.
           </span>
         </div>
         <div className="flex flex-col border-l-8 border-b p-10">
-          <span className="text-[20px] p-10">
-            Skills that make development easy for me:
-          </span>
-
           <div className="p-10 flex flex-col lg:flex-row">
             <div className="border p-10">
               <span className="font-bold">Frontend Development</span>
@@ -179,7 +176,159 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <section className="flex flex-col min-h-screen font-new-font w-screen bg-black"></section> */}
+      <section className="flex flex-col min-h-screen font-new-font w-screen bg-white gap-20 p-10 text-black">
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
+
+          <div className="flex-[4_4_0%]">
+            <span className="text-[100px]">My Work Experience</span>
+          </div>
+
+          <div className="bg-yellow-400 flex lg:flex-col flex-row flex-[0.5_0.5_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-20" />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col lg:flex-row gap-5">
+            <div className="p-10 border flex flex-1 flex-col gap-2">
+              <span className="text-[20px] font-bold">
+                Incoming Embedded Systems SWE Intern @ IDEXX Laboratories
+              </span>
+              <span>Portland, Maine, United States</span>
+              <hr />
+
+              <span>
+                This summer, I will be working on building software for the
+                various in-house analyzers that IDEXX is developing, such as the
+                ProCyteX, and in the process, discover my creative side & of
+                course, learn a lot!
+                <br />
+                <br />
+                Through this tenure, I'll be using technologies such as{" "}
+                <span className="font-bold">
+                  C, C++, Python, JavaScript, Lua and Linux
+                </span>
+                .
+              </span>
+            </div>
+            <div className="p-10 border flex flex-1 flex-col gap-2">
+              <span className="text-[20px] font-bold">
+                Undergraduate Teaching Assistant @ Arizona State University
+              </span>
+              <hr />
+              <span>
+                So, I'm a teaching assistant for two classes:{" "}
+                <span className="font-bold">
+                  Intro to Software Development (CSE360) and Game Development
+                  (CPI111)
+                </span>
+                . My job is to make sure students get the hang of the stuff
+                without feeling overwhelmed. Basically, I'm here to make sure
+                students stay engaged and interested in what they're learning!
+                CSE360 introduces students to{" "}
+                <span className="font-bold">
+                  Agile software development stages,
+                </span>
+                employing tools such as{" "}
+                <span className="font-bold">
+                  Java, JavaFX GUI, Astah, JUnit, and client documentation
+                  practices{" "}
+                </span>
+                . Conversely, Game Development focuses on 2-D game creation
+                using <span className="font-bold">Gamemaker Studio </span>,
+                equipping students with practical skills in game design and
+                implementation.
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-row gap-5">
+            <div className="p-10 border flex flex-1 flex-col gap-2">
+              <span className="text-[20px] font-extrabold">
+                Machine Learning & AI Intern @ Indian Institute of Technology
+                (IIT)
+              </span>
+              <hr />
+              <span>
+                So, imagine you have a bunch of electric towers distributing
+                power. Now, what if I told you that we could actually make the
+                whole system work better by changing things up a bit? Here's the
+                deal: we looked at all the{" "}
+                <span className="font-bold">different factors </span>
+                that go into running these systems, like{" "}
+                <span className="font-bold">
+                  how much energy they produce, how much it costs, and how much
+                  pollution they create
+                </span>
+                .
+                <br />
+                <br />
+                By messing around with more than 10 such parameters, such as the
+                size & the type of the power plants, we managed to make
+                everything work way more efficiently. And we didn't just stop
+                there - we also made sure to consider things like environmental
+                impact and cost-effectiveness. To make all this happen, we used
+                <span className="font-bold">
+                  {" "}
+                  Graph algorithms, Clustering, Machine Learning, Python scripts
+                  and data visualization{" "}
+                </span>
+                to write code that analyzed the network of electric towers and
+                figured out the best way to optimize everything. And the result?
+                A more sustainable and cost-effective way of powering Kenya and
+                Great Britain's homes and businesses with upto{" "}
+                <span className="font-bold"> 25% efficiency.</span>
+              </span>
+            </div>
+            <div className="p-10 border flex flex-1 flex-col gap-2">
+              <span className="text-[20px] font-bold">
+                Data Science Intern @ Intuicomp Terascience
+              </span>
+              <span>Gurugram, India</span>
+
+              <hr />
+              <span>
+                What if I told you that code can help make
+                <span className="font-bold"> medicines better</span>? Yeah, you
+                heard it! I worked with a team to develop really smart models
+                that can predict how strong certain drugs will be over time. By
+                doing this, we've been able to make more drugs faster, which is
+                pretty cool. Utilizing{" "}
+                <span className="font-bold">Apache Spark and Python </span> for{" "}
+                <span className="font-bold">big data analytics, </span>I
+                contributed to{" "}
+                <span className="font-bold">
+                  biomedical computational sciences
+                </span>{" "}
+                with a goal of augmenting pharmaceutical industry productions by
+                33%. Collaborating within an agile team , our efforts were
+                directed towards the development of
+                <span className="font-bold">
+                  {" "}
+                  multiple polynomial regression models
+                </span>
+                . These models were instrumental in accurately forecasting the
+                potency of time-releasing drugs with an{" "}
+                <span className="font-bold">
+                  impressive precision rate of 87%
+                </span>
+                , resulting in an upscale in pharmaceutical productions by up to
+                1.5 times. Furthermore, I used data science libraries such as
+                <span className="font-bold">
+                  {" "}
+                  Numpy, Pandas and Scikit Learn{" "}
+                </span>{" "}
+                to analyse and extract valuable insights pertaining to
+                <span className="font-bold">
+                  {" "}
+                  five distinct pharmaceutical properties of Divalproex and
+                  Quetiapine{" "}
+                </span>
+                . These insights hold significant implications and hence,
+                reinforcing the bridge between computational sciences and
+                biomedicine.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
