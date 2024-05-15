@@ -100,25 +100,86 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col min-h-screen font-new-font w-screen bg-black text-white text-center p-10 border-r-4 border-b-2 border-white">
-        <div className="flex flex-row items-center border-r-4 border-t-2">
+      <section className="flex flex-col min-h-screen font-new-font w-screen bg-black text-white p-10">
+        <div className="flex flex-col lg:flex-row items-center border-r-8 border-t">
           <div className="flex-1">
             {" "}
             <Image src={pat} alt="" />
           </div>
           <span className="text-[100px] font-bold text-center p-10 flex-1">
             <span>believe. </span>
-            <span>create. </span>
+            <span>engineer. </span>
             <span>inspire.</span>
           </span>
-          <span className="text-left w-80 p-10">
+          <span className="text-center w-80 p-10 flex-1">
             As an engineer, I always strive to learn as much as possible. Given
             how dynamic the field is, I need to be requipped with the latest
-            technology out in the market- be it the modern age AI or the
-            traditional operating systems!
+            technology out in the market- be it the modern age AI or traditional
+            operating systems!
           </span>
         </div>
+        <div className="flex flex-col border-l-8 border-b p-10">
+          <span className="text-[20px] p-10">
+            Skills that make development easy for me:
+          </span>
+
+          <div className="p-10 flex flex-col lg:flex-row">
+            <div className="border p-10">
+              <span className="font-bold">Frontend Development</span>
+              <span>
+                <ul>
+                  <li>HTML5 SCSS & CSS3</li>
+                  <li>Tailwind JSX</li>
+                  <li>Bootstrap RadixUI</li>
+                  <li>MaterialUI ShadCN</li>
+                </ul>
+                <span>and yes, I can center a div ;p</span>
+              </span>
+            </div>
+            <div className="border p-10">
+              <span className="font-bold"> Backend Development </span>
+              <span>
+                <ul>
+                  <li>Python(Flask) Java</li>
+                  <li>Node.js Express React</li>
+                  <li> C C++ RESTful APIs</li>
+                  <li>PostreSQL MongoDB</li>
+                  <li>MySQL</li>
+                </ul>
+              </span>
+            </div>
+            <div className="border p-10">
+              <span className="font-bold"> Tools and Services</span>
+              <span>
+                <ul>
+                  <li>Amazon Web Services</li>
+                  <li>Google Developer Cloud</li>
+                  <li>Git Docker Maven Jira</li>
+                  <li>Gradle Git Github</li>
+                  <li>Visual Studio Figma</li>
+                  <li>Scikit-learn OpenCV Tensorflow</li>
+                </ul>
+              </span>
+            </div>
+            <div className="border p-10">
+              <span className="font-bold">
+                {" "}
+                My areas of expertise and interest
+              </span>
+              <span>
+                <ul>
+                  <li>Machine Learning</li>
+                  <li>Artificial Intelligence</li>
+                  <li>Image & Audio Processing</li>
+                  <li>Full-Stack Development</li>
+                  <li>Decentralized Applications(Web3)</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
       </section>
+      {/* <section className="flex flex-col min-h-screen font-new-font w-screen bg-black"></section> */}
     </main>
   );
 }
