@@ -4,25 +4,50 @@ import profile from "@/public/profile.jpeg";
 import ellipse from "@/public/Ellipse.svg";
 import ellipse2 from "@/public/Ellipse 2.svg";
 import ellipse3 from "@/public/Ellipse 3.svg";
-
+import mesh from "@/public/mesh.jpg";
 import pattern from "@/public/pattern.jpg";
+import pat from "@/public/pattern.gif";
 import github from "@/public/github.svg";
 import linkedin from "@/public/linkedin.svg";
 import devpost from "@/public/devpost.svg";
 import gmail from "@/public/gmail.svg";
-import pat from "@/public/pattern.gif";
 import Image from "next/image";
-import { ArrowOutward, Download, LinkedIn } from "@mui/icons-material";
+
+import legalaid from "@/public/legalaid.png";
+import inc from "@/public/incognito.png";
+
+import { ArrowOutward, Download, GitHub, LinkedIn } from "@mui/icons-material";
+
+const projects = [
+  {
+    name: "LegalAId",
+    desc: "Stuck in an accident? Can't get your insurance claim? Introducing Your New Generation Legal AI Chatbot- powered by Google Cloud! Just type it in and leave it to LegalAId!",
+    prize: "HackHarvard 2023 Winner- Best Use of Google Cloud.",
+    link: "https://github.com/Chaitanya-Chaurasia/LegalAid",
+  },
+  {
+    name: "Incognito",
+    desc: "Unveiling digital vulnerability through facial recognition: Incognito puts control back in your hands.",
+    prize: "Built @ TreeHacks 2024, Stanford University",
+    link: "https://devpost.com/software/icognito",
+  },
+  {
+    name: "WealthWise",
+    desc: "Tired of overspending? Need to achieve financial freedom but don't know how to? Presenting WealthWise, a new gen AI  webapp that secures your future!",
+    prize: "HackPrinceton 2024 Winner- Most Innovative Use of Verbwire.",
+    link: "https://github.com/Chaitanya-Chaurasia/WealthWise",
+  },
+  {
+    name: "BobaBrain",
+    desc: "Exams are approaching? Stressed and need an AI teacher? Presenting BobaBrain, the new age AI professor! Upload your course notes and videos, and ask about anything. What's more- flashcards, AI Summary & Mind Maps!",
+    prize: "Upcoming Startup. Check it out at bobabrain.ai.",
+  },
+];
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden">
-      <section className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-white overflow-hidden">
-        <div className="bg-black flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start">
-          {/* <Image src={ellipse} alt="" className=" h-5 lg:mt-5" />
-        <Image src={ellipse2} alt="" className=" h-5" />
-        <Image src={ellipse3} alt="" className=" h-5" /> */}
-        </div>
+      <section className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-white overflow-hidden bg-black">
         <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20">
           <Navbar />
           <div className="flex flex-col ml-10 ">
@@ -93,29 +118,22 @@ export default function Home() {
             className="h-full w-full bg-cover bg-center"
           />
         </div>
-        <div className="bg-black flex lg:flex-col flex-row flex-[0.2_0.2_0%] p-0 items-center justify-center lg:items-center lg:justify-end">
-          <div className="flex flex-row lg:flex-col gap-0 lg:gap-1 p-1">
-            <Image src={ellipse3} alt="" className=" h-5 " />
-            <Image src={ellipse2} alt="" className=" h-5" />
-            <Image src={ellipse} alt="" className=" h-5 lg:mb-6" />
-          </div>
-        </div>
       </section>
-      <section className="flex flex-col min-h-screen font-new-font w-screen bg-black text-white p-10">
+      <section className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10">
         <div className="flex flex-col items-center border-r-8 border-t">
-          <span className="text-[130px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-40">
+          <span className="text-[130px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
             <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
               <rect
                 width="400"
                 height="50"
                 x="0"
                 y="50"
-                className="fill-emerald-400"
+                className="fill-pink-400"
               />
             </svg>{" "}
             <span className="flex flex-col lg:flex-row">
               {" "}
-              <span className="font-bold">believe.</span>
+              <span className="font-bold"> believe. </span>
               <span>engineer. </span>
             </span>
             <span className="flex flex-col lg:flex-row">
@@ -141,7 +159,7 @@ export default function Home() {
             development easy for me.
           </span>
         </div>
-        <div className="flex flex-col border-l-8 border-b p-10">
+        <div className="flex flex-col border-l-8 border-b p-10 w-full items-center justify-center">
           <div className="p-10 flex flex-col lg:flex-row">
             <div className="border p-10">
               <span className="font-bold">Frontend Development</span>
@@ -159,7 +177,7 @@ export default function Home() {
               <span className="font-bold"> Backend Development </span>
               <span>
                 <ul>
-                  <li>Python(Flask) Java</li>
+                  <li>Python (Flask) Java</li>
                   <li>Node.js Express React</li>
                   <li> C C++ RESTful APIs</li>
                   <li>PostreSQL MongoDB</li>
@@ -171,11 +189,11 @@ export default function Home() {
               <span className="font-bold"> Tools and Services</span>
               <span>
                 <ul>
-                  <li>Amazon Web Services</li>
+                  <li>AWS (Amazon Web Services)</li>
                   <li>Google Developer Cloud</li>
                   <li>Git Docker Maven Jira</li>
                   <li>Gradle Git Github</li>
-                  <li>Visual Studio Figma PyTorch</li>
+                  <li>Visual-Studio Figma PyTorch</li>
                   <li>Scikit-learn OpenCV Tensorflow</li>
                 </ul>
               </span>
@@ -198,6 +216,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="flex flex-col min-h-screen font-new-font w-screen bg-white gap-20 p-10 text-black">
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
@@ -365,6 +384,41 @@ export default function Home() {
               <Download />
             </span>
           </div>
+        </div>
+      </section>
+      <section className="flex flex-col min-h-screen font-new-font w-screen items-center text-black bg-green-100">
+        <div className=" text-[120px] w-full flex flex-row items-center justify-center text-center gap-5">
+          <Image src={pat} alt="animation" />
+          <span className="flex flex-col">
+            <span>Projects</span>
+            <span className="text-[20px]">
+              The best way to learn is to do it yourself!
+            </span>
+          </span>
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-2 p-4">
+          {projects.map((p) => {
+            return (
+              <div className="flex flex-col gap-2 border-black border-2 p-4 w-full">
+                {/* <Image src={legalaid} alt="" className="rounded-sm h-44 w-80" /> */}
+                <span className="text-[40px] font-bold">{p.name}</span>
+                <hr className="border-2 border-black" />
+                <span className="text-[20px]">{p.desc}</span>
+                <span>{p.prize}</span>
+                {p.name !== "BobaBrain" && (
+                  <span className="flex items-center gap-2">
+                    Check it out at{" "}
+                    <a href={p.link} className="underline">
+                      Github
+                      <ArrowOutward className="w-4 h-3" />
+                    </a>{" "}
+                    <GitHub />
+                  </span>
+                )}
+              </div>
+            );
+          })}
         </div>
       </section>
     </main>
