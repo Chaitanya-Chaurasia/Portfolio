@@ -102,12 +102,17 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col min-h-screen font-new-font w-screen bg-black text-white p-10">
-        <div className="flex flex-col  items-center border-r-8 border-t">
-          <div className="flex-1">
-            {" "}
-            <Image src={pat} alt="" />
-          </div>
-          <span className="text-[100px] text-center p-10 flex-1 bg-gradient-to-b from-red-500 via-green-400 to-purple-500 text-transparent bg-clip-text flex flex-col">
+        <div className="flex flex-col items-center border-r-8 border-t">
+          <span className="text-[130px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-40">
+            <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                width="400"
+                height="50"
+                x="0"
+                y="50"
+                className="fill-emerald-400"
+              />
+            </svg>{" "}
             <span className="flex flex-col lg:flex-row">
               {" "}
               <span className="font-bold">believe.</span>
@@ -118,10 +123,19 @@ export default function Home() {
               <span>inspire.</span>
               <span className="font-bold">innovate.</span>
             </span>
+            <svg width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                width="100%"
+                height="20"
+                x="0"
+                y="50"
+                className="fill-yellow-400"
+              />
+            </svg>{" "}
           </span>
-          <span className="text-center p-10 flex-1">
+          <span className="text-center text-[15px] font-bold p-10 flex-1">
             As an engineer, I always strive to learn as much as possible. Given
-            how dynamic the field is, I need to be requipped with the latest
+            how dynamic the field is, I need to be equipped with the latest
             technology out in the market- be it the modern age AI or traditional
             operating systems! Below are some skills I've picked up that make
             development easy for me.
@@ -301,29 +315,28 @@ export default function Home() {
                 pretty cool. Utilizing{" "}
                 <span className="font-bold">Apache Spark and Python </span> for{" "}
                 <span className="font-bold">big data analytics, </span>I
-                contributed to{" "}
-                <span className="font-bold">
-                  biomedical computational sciences
-                </span>{" "}
-                with a goal of augmenting pharmaceutical industry productions by
-                33%. Collaborating within an agile team , our efforts were
-                directed towards the development of
+                contributed to the goal of augmenting pharmaceutical industry
+                productions by 33%. Collaborating within an agile team , our
+                efforts were directed towards the development of
                 <span className="font-bold">
                   {" "}
                   multiple polynomial regression models
                 </span>
-                . These models were instrumental in accurately forecasting the
+                .
+                <br />
+                <br />
+                These models were instrumental in accurately forecasting the
                 potency of time-releasing drugs with an{" "}
                 <span className="font-bold">
                   impressive precision rate of 87%
                 </span>
                 , resulting in an upscale in pharmaceutical productions by up to
-                1.5 times. Furthermore, I used data science libraries such as
+                1.5 times. I used data science libraries such as
                 <span className="font-bold">
                   {" "}
                   Numpy, Pandas and Scikit Learn{" "}
                 </span>{" "}
-                to analyse and extract valuable insights pertaining to
+                to analyse
                 <span className="font-bold">
                   {" "}
                   five distinct pharmaceutical properties of Divalproex and
