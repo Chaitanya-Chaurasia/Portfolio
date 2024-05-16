@@ -1,7 +1,7 @@
 "use client";
 import Navbar from "./components/navbar";
 import profile from "@/public/profile.jpeg";
-import ellipse from "@/public/Ellipse 1.svg";
+import ellipse from "@/public/Ellipse.svg";
 import ellipse2 from "@/public/Ellipse 2.svg";
 import ellipse3 from "@/public/Ellipse 3.svg";
 
@@ -12,6 +12,7 @@ import devpost from "@/public/devpost.svg";
 import gmail from "@/public/gmail.svg";
 import pat from "@/public/pattern.gif";
 import Image from "next/image";
+import { ArrowOutward, Download, LinkedIn } from "@mui/icons-material";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         </div>
         <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20">
           <Navbar />
-          <div className="flex flex-col ml-10">
+          <div className="flex flex-col ml-10 ">
             <span className="font-bold h-1">he/him</span>
             <span className="text-[50px] h-12">Hey,I'm</span>
             <span className="text-[50px] font-bold h-12">Chaitanya,</span>
@@ -101,17 +102,24 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col min-h-screen font-new-font w-screen bg-black text-white p-10">
-        <div className="flex flex-col lg:flex-row items-center border-r-8 border-t">
+        <div className="flex flex-col  items-center border-r-8 border-t">
           <div className="flex-1">
             {" "}
             <Image src={pat} alt="" />
           </div>
-          <span className="text-[100px] font-bold text-center p-10 flex-1">
-            <span>believe. </span>
-            <span>engineer. </span>
-            <span>inspire.</span>
+          <span className="text-[100px] text-center p-10 flex-1 bg-gradient-to-b from-red-500 via-green-400 to-purple-500 text-transparent bg-clip-text flex flex-col">
+            <span className="flex flex-col lg:flex-row">
+              {" "}
+              <span className="font-bold">believe.</span>
+              <span>engineer. </span>
+            </span>
+            <span className="flex flex-col lg:flex-row">
+              {" "}
+              <span>inspire.</span>
+              <span className="font-bold">innovate.</span>
+            </span>
           </span>
-          <span className="text-center w-80 p-10 flex-1">
+          <span className="text-center p-10 flex-1">
             As an engineer, I always strive to learn as much as possible. Given
             how dynamic the field is, I need to be requipped with the latest
             technology out in the market- be it the modern age AI or traditional
@@ -153,7 +161,7 @@ export default function Home() {
                   <li>Google Developer Cloud</li>
                   <li>Git Docker Maven Jira</li>
                   <li>Gradle Git Github</li>
-                  <li>Visual Studio Figma</li>
+                  <li>Visual Studio Figma PyTorch</li>
                   <li>Scikit-learn OpenCV Tensorflow</li>
                 </ul>
               </span>
@@ -180,8 +188,8 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
 
-          <div className="flex-[4_4_0%]">
-            <span className="text-[100px]">My Work Experience</span>
+          <div className="flex-[4_4_0%] flex flex-col border-l-8 p-0 border-blue-200">
+            <span className="text-[100px] ml-10">My Work Experience</span>
           </div>
 
           <div className="bg-yellow-400 flex lg:flex-col flex-row flex-[0.5_0.5_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-20" />
@@ -202,7 +210,7 @@ export default function Home() {
                 course, learn a lot!
                 <br />
                 <br />
-                Through this tenure, I'll be using technologies such as{" "}
+                Through my tenure, I'll be using technologies such as{" "}
                 <span className="font-bold">
                   C, C++, Python, JavaScript, Lua and Linux
                 </span>
@@ -239,11 +247,11 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-col lg:flex-row gap-5">
             <div className="p-10 border flex flex-1 flex-col gap-2">
               <span className="text-[20px] font-extrabold">
                 Machine Learning & AI Intern @ Indian Institute of Technology
-                (IIT)
+                (IIT Delhi)
               </span>
               <hr />
               <span>
@@ -326,6 +334,23 @@ export default function Home() {
                 biomedicine.
               </span>
             </div>
+          </div>
+          <div className="flex flex-row">
+            <span className="flex-1 flex items-center gap-2">
+              <LinkedIn />
+              Check out more on my
+              <a
+                href="https://www.linkedin.com/in/chai-t"
+                className="underline"
+              >
+                LinkedIn
+                <ArrowOutward className="w-4 h-3" />
+              </a>
+            </span>
+            <span className="flex items-center gap-2">
+              My Resume
+              <Download />
+            </span>
           </div>
         </div>
       </section>
