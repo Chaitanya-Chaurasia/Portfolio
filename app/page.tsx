@@ -127,7 +127,7 @@ export default function Home() {
       </section>
       <section className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10">
         <div className="flex flex-col items-center border-r-8 border-t">
-          <span className="text-[130px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
+          <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
             <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
               <rect
                 width="400"
@@ -223,7 +223,7 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black"
+        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black p-2"
         style={{
           backgroundImage: `url(${mesh.src})`,
           backgroundPosition: "center",
@@ -443,6 +443,10 @@ export default function Home() {
             </span>
           </div>
         </div>
+      </section>
+
+      <section className="flex flex-col items-center font-new-font w-screen bg-black gap-20 p-10 text-white">
+        &copy; Chaitanya Chaurasia, 2024
       </section>
     </main>
   );
