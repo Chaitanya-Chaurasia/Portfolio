@@ -151,12 +151,12 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <span className="flex flex-col lg:flex-row">
+            <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
               {" "}
               <span className="font-bold"> believe. </span>
               <span>engineer. </span>
             </span>
-            <span className="flex flex-col lg:flex-row">
+            <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
               {" "}
               <span>inspire.</span>
               <span className="font-bold">innovate.</span>
@@ -167,7 +167,7 @@ export default function Home() {
                 height="20"
                 x="0"
                 y="50"
-                className="fill-green-400"
+                className="fill-green-400 hidden md:flex"
               />
             </svg>{" "}
           </span>
@@ -246,10 +246,10 @@ export default function Home() {
           backgroundSize: "cover",
         }}
       >
-        <div className=" text-[120px] w-full flex flex-col lg:flex-row items-center justify-center text-center gap-5 ">
+        <div className=" w-full flex flex-col lg:flex-row items-center justify-center text-center gap-5 ">
           <Image src={pat} alt="animation" />
           <span className="flex flex-col items-center justify-center gap-5">
-            <span>Projects</span>
+            <span className="text-[400%] lg:text-[120px]">Projects</span>
             <span className="text-[20px]">
               The best way to learn is to do it yourself!
             </span>
@@ -302,7 +302,9 @@ export default function Home() {
           <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
 
           <div className="flex-[4_4_0%] flex flex-col border-l-8 p-0 border-blue-200">
-            <span className="text-[100px] ml-10">My Work Experience</span>
+            <span className="text-[300%] lg:text-[100px] ml-10 break-words">
+              Work Experience
+            </span>
           </div>
 
           <div className="bg-yellow-400 flex lg:flex-col flex-row flex-[0.5_0.5_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-20" />
@@ -448,7 +450,7 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="flex flex-row">
+          <div className="flex flex-col lg:flex-row items-center text-center">
             <span className="flex-1 flex items-center gap-2">
               <LinkedIn />
               Check out more on my
@@ -473,7 +475,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center font-new-font w-screen bg-black gap-5 p-10 text-white">
+      <section className="flex flex-col items-center font-new-font w-screen bg-black gap-5 p-10 text-white text-center">
         {/* <span className="text-[20px]">
           Keep an eye out for more on this website in near future!
         </span> */}
