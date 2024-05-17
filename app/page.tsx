@@ -30,7 +30,7 @@ const projects = [
   },
   {
     name: "Incognito",
-    desc: "Unveiling digital vulnerability through facial recognition: Incognito puts control back in your hands.",
+    desc: "Unveiling digital vulnerability through facial recognition: Incognito puts control back in your hands. Scrape the entire web for all your public information, and choose where to display what!",
     prize: "Built @ TreeHacks 2024, Stanford University",
     link: "https://devpost.com/software/icognito",
     pic: inc,
@@ -128,15 +128,26 @@ export default function Home() {
       <section className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10">
         <div className="flex flex-col items-center border-r-8 border-t">
           <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
-            <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
-              <rect
-                width="400"
-                height="50"
-                x="0"
-                y="50"
-                className="fill-pink-400"
-              />
-            </svg>{" "}
+            <div className="flex flex-row">
+              <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
+                <rect
+                  width="350"
+                  height="50"
+                  x="0"
+                  y="50"
+                  className="fill-pink-400"
+                />
+              </svg>
+              <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
+                <rect
+                  width="150"
+                  height="50"
+                  x="0"
+                  y="50"
+                  className="fill-cyan-400"
+                />
+              </svg>
+            </div>
             <span className="flex flex-col lg:flex-row">
               {" "}
               <span className="font-bold"> believe. </span>
@@ -223,11 +234,12 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black p-2"
+        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black"
         style={{
           backgroundImage: `url(${mesh.src})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
         <div className=" text-[120px] w-full flex flex-col lg:flex-row items-center justify-center text-center gap-5 ">
@@ -445,8 +457,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center font-new-font w-screen bg-black gap-20 p-10 text-white">
-        &copy; Chaitanya Chaurasia, 2024
+      <section className="flex flex-col items-center font-new-font w-screen bg-black gap-5 p-10 text-white">
+        <span className="text-[20px]">
+          Keep an eye out for more on this website in near future!
+        </span>
+        <span className="font-bold"> &copy; Chaitanya Chaurasia, 2024</span>
       </section>
     </main>
   );
