@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ParticlesContainer from "./components/particles";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
