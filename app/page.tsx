@@ -153,7 +153,7 @@ export default function Home() {
                 height="20"
                 x="0"
                 y="50"
-                className="fill-yellow-400"
+                className="fill-green-400"
               />
             </svg>{" "}
           </span>
