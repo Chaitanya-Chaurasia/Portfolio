@@ -253,6 +253,7 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/chai-t"
                   className="underline"
+                  target="_blank"
                 >
                   GitHub
                   <ArrowOutward className="w-4 h-3" />
@@ -272,7 +273,7 @@ export default function Home() {
                 {p.name !== "BobaBrain" && (
                   <span className="flex items-center gap-2">
                     Check it out at{" "}
-                    <a href={p.link} className="underline">
+                    <a href={p.link} className="underline" target="_blank">
                       Github
                       <ArrowOutward className="w-4 h-3" />
                     </a>{" "}
@@ -441,6 +442,7 @@ export default function Home() {
               <a
                 href="https://www.linkedin.com/in/chai-t"
                 className="underline"
+                target="_blank"
               >
                 LinkedIn
                 <ArrowOutward className="w-4 h-3" />
@@ -449,6 +451,7 @@ export default function Home() {
             <a
               className="flex items-center underline"
               href="https://drive.google.com/file/d/1ldfqf3Q-u3-XBxsKa5mNNJIXCOIoXjvL/view?usp=sharing"
+              target="_blank"
             >
               My Resume
               <ArrowOutward className="w-4 h-3" />
