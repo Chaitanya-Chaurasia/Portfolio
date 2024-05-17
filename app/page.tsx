@@ -49,7 +49,10 @@ const projects = [
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden">
-      <section className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-white overflow-hidden bg-black">
+      <section
+        className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-white overflow-hidden bg-black"
+        id="home"
+      >
         <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20">
           <Navbar />
           <div className="flex flex-col ml-10 ">
@@ -122,7 +125,10 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10">
+      <section
+        className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10"
+        id="skills"
+      >
         <div className="flex flex-col items-center border-r-8 border-t">
           <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
             <div className="flex flex-row">
@@ -232,6 +238,7 @@ export default function Home() {
       </section>
       <section
         className="flex flex-col min-h-screen font-new-font w-screen items-center text-black "
+        id="projects"
         style={{
           backgroundImage: `url(${mesh.src})`,
           backgroundPosition: "center",
@@ -285,7 +292,10 @@ export default function Home() {
           })}
         </div>
       </section>
-      <section className="flex flex-col min-h-screen font-new-font w-screen bg-white gap-20 p-10 text-black">
+      <section
+        className="flex flex-col min-h-screen font-new-font w-screen bg-white gap-20 p-10 text-black"
+        id="work"
+      >
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
 
