@@ -1,9 +1,6 @@
 "use client";
 import Navbar from "./components/navbar";
 import profile from "@/public/profile.jpeg";
-import ellipse from "@/public/Ellipse.svg";
-import ellipse2 from "@/public/Ellipse 2.svg";
-import ellipse3 from "@/public/Ellipse 3.svg";
 import mesh from "@/public/mesh.svg";
 import pattern from "@/public/pattern.jpg";
 import pat from "@/public/pattern.gif";
@@ -12,7 +9,6 @@ import linkedin from "@/public/linkedin.svg";
 import devpost from "@/public/devpost.svg";
 import gmail from "@/public/gmail.svg";
 import Image from "next/image";
-
 import legalaid from "@/public/legalaid.png";
 import inc from "@/public/incognito.png";
 import ww from "@/public/ww.png";
@@ -450,10 +446,13 @@ export default function Home() {
                 <ArrowOutward className="w-4 h-3" />
               </a>
             </span>
-            <span className="flex items-center gap-2">
+            <a
+              className="flex items-center underline"
+              href="https://drive.google.com/file/d/1ldfqf3Q-u3-XBxsKa5mNNJIXCOIoXjvL/view?usp=sharing"
+            >
               My Resume
-              <Download />
-            </span>
+              <ArrowOutward className="w-4 h-3" />
+            </a>
           </div>
         </div>
       </section>
