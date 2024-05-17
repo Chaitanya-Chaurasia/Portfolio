@@ -57,7 +57,7 @@ export default function Home() {
           <Navbar />
           <div className="flex flex-col ml-10 ">
             <span className="font-bold h-1">he/him</span>
-            <span className="text-[50px] h-12">Hey,I'm</span>
+            <span className="text-[50px] h-12">Hey, I&apos;m</span>
             <span className="text-[50px] font-bold h-12">Chaitanya,</span>
             <span className="text-[50px] flex h-14 flex-row gap-6">
               a
@@ -94,7 +94,7 @@ export default function Home() {
               <Image src={pattern} alt="me" className="" />
             </div>
             <div className="flex flex-col flex-[3_3_0%] text-black border-x border-t border-black px-10 w-full h-full text-[22px] items-left justify-center">
-              <span className="font-bold h-5">i'm</span>
+              <span className="font-bold h-5">i&apos;m</span>
               <span className="h-5">an engineer,</span>
               <span className="h-5">curious,</span>
               <span className="h-5">creative,</span>
@@ -175,8 +175,8 @@ export default function Home() {
             As an engineer, I always strive to learn as much as possible. Given
             how dynamic the field is, I need to be equipped with the latest
             technology out in the market- be it the modern age AI or traditional
-            operating systems! Below are some skills I've picked up that make
-            development easy for me.
+            operating systems! Below are some skills I&apos;ve picked up that
+            make development easy for me.
           </span>
         </div>
         <div className="flex flex-col border-l-8 border-b p-10 w-full items-center justify-center">
@@ -323,7 +323,7 @@ export default function Home() {
                 course, learn a lot!
                 <br />
                 <br />
-                Through my tenure, I'll be using technologies such as{" "}
+                Through my tenure, I&apos;ll be using technologies such as{" "}
                 <span className="font-bold">
                   C, C++, Python, JavaScript, Lua and Linux
                 </span>
@@ -336,15 +336,15 @@ export default function Home() {
               </span>
               <hr />
               <span>
-                So, I'm a teaching assistant for two classes:{" "}
+                So, I&apos;m a teaching assistant for two classes:{" "}
                 <span className="font-bold">
                   Intro to Software Development (CSE360) and Game Development
                   (CPI111)
                 </span>
                 . My job is to make sure students get the hang of the stuff
-                without feeling overwhelmed. Basically, I'm here to make sure
-                students stay engaged and interested in what they're learning!
-                CSE360 introduces students to{" "}
+                without feeling overwhelmed. Basically, I&apos;m here to make
+                sure students stay engaged and interested in what they&apos;re
+                learning! CSE360 introduces students to{" "}
                 <span className="font-bold">
                   Agile software development stages,
                 </span>
@@ -370,8 +370,8 @@ export default function Home() {
               <span>
                 So, imagine you have a bunch of electric towers distributing
                 power. Now, what if I told you that we could actually make the
-                whole system work better by changing things up a bit? Here's the
-                deal: we looked at all the{" "}
+                whole system work better by changing things up a bit?
+                Here&apos;s the deal: we looked at all the{" "}
                 <span className="font-bold">different factors </span>
                 that go into running these systems, like{" "}
                 <span className="font-bold">
@@ -383,9 +383,10 @@ export default function Home() {
                 <br />
                 By messing around with more than 10 such parameters, such as the
                 size & the type of the power plants, we managed to make
-                everything work way more efficiently. And we didn't just stop
-                there - we also made sure to consider things like environmental
-                impact and cost-effectiveness. To make all this happen, we used
+                everything work way more efficiently. And we didn&apos;t just
+                stop there - we also made sure to consider things like
+                environmental impact and cost-effectiveness. To make all this
+                happen, we used
                 <span className="font-bold">
                   {" "}
                   Graph algorithms, Clustering, Machine Learning, Python scripts
@@ -394,7 +395,7 @@ export default function Home() {
                 to write code that analyzed the network of electric towers and
                 figured out the best way to optimize everything. And the result?
                 A more sustainable and cost-effective way of powering Kenya and
-                Great Britain's homes and businesses with upto{" "}
+                Great Britain&apos;s homes and businesses with upto{" "}
                 <span className="font-bold"> 25% efficiency.</span>
               </span>
             </div>
@@ -410,8 +411,8 @@ export default function Home() {
                 <span className="font-bold"> medicines better</span>? Yeah, you
                 heard it! I worked with a team to develop really smart models
                 that can predict how strong certain drugs will be over time. By
-                doing this, we've been able to make more drugs faster, which is
-                pretty cool. Utilizing{" "}
+                doing this, we&apos;ve been able to make more drugs faster,
+                which is pretty cool. Utilizing{" "}
                 <span className="font-bold">Apache Spark and Python </span> for{" "}
                 <span className="font-bold">big data analytics, </span>I
                 contributed to the goal of augmenting pharmaceutical industry
