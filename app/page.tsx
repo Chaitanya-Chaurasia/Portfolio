@@ -4,7 +4,7 @@ import profile from "@/public/profile.jpeg";
 import ellipse from "@/public/Ellipse.svg";
 import ellipse2 from "@/public/Ellipse 2.svg";
 import ellipse3 from "@/public/Ellipse 3.svg";
-import mesh from "@/public/mesh.jpg";
+import mesh from "@/public/mesh.svg";
 import pattern from "@/public/pattern.jpg";
 import pat from "@/public/pattern.gif";
 import github from "@/public/github.svg";
@@ -15,6 +15,8 @@ import Image from "next/image";
 
 import legalaid from "@/public/legalaid.png";
 import inc from "@/public/incognito.png";
+import ww from "@/public/ww.png";
+import boba from "@/public/boba.png";
 
 import { ArrowOutward, Download, GitHub, LinkedIn } from "@mui/icons-material";
 
@@ -24,23 +26,27 @@ const projects = [
     desc: "Stuck in an accident? Can't get your insurance claim? Introducing Your New Generation Legal AI Chatbot- powered by Google Cloud! Just type it in and leave it to LegalAId!",
     prize: "HackHarvard 2023 Winner- Best Use of Google Cloud.",
     link: "https://github.com/Chaitanya-Chaurasia/LegalAid",
+    pic: legalaid,
   },
   {
     name: "Incognito",
     desc: "Unveiling digital vulnerability through facial recognition: Incognito puts control back in your hands.",
     prize: "Built @ TreeHacks 2024, Stanford University",
     link: "https://devpost.com/software/icognito",
+    pic: inc,
   },
   {
     name: "WealthWise",
     desc: "Tired of overspending? Need to achieve financial freedom but don't know how to? Presenting WealthWise, a new gen AI  webapp that secures your future!",
     prize: "HackPrinceton 2024 Winner- Most Innovative Use of Verbwire.",
     link: "https://github.com/Chaitanya-Chaurasia/WealthWise",
+    pic: ww,
   },
   {
     name: "BobaBrain",
     desc: "Exams are approaching? Stressed and need an AI teacher? Presenting BobaBrain, the new age AI professor! Upload your course notes and videos, and ask about anything. What's more- flashcards, AI Summary & Mind Maps!",
     prize: "Upcoming Startup. Check it out at bobabrain.ai.",
+    pic: boba,
   },
 ];
 
@@ -216,7 +222,59 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section
+        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black"
+        style={{
+          backgroundImage: `url(${mesh.src})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className=" text-[120px] w-full flex flex-col lg:flex-row items-center justify-center text-center gap-5 ">
+          <Image src={pat} alt="animation" />
+          <span className="flex flex-col items-center justify-center gap-5">
+            <span>Projects</span>
+            <span className="text-[20px]">
+              The best way to learn is to do it yourself!
+            </span>
+            <div className="flex">
+              <span className="flex items-center gap-2 text-[15px]">
+                <GitHub />
+                Check out more on my
+                <a
+                  href="https://www.linkedin.com/in/chai-t"
+                  className="underline"
+                >
+                  GitHub
+                  <ArrowOutward className="w-4 h-3" />
+                </a>
+              </span>
+            </div>
+          </span>
+        </div>
 
+        <div className="flex flex-col lg:flex-row gap-2 p-10">
+          {projects.map((p) => {
+            return (
+              <div className="flex flex-col gap-2 p-4 w-full">
+                <span className="text-[20px] font-bold">{p.name}</span>
+                <span className="text-[20px]">{p.desc}</span>
+                <span>{p.prize}</span>
+                {p.name !== "BobaBrain" && (
+                  <span className="flex items-center gap-2">
+                    Check it out at{" "}
+                    <a href={p.link} className="underline">
+                      Github
+                      <ArrowOutward className="w-4 h-3" />
+                    </a>{" "}
+                    <GitHub />
+                  </span>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </section>
       <section className="flex flex-col min-h-screen font-new-font w-screen bg-white gap-20 p-10 text-black">
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
@@ -384,41 +442,6 @@ export default function Home() {
               <Download />
             </span>
           </div>
-        </div>
-      </section>
-      <section className="flex flex-col min-h-screen font-new-font w-screen items-center text-black bg-green-100">
-        <div className=" text-[120px] w-full flex flex-row items-center justify-center text-center gap-5">
-          <Image src={pat} alt="animation" />
-          <span className="flex flex-col">
-            <span>Projects</span>
-            <span className="text-[20px]">
-              The best way to learn is to do it yourself!
-            </span>
-          </span>
-        </div>
-
-        <div className="flex flex-col lg:flex-row gap-2 p-4">
-          {projects.map((p) => {
-            return (
-              <div className="flex flex-col gap-2 border-black border-2 p-4 w-full">
-                {/* <Image src={legalaid} alt="" className="rounded-sm h-44 w-80" /> */}
-                <span className="text-[40px] font-bold">{p.name}</span>
-                <hr className="border-2 border-black" />
-                <span className="text-[20px]">{p.desc}</span>
-                <span>{p.prize}</span>
-                {p.name !== "BobaBrain" && (
-                  <span className="flex items-center gap-2">
-                    Check it out at{" "}
-                    <a href={p.link} className="underline">
-                      Github
-                      <ArrowOutward className="w-4 h-3" />
-                    </a>{" "}
-                    <GitHub />
-                  </span>
-                )}
-              </div>
-            );
-          })}
         </div>
       </section>
     </main>
