@@ -269,11 +269,13 @@ export default function Home() {
             </div>
           </span>
         </div>
-
         <div className="flex flex-col lg:flex-row gap-2 p-10">
-          {projects.map((p) => {
+          {projects.map((p, i) => {
             return (
-              <div className="flex flex-col gap-2 p-4 w-full glass-card">
+              <div
+                className="flex flex-col gap-2 p-4 w-full glass-card"
+                key={i}
+              >
                 <span className="text-[20px] font-bold">{p.name}</span>
                 <span className="text-[20px]">{p.desc}</span>
                 <span>{p.prize}</span>
