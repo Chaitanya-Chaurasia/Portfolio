@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: "WealthWise",
-    desc: "Tired of overspending? Need to achieve financial freedom but don't know how to? Presenting WealthWise, a new gen AI  webapp that secures your future!",
+    desc: "Tired of overspending? Need to achieve financial freedom but don't know how to? Presenting WealthWise, a new gen AI  webapp that secures your financial future and keeps track of spending habits!",
     prize: "HackPrinceton 2024 Winner- Most Innovative Use of Verbwire.",
     link: "https://github.com/Chaitanya-Chaurasia/WealthWise",
     pic: ww,
