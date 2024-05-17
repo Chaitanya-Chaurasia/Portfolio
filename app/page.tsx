@@ -60,7 +60,7 @@ export default function Home() {
             <span className="font-bold h-1">he/him</span>
             <span className="text-[50px] h-12">Hey,I'm</span>
             <span className="text-[50px] font-bold h-12">Chaitanya,</span>
-            <span className="text-[50px] flex flex-row gap-6">
+            <span className="text-[50px] flex h-14 flex-row gap-6">
               a
               <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text">
                 &lt;full-stack/&gt;
@@ -114,6 +114,7 @@ export default function Home() {
                 <span className="font-bold">arizona state,</span>
               </span>
             </div>
+            {/* for extra space. do NOT remove */}
             <div></div>
           </div>
         </div>
@@ -135,7 +136,7 @@ export default function Home() {
                   height="50"
                   x="0"
                   y="50"
-                  className="fill-pink-400"
+                  className="fill-pink-400 rotate-3"
                 />
               </svg>
               <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +145,7 @@ export default function Home() {
                   height="50"
                   x="0"
                   y="50"
-                  className="fill-cyan-400"
+                  className="fill-cyan-400 rotate-3"
                 />
               </svg>
             </div>
@@ -234,7 +235,7 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black"
+        className="flex flex-col min-h-screen font-new-font w-screen items-center text-black "
         style={{
           backgroundImage: `url(${mesh.src})`,
           backgroundPosition: "center",
@@ -458,10 +459,14 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col items-center font-new-font w-screen bg-black gap-5 p-10 text-white">
-        <span className="text-[20px]">
+        {/* <span className="text-[20px]">
           Keep an eye out for more on this website in near future!
+        </span> */}
+        <span className="font-bold">
+          {" "}
+          Developed with Next.js, Tailwind & Spline
         </span>
-        <span className="font-bold"> &copy; Chaitanya Chaurasia, 2024</span>
+        <span> &copy; Chaitanya Chaurasia, 2024 </span>
       </section>
     </main>
   );
