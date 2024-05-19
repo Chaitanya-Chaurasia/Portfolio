@@ -15,6 +15,7 @@ import ww from "@/public/ww.png";
 import boba from "@/public/boba.png";
 
 import { ArrowOutward, Download, GitHub, LinkedIn } from "@mui/icons-material";
+import { Vortex } from "./components/vortex";
 
 const projects = [
   {
@@ -130,27 +131,14 @@ export default function Home() {
         id="skills"
       >
         <div className="flex flex-col items-center border-r-8 border-t">
+          {/* <Vortex
+            backgroundColor="black"
+            rangeY={800}
+            particleCount={200}
+            baseHue={140}
+            className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
+          > */}
           <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
-            <div className="flex flex-row">
-              <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
-                <rect
-                  width="350"
-                  height="50"
-                  x="0"
-                  y="50"
-                  className="fill-pink-400 rotate-3"
-                />
-              </svg>
-              <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
-                <rect
-                  width="150"
-                  height="50"
-                  x="0"
-                  y="50"
-                  className="fill-cyan-400 rotate-3"
-                />
-              </svg>
-            </div>
             <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
               {" "}
               <span className="font-bold"> believe. </span>
@@ -161,16 +149,9 @@ export default function Home() {
               <span>inspire.</span>
               <span className="font-bold">innovate.</span>
             </span>
-            <svg width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
-              <rect
-                width="100%"
-                height="20"
-                x="0"
-                y="50"
-                className="fill-green-400 hidden md:flex"
-              />
-            </svg>{" "}
           </span>
+          {/* </Vortex> */}
+
           <span className="text-center text-[15px] font-bold p-10 flex-1">
             As an engineer, I always strive to learn as much as possible. Given
             how dynamic the field is, I need to be equipped with the latest
