@@ -51,93 +51,96 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden">
       <section
-        className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-white overflow-hidden bg-black"
+        className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-black overflow-hidden bg-whiteh-full bg-dot-black/[0.5] relative items-center justify-center"
         id="home"
       >
-        <div className="bg-purple-new flex flex-col flex-[2.5_2.50%] p-1 gap-20">
+        {/* <Vortex
+          backgroundColor="black"
+          rangeY={800}
+          particleCount={200}
+          baseHue={140}
+          className="flex items-center flex-col justify-center w-full h-full"
+        > */}
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)]"></div>
+
+        <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
           <Navbar />
-          <div className="flex flex-col ml-10 ">
-            <span className="font-bold h-1">he/him</span>
-            <span className="text-[50px] h-12">Hey, I&apos;m</span>
-            <span className="text-[50px] font-bold h-12">Chaitanya,</span>
-            <span className="text-[50px] flex h-14 flex-row gap-6">
-              a
-              <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text">
-                &lt;full-stack/&gt;
+          <div className="flex flex-col lg:flex-row">
+            <div className="flex-[3_3_0%] p-4 flex items-center justify-center">
+              <Image
+                src={profile}
+                alt="me"
+                height={300}
+                className="rounded-xl bg-cover bg-center"
+              />
+            </div>
+            <div className="flex flex-col ml-10 ">
+              <span className="font-bold h-1">he/him</span>
+              <span className="text-[70px] h-16">Hey, I&apos;m</span>
+              <span className="text-[70px] font-bold h-16">Chaitanya,</span>
+              <span className="text-[70px] h-18 flex flex-row gap-6">
+                a
+                <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text">
+                  &lt;software-dev&gt;
+                </span>
               </span>
-            </span>
-            <span className="text-black text-[50px]">developer.</span>
-            <hr className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-red-700" />
+              <hr className=" h-px my-8 bg-gray-200 border-0 dark:bg-red-700" />
 
-            <span className="text-[16px]">
-              building something innovative & sustainable for the future!
-            </span>
+              <span className="text-[16px]">
+                building something innovative & sustainable for the future!
+              </span>
 
-            <div className="flex flex-row h-full w-full mt-10">
-              <button className="bg-gray-new flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                <Image src={github} alt="" height={40} />
-              </button>
-              <button className="bg-blue-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                <Image src={linkedin} alt="" height={30} />
-              </button>
-              <button className="bg-pink-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                <Image src={devpost} alt="" height={30} />
-              </button>
-              <button className="bg-white p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                <Image src={gmail} alt="" height={20} />
-              </button>
+              <div className="flex flex-row w-full mt-10">
+                <button className="bg-gray-new flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                  <Image src={github} alt="" height={40} />
+                </button>
+                <button className="bg-blue-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                  <Image src={linkedin} alt="" height={30} />
+                </button>
+                <button className="bg-pink-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                  <Image src={devpost} alt="" height={30} />
+                </button>
+                <button className="bg-white p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                  <Image src={gmail} alt="" height={20} />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="bg-yellow-new flex flex-col flex-[2.5_2.5_0%] items-center justify-start">
-          <div className="px-10 flex flex-col gap-10 h-full">
-            <div>
-              <Image src={pattern} alt="me" className="" />
-            </div>
-            <div className="flex flex-col flex-[3_3_0%] text-black border-x border-t border-black px-10 w-full h-full text-[22px] items-left justify-center">
-              <span className="font-bold h-5">i&apos;m</span>
-              <span className="h-5">an engineer,</span>
-              <span className="h-5">curious,</span>
-              <span className="h-5">creative,</span>
-              <span className="h-5">passionate,</span>
-              <span className="font-bold h-5">a footballer,</span>
-              <span className="h-5">love travelling,</span>
+        {/* <div className="bg-black flex flex-col flex-[2.5_2.5_0%] items-center justify-start">
+            <div className="p-10 flex flex-col gap-10 h-full">
+              <div className="flex flex-col flex-[3_3_0%] text-white border-x border-t-4 border-white px-10 w-full h-full text-[22px] items-left justify-center">
+                <span className="font-bold h-5">i&apos;m</span>
+                <span className="h-5">an engineer,</span>
+                <span className="h-5">curious,</span>
+                <span className="h-5">creative,</span>
+                <span className="h-5">passionate,</span>
+                <span className="font-bold h-5">a footballer,</span>
+                <span className="h-5">love travelling,</span>
 
-              <span className="h-5">in tempe, az</span>
-              <span className="flex flex-row gap-2 h-5">
-                <span className="font-bold">from</span>
-                <span className="font-bold">india,</span>
-              </span>
-              <span className="flex flex-row gap-2">
-                <span className="font-bold">junior</span>
-                <span>at</span>
-                <span className="font-bold">arizona state,</span>
-              </span>
+                <span className="h-5">in tempe, az</span>
+                <span className="flex flex-row gap-2 h-5">
+                  <span className="font-bold">from</span>
+                  <span className="font-bold">india,</span>
+                </span>
+                <span className="flex flex-row gap-2">
+                  <span className="font-bold">junior</span>
+                  <span>at</span>
+                  <span className="font-bold">arizona state,</span>
+                </span>
+              </div>
+              {/* for extra space. do NOT remove */}
+        {/* <div></div>
             </div>
-            {/* for extra space. do NOT remove */}
-            <div></div>
           </div>
-        </div>
-        <div className="flex-[3_3_0%]">
-          <Image
-            src={profile}
-            alt="me"
-            className="h-full w-full bg-cover bg-center"
-          />
-        </div>
+           */}
+        {/* </Vortex> */}
       </section>
       <section
         className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10"
         id="skills"
       >
         <div className="flex flex-col items-center border-r-8 border-t">
-          {/* <Vortex
-            backgroundColor="black"
-            rangeY={800}
-            particleCount={200}
-            baseHue={140}
-            className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
-          > */}
           <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
             <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
               {" "}

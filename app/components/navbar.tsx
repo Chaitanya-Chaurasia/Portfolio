@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row items-start text-white text-[13px] gap-10 ml-10 mt-5">
+    <div className="flex flex-row items-start text-black text-[13px] gap-10 ml-10 mt-5">
       <button>
         <Link
           to="home"
