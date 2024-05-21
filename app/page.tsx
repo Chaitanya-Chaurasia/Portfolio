@@ -14,8 +14,12 @@ import inc from "@/public/incognito.png";
 import ww from "@/public/ww.png";
 import boba from "@/public/boba.png";
 
+import { motion } from "framer-motion";
+
 import { ArrowOutward, Download, GitHub, LinkedIn } from "@mui/icons-material";
 import { Vortex } from "./components/vortex";
+import { SparklesCore } from "./components/sparkles";
+import { LampContainer } from "./components/lamp";
 
 const projects = [
   {
@@ -51,7 +55,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden">
       <section
-        className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-black overflow-hidden bg-whiteh-full bg-dot-black/[0.5] relative items-center justify-center"
+        className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-black overflow-hidden bg-white h-full bg-dot-black/[0.5] relative items-center justify-center"
         id="home"
       >
         {/* <Vortex
@@ -66,7 +70,7 @@ export default function Home() {
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
           <Navbar />
           <div className="flex flex-col lg:flex-row">
-            <div className="flex-[3_3_0%] p-4 flex items-center justify-center">
+            <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center">
               <Image
                 src={profile}
                 alt="me"
@@ -74,17 +78,17 @@ export default function Home() {
                 className="rounded-xl bg-cover bg-center"
               />
             </div>
-            <div className="flex flex-col ml-10 ">
+            <div className="flex flex-col ml-10">
               <span className="font-bold h-1">he/him</span>
               <span className="text-[70px] h-16">Hey, I&apos;m</span>
               <span className="text-[70px] font-bold h-16">Chaitanya,</span>
               <span className="text-[70px] h-18 flex flex-row gap-6">
                 a
                 <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text">
-                  &lt;software-dev&gt;
+                  &lt;software-dev/&gt;.
                 </span>
               </span>
-              <hr className=" h-px my-8 bg-gray-200 border-0 dark:bg-red-700" />
+              <hr className=" h-px my-8 border-2 border-black dark:bg-red-700" />
 
               <span className="text-[16px]">
                 building something innovative & sustainable for the future!
@@ -140,6 +144,13 @@ export default function Home() {
         className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10"
         id="skills"
       >
+        {/* <Vortex
+          backgroundColor="black"
+          rangeY={800}
+          particleCount={200}
+          baseHue={80}
+          className="flex items-center flex-col justify-center w-full h-full"
+        > */}
         <div className="flex flex-col items-center border-r-8 border-t">
           <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
             <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
@@ -219,6 +230,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* </Vortex> */}
       </section>
       <section
         className="flex flex-col min-h-screen font-new-font w-screen items-center text-black "
