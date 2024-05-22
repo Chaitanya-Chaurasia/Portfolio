@@ -2,8 +2,6 @@
 import Navbar from "./components/navbar";
 import profile from "@/public/profile.jpeg";
 import mesh from "@/public/mesh.svg";
-import pattern from "@/public/pattern.jpg";
-import pat from "@/public/pattern.gif";
 import github from "@/public/github.svg";
 import linkedin from "@/public/linkedin.svg";
 import devpost from "@/public/devpost.svg";
@@ -14,12 +12,7 @@ import inc from "@/public/incognito.png";
 import ww from "@/public/ww.png";
 import boba from "@/public/boba.png";
 
-import { motion } from "framer-motion";
-
-import { ArrowOutward, Download, GitHub, LinkedIn } from "@mui/icons-material";
-import { Vortex } from "./components/vortex";
-import { SparklesCore } from "./components/sparkles";
-import { LampContainer } from "./components/lamp";
+import { ArrowOutward, GitHub, LinkedIn } from "@mui/icons-material";
 
 const projects = [
   {
@@ -58,13 +51,6 @@ export default function Home() {
         className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-black overflow-hidden bg-white h-full bg-dot-black/[0.5] relative items-center justify-center"
         id="home"
       >
-        {/* <Vortex
-          backgroundColor="black"
-          rangeY={800}
-          particleCount={200}
-          baseHue={140}
-          className="flex items-center flex-col justify-center w-full h-full"
-        > */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)]"></div>
 
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
@@ -138,19 +124,11 @@ export default function Home() {
             </div>
           </div>
            */}
-        {/* </Vortex> */}
       </section>
       <section
         className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10"
         id="skills"
       >
-        {/* <Vortex
-          backgroundColor="black"
-          rangeY={800}
-          particleCount={200}
-          baseHue={80}
-          className="flex items-center flex-col justify-center w-full h-full"
-        > */}
         <div className="flex flex-col items-center border-r-8 border-t">
           <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
             <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
@@ -164,7 +142,6 @@ export default function Home() {
               <span className="font-bold">innovate.</span>
             </span>
           </span>
-          {/* </Vortex> */}
 
           <span className="text-center text-[15px] font-bold p-10 flex-1">
             As an engineer, I always strive to learn as much as possible. Given
@@ -230,7 +207,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* </Vortex> */}
       </section>
       <section
         className="flex flex-col min-h-screen font-new-font w-screen items-center text-black "
@@ -243,7 +219,7 @@ export default function Home() {
         }}
       >
         <div className=" w-full flex flex-col lg:flex-row items-center justify-center text-center gap-5 ">
-          <Image src={pat} alt="animation" />
+          {/* <Image src={pat} alt="animation" /> */}
           <span className="flex flex-col items-center justify-center gap-5">
             <span className="text-[400%] lg:text-[120px]">Projects</span>
             <span className="text-[20px]">
