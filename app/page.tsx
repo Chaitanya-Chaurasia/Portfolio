@@ -18,13 +18,6 @@ import Link from "next/link";
 import { ArrowOutward, GitHub, LinkedIn } from "@mui/icons-material";
 import { CardBody, CardContainer, CardItem } from "./components/3d-card";
 
-const skills = [
-  {
-    type: "Frontend Development",
-    skills:
-      "<ul><li>HTML5 SCSS & CSS3</li> <li>Tailwind JSX</li> <li>Bootstrap RadixUI</li> <li>MaterialUI ShadCN</li </ul>",
-  },
-];
 const projects = [
   {
     name: "LegalAId",
@@ -166,31 +159,9 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col p-10 w-full items-center justify-center text-black">
-          <div className="p-10 flex flex-col lg:flex-row">
-            {/* <div className="border border-black p-10">
-              <span className="font-bold">Frontend Development</span>
-              <span>
-                <ul>
-                  <li>HTML5 SCSS & CSS3</li>
-                  <li>Tailwind JSX</li>
-                  <li>Bootstrap RadixUI</li>
-                  <li>MaterialUI ShadCN</li>
-                </ul>
-                <span>and yes, I can center a div ;p</span>
-              </span>
-            </div>
-            <div className="border p-10 border-black">
-              <span className="font-bold"> Backend Development </span>
-              <span>
-                <ul>
-                  <li>Python (Flask) Java</li>
-                  <li>Node.js Express React</li>
-                  <li> C C++ RESTful APIs</li>
-                  <li>PostreSQL MongoDB</li>
-                  <li>MySQL</li>
-                </ul>
-              </span>
-            </div>
+          <div className="p-10 flex flex-col lg:flex-row h-full gap-10 items-center justify-center">
+            {/* 
+           
             <div className="border p-10 border-black">
               <span className="font-bold"> Tools and Services</span>
               <span>
@@ -221,7 +192,7 @@ export default function Home() {
             </div> */}
 
             <CardContainer>
-              <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-auto rounded-xl p-6 border">
+              <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-full rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-black"
@@ -233,9 +204,38 @@ export default function Home() {
                   translateZ="60"
                   className="text-black text-sm mt-2 "
                 >
-                  {(document.createElement("div").innerHTML = skills[0].skills);
-                  }
+                  <ul>
+                    <li>HTML5, SCSS & CSS3</li>
+                    <li>Tailwind, JSX</li>
+                    <li>Bootstrap, RadixUI</li>
+                    <li>MaterialUI, ShadCN</li>
+                    <li>Framer Motion</li>
+                  </ul>
                   <span>and yes, I can center a div ;p</span>
+                </CardItem>
+              </CardBody>
+            </CardContainer>
+            <CardContainer>
+              <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-full rounded-xl p-6 border">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-black"
+                >
+                  Backend Development{" "}
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-black text-sm mt-2 "
+                >
+                  <ul>
+                    <li>Python (Flask), Java</li>
+                    <li>Node.js, Express, React</li>
+                    <li>C, C++, RESTful APIs</li>
+                    <li>PostreSQL, MongoDB</li>
+                    <li>MySQL, Next.js, Curl</li>
+                    <li>JavaFX, tkinter</li>
+                  </ul>
                 </CardItem>
               </CardBody>
             </CardContainer>
