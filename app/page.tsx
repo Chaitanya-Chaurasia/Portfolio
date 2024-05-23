@@ -46,13 +46,12 @@ const projects = [
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden">
+    <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden bg-dot-blue-700/[0.3] relative items-center justify-center">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_90%,black)]"></div>
       <section
-        className="flex flex-col lg:flex-row min-h-screen font-new-font w-full text-black overflow-hidden bg-white h-full bg-dot-black/[0.5] relative items-center justify-center"
+        className="flex flex-col lg:flex-row font-new-font w-full text-black overflow-hidden bg-transparent h-full "
         id="home"
       >
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)]"></div>
-
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
           <Navbar />
           <div className="flex flex-col lg:flex-row">
@@ -70,11 +69,11 @@ export default function Home() {
               <span className="text-[70px] font-bold h-16">Chaitanya,</span>
               <span className="text-[70px] h-18 flex flex-row gap-6">
                 a
-                <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text">
+                <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text break-words">
                   &lt;software-dev/&gt;.
                 </span>
               </span>
-              <hr className=" h-px my-8 border-2 border-black dark:bg-red-700" />
+              {/* <hr className=" h-px my-8 border-2 border-black dark:bg-red-700" /> */}
 
               <span className="text-[16px]">
                 building something innovative & sustainable for the future!
@@ -126,34 +125,35 @@ export default function Home() {
            */}
       </section>
       <section
-        className="flex flex-col min-h-screen font-new-font w-screen  bg-black text-white p-10"
+        className="flex flex-col min-h-screen font-new-font p-10 text-white p-10 bg-transparent w-screen h-full items-center justify-center text-center"
         id="skills"
       >
-        <div className="flex flex-col items-center border-r-8 border-t">
-          <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-red-400 via-green-200 to-purple-300 text-transparent bg-clip-text flex flex-col mt-20">
-            <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
+        <div className="flex flex-col items-center justify-center border-black ">
+          <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-pink-600 via-purple-800 to-blue-600 text-transparent bg-clip-text flex flex-col mt-20 border-t-2 border-black ">
+            <span className="flex flex-col lg:flex-row text-[30%] lg:text-[70px]">
               {" "}
               <span className="font-bold"> believe. </span>
               <span>engineer. </span>
             </span>
-            <span className="flex flex-col lg:flex-row text-[30%] lg:text-[100px]">
+            <span className="flex flex-col lg:flex-row text-[30%] lg:text-[70px]">
               {" "}
               <span>inspire.</span>
               <span className="font-bold">innovate.</span>
             </span>
           </span>
-
-          <span className="text-center text-[15px] font-bold p-10 flex-1">
-            As an engineer, I always strive to learn as much as possible. Given
-            how dynamic the field is, I need to be equipped with the latest
-            technology out in the market- be it the modern age AI or traditional
-            operating systems! Below are some skills I&apos;ve picked up that
-            make development easy for me.
-          </span>
+          <div className="flex w-full items-center justify-center p-10">
+            <span className="w-80 text-center text-[15px] flex-1 text-black">
+              As an engineer, I always strive to learn as much as possible.
+              Given how dynamic the field is, I need to be equipped with the
+              latest technology out in the market- be it the modern age AI or
+              traditional operating systems! Below are some skills I&apos;ve
+              picked up that make development easy for me.
+            </span>
+          </div>
         </div>
-        <div className="flex flex-col border-l-8 border-b p-10 w-full items-center justify-center">
+        <div className="flex flex-col p-10 w-full items-center justify-center text-black">
           <div className="p-10 flex flex-col lg:flex-row">
-            <div className="border p-10">
+            <div className="border border-black p-10">
               <span className="font-bold">Frontend Development</span>
               <span>
                 <ul>
@@ -165,7 +165,7 @@ export default function Home() {
                 <span>and yes, I can center a div ;p</span>
               </span>
             </div>
-            <div className="border p-10">
+            <div className="border p-10 border-black">
               <span className="font-bold"> Backend Development </span>
               <span>
                 <ul>
@@ -177,7 +177,7 @@ export default function Home() {
                 </ul>
               </span>
             </div>
-            <div className="border p-10">
+            <div className="border p-10 border-black">
               <span className="font-bold"> Tools and Services</span>
               <span>
                 <ul>
@@ -190,7 +190,7 @@ export default function Home() {
                 </ul>
               </span>
             </div>
-            <div className="border p-10">
+            <div className="border p-10 border-black">
               <span className="font-bold">
                 {" "}
                 My areas of expertise and interest
@@ -211,17 +211,10 @@ export default function Home() {
       <section
         className="flex flex-col min-h-screen font-new-font w-screen items-center text-black "
         id="projects"
-        style={{
-          backgroundImage: `url(${mesh.src})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
       >
         <div className=" w-full flex flex-col lg:flex-row items-center justify-center text-center gap-5 ">
-          {/* <Image src={pat} alt="animation" /> */}
           <span className="flex flex-col items-center justify-center gap-5">
-            <span className="text-[400%] lg:text-[120px]">Projects</span>
+            <span className="text-[400%] lg:text-[70px]">Projects</span>
             <span className="text-[20px]">
               The best way to learn is to do it yourself!
             </span>
