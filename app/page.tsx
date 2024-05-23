@@ -12,8 +12,19 @@ import inc from "@/public/incognito.png";
 import ww from "@/public/ww.png";
 import boba from "@/public/boba.png";
 
-import { ArrowOutward, GitHub, LinkedIn } from "@mui/icons-material";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
+import { ArrowOutward, GitHub, LinkedIn } from "@mui/icons-material";
+import { CardBody, CardContainer, CardItem } from "./components/3d-card";
+
+const skills = [
+  {
+    type: "Frontend Development",
+    skills:
+      "<ul><li>HTML5 SCSS & CSS3</li> <li>Tailwind JSX</li> <li>Bootstrap RadixUI</li> <li>MaterialUI ShadCN</li </ul>",
+  },
+];
 const projects = [
   {
     name: "LegalAId",
@@ -49,11 +60,12 @@ export default function Home() {
     <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden bg-dot-blue-700/[0.3] relative items-center justify-center">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_90%,black)]"></div>
       <section
-        className="flex flex-col lg:flex-row font-new-font w-full text-black overflow-hidden bg-transparent h-full "
+        className="flex flex-col lg:flex-row font-new-font w-full text-black overflow-hidden bg-transparent h-full"
         id="home"
       >
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
           <Navbar />
+
           <div className="flex flex-col lg:flex-row">
             <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center">
               <Image
@@ -124,6 +136,7 @@ export default function Home() {
           </div>
            */}
       </section>
+
       <section
         className="flex flex-col min-h-screen font-new-font p-10 text-white p-10 bg-transparent w-screen h-full items-center justify-center text-center"
         id="skills"
@@ -151,9 +164,10 @@ export default function Home() {
             </span>
           </div>
         </div>
+
         <div className="flex flex-col p-10 w-full items-center justify-center text-black">
           <div className="p-10 flex flex-col lg:flex-row">
-            <div className="border border-black p-10">
+            {/* <div className="border border-black p-10">
               <span className="font-bold">Frontend Development</span>
               <span>
                 <ul>
@@ -204,7 +218,27 @@ export default function Home() {
                   <li>Decentralized Applications(Web3)</li>
                 </ul>
               </span>
-            </div>
+            </div> */}
+
+            <CardContainer>
+              <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-auto rounded-xl p-6 border">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-black"
+                >
+                  Frontend Development{" "}
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-black text-sm mt-2 "
+                >
+                  {(document.createElement("div").innerHTML = skills[0].skills);
+                  }
+                  <span>and yes, I can center a div ;p</span>
+                </CardItem>
+              </CardBody>
+            </CardContainer>
           </div>
         </div>
       </section>
@@ -260,14 +294,14 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="flex flex-col min-h-screen font-new-font w-screen bg-white gap-20 p-10 text-black"
+        className="flex flex-col min-h-screen font-new-font w-screen bg-transparent gap-20 p-10 text-black"
         id="work"
       >
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="bg-orange-500 flex lg:flex-col flex-row flex-[0.1_0.1_0%] gap-0 lg:gap-1 p-1 items-center justify-center lg:items-center lg:justify-start h-40" />
 
           <div className="flex-[4_4_0%] flex flex-col border-l-8 p-0 border-blue-200">
-            <span className="text-[300%] lg:text-[100px] ml-10 break-words">
+            <span className="text-[300%] lg:text-[70px] ml-10 break-words">
               Work Experience
             </span>
           </div>
@@ -440,7 +474,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center font-new-font w-screen bg-black gap-5 p-10 text-white text-center">
+      <section className="flex flex-col items-center font-new-font w-screen gap-5 p-10 text-black text-center">
         {/* <span className="text-[20px]">
           Keep an eye out for more on this website in near future!
         </span> */}
