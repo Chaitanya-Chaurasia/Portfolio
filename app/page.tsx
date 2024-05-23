@@ -158,39 +158,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col p-10 w-full items-center justify-center text-black">
-          <div className="p-10 flex flex-col lg:flex-row h-full gap-10 items-center justify-center">
-            {/* 
-           
-            <div className="border p-10 border-black">
-              <span className="font-bold"> Tools and Services</span>
-              <span>
-                <ul>
-                  <li>AWS (Amazon Web Services)</li>
-                  <li>Google Developer Cloud</li>
-                  <li>Git Docker Maven Jira</li>
-                  <li>Gradle Git Github</li>
-                  <li>Visual-Studio Figma PyTorch</li>
-                  <li>Scikit-learn OpenCV Tensorflow</li>
-                </ul>
-              </span>
-            </div>
-            <div className="border p-10 border-black">
-              <span className="font-bold">
-                {" "}
-                My areas of expertise and interest
-              </span>
-              <span>
-                <ul>
-                  <li>Machine Learning</li>
-                  <li>Artificial Intelligence</li>
-                  <li>Image & Audio Processing</li>
-                  <li>Full-Stack Development</li>
-                  <li>Decentralized Applications(Web3)</li>
-                </ul>
-              </span>
-            </div> */}
-
+        <div className="flex flex-col w-full items-center justify-center text-black bg-red-300">
+          <div className="p-1 flex flex-col lg:flex-row  gap-4 items-center justify-center">
             <CardContainer>
               <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-full rounded-xl p-6 border">
                 <CardItem
@@ -235,6 +204,55 @@ export default function Home() {
                     <li>PostreSQL, MongoDB</li>
                     <li>MySQL, Next.js, Curl</li>
                     <li>JavaFX, tkinter</li>
+                  </ul>
+                </CardItem>
+              </CardBody>
+            </CardContainer>
+          </div>
+          <div className="p-1 flex flex-col lg:flex-row  gap-4 items-center justify-center">
+            <CardContainer>
+              <CardBody className="bg-gray-50 relative group/card border-black/[0.1] h-full rounded-xl p-6 border">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-black"
+                >
+                  Tools and Services{" "}
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-black text-sm mt-2 "
+                >
+                  <ul>
+                    <li>AWS (Amazon Web Services)</li>
+                    <li>Google Developer Cloud</li>
+                    <li>Git Docker Maven Jira</li>
+                    <li>Gradle Git Github</li>
+                    <li>Visual-Studio Figma JUnit</li>
+                    <li>Scikit-learn OpenCV Tensorflow</li>
+                  </ul>
+                </CardItem>
+              </CardBody>
+            </CardContainer>
+            <CardContainer>
+              <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-full rounded-xl p-6 border">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-black"
+                >
+                  My areas of expertise and interest
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-black text-sm mt-2 "
+                >
+                  <ul>
+                    <li>Machine Learning</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Image & Audio Processing</li>
+                    <li>Full-Stack Development</li>
+                    <li>Decentralized Applications(Web3)</li>
                   </ul>
                 </CardItem>
               </CardBody>
