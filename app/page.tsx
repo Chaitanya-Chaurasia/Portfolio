@@ -50,8 +50,8 @@ const projects = [
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden bg-dot-blue-700/[0.3] relative items-center justify-center">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_90%,black)]"></div>
+    <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden bg-white bg-dot-blue-700/[0.3] relative items-center justify-center">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_90%,white)]"></div>
       <section
         className="flex flex-col lg:flex-row font-new-font w-full text-black overflow-hidden bg-transparent h-full"
         id="home"
@@ -135,7 +135,7 @@ export default function Home() {
         id="skills"
       >
         <div className="flex flex-col items-center justify-center border-black ">
-          <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-pink-600 via-purple-800 to-blue-600 text-transparent bg-clip-text flex flex-col mt-20 border-t-2 border-black ">
+          <span className="text-[110px] text-center p-10 flex-1 bg-gradient-to-b from-pink-600 via-purple-800 to-blue-600 text-transparent bg-clip-text flex flex-col mt-20 border-t-2 border-black">
             <span className="flex flex-col lg:flex-row text-[30%] lg:text-[70px]">
               {" "}
               <span className="font-bold"> believe. </span>
@@ -158,8 +158,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col w-full items-center justify-center text-black bg-red-300">
-          <div className="p-1 flex flex-col lg:flex-row  gap-4 items-center justify-center">
+        <div className="flex flex-col w-full items-center justify-center text-black">
+          <div className="px-1 py-0 flex flex-col lg:flex-row gap-4">
             <CardContainer>
               <CardBody className="bg-gray-50 relative group/card  border-black/[0.1] h-full rounded-xl p-6 border">
                 <CardItem
