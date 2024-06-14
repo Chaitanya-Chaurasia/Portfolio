@@ -59,7 +59,7 @@ export default function Home() {
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
           <Navbar />
 
-          <div className="flex flex-col lg:flex-row">
+          <div className="flex flex-col lg:flex-row ">
             <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center">
               <Image
                 src={profile}
@@ -94,7 +94,7 @@ export default function Home() {
                 <button className="bg-pink-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
                   <Image src={devpost} alt="" height={30} />
                 </button>
-                <button className="bg-white p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                <button className="bg-black p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
                   <Image src={gmail} alt="" height={20} />
                 </button>
               </div>
