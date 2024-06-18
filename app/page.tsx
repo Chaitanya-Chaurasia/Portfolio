@@ -53,14 +53,14 @@ export default function Home() {
     <main className="flex flex-col min-h-screen font-new-font w-full text-white overflow-hidden bg-white bg-dot-blue-700/[0.3] relative items-center justify-center">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_90%,white)]"></div>
       <section
-        className="flex flex-col lg:flex-row font-new-font w-full text-black overflow-hidden bg-transparent h-full"
+        className="flex flex-col lg:flex-row font-new-font w-full text-black overflow-hidden bg-transparent h-full min-h-screen"
         id="home"
       >
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
           <Navbar />
 
           <div className="flex flex-col lg:flex-row ">
-            <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center">
+            <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center border-r-4">
               <Image
                 src={profile}
                 alt="me"
@@ -78,6 +78,14 @@ export default function Home() {
                   &lt;software-dev/&gt;.
                 </span>
               </span>
+              <span className="text-[15px] h-18 flex flex-row gap-6 w">
+                I'm a Computer Science Student at Arizona State University!!
+                This summer, I'm at IDEXX as an Embedded Systems SWE Intern, and
+                also an ex- ML/AI Intern @IIT-Delhi!
+              </span>
+              {/* <span className="text-[20px] border-t-4 p-10">
+                {" "}
+              </span> */}
               {/* <hr className=" h-px my-8 border-2 border-black dark:bg-red-700" /> */}
 
               <span className="text-[16px]">
