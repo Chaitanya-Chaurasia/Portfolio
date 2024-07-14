@@ -57,55 +57,55 @@ export default function Home() {
         id="home"
       >
         <div className=" bg-transparent flex flex-col flex-[2.5_2.50%] p-1 gap-20 w-full items-center justify-center">
-          <Navbar />
+          {/* <Navbar /> */}
 
-          <div className="flex flex-col lg:flex-row ">
-            <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center border-r-4">
+          {/* <div className="flex-[3_3_0%] p-4 flex items-center lg:justify-center border-r-4">
               <Image
                 src={profile}
                 alt="me"
                 height={300}
                 className="rounded-xl bg-cover bg-center"
               />
-            </div>
-            <div className="flex flex-col ml-10">
-              <span className="font-bold h-1">he/him</span>
-              <span className="text-[70px] h-16">Hey, I&apos;m</span>
-              <span className="text-[70px] font-bold h-16">Chaitanya,</span>
-              <span className="text-[70px] h-18 flex flex-row gap-6">
-                a
-                <span className="font-bold bg-gradient-to-r from-neon to-green-new text-transparent bg-clip-text break-words">
-                  &lt;software-dev/&gt;.
-                </span>
-              </span>
-              <span className="text-[15px] h-18 flex flex-row gap-6 w">
+            </div> */}
+          <div className="flex flex-col ml-10">
+            <span className="font-bold h-1">he/him</span>
+            <span className="text-[70px] h-16">Hey, I&apos;m</span>
+            <span className="text-[70px] font-bold h-16 text-blue-400">
+              Chaitanya,
+            </span>
+            <span className="text-[70px] h-18 flex flex-row gap-6">
+              & welcome to{" "}
+              <span className="font-bold text-orange-300">my website!</span>
+            </span>
+            {/* <span className="text-[15px] h-18 flex flex-row gap-6 w">
                 I'm a Computer Science Student at Arizona State University!!
                 This summer, I'm at IDEXX as an Embedded Systems SWE Intern, and
                 also an ex- ML/AI Intern @IIT-Delhi!
-              </span>
-              {/* <span className="text-[20px] border-t-4 p-10">
+              </span> */}
+            {/* <span className="text-[20px] border-t-4 p-10">
                 {" "}
               </span> */}
-              {/* <hr className=" h-px my-8 border-2 border-black dark:bg-red-700" /> */}
+            {/* <hr className=" h-px my-8 border-2 border-black dark:bg-red-700" /> */}
 
-              <span className="text-[16px]">
-                building something innovative & sustainable for the future!
-              </span>
+            <hr className="border-black p-2" />
 
-              <div className="flex flex-row w-full mt-10">
-                <button className="bg-gray-new flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                  <Image src={github} alt="" height={40} />
-                </button>
-                <button className="bg-blue-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                  <Image src={linkedin} alt="" height={30} />
-                </button>
-                <button className="bg-pink-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                  <Image src={devpost} alt="" height={30} />
-                </button>
-                <button className="bg-black p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
-                  <Image src={gmail} alt="" height={20} />
-                </button>
-              </div>
+            <span className="text-[33px]">
+              I'm an software dev., footballer, !
+            </span>
+
+            <div className="flex flex-row w-full mt-10">
+              <button className="bg-gray-new flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                <Image src={github} alt="" height={40} />
+              </button>
+              <button className="bg-blue-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                <Image src={linkedin} alt="" height={30} />
+              </button>
+              <button className="bg-pink-new p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                <Image src={devpost} alt="" height={30} />
+              </button>
+              <button className="bg-black p-1 flex items-center justify-center hover:scale-125 transition-transform duration-300">
+                <Image src={gmail} alt="" height={20} />
+              </button>
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
            */}
       </section>
-
+      {/* 
       <section
         className="flex flex-col min-h-screen font-new-font p-10 text-white p-10 bg-transparent w-screen h-full items-center justify-center text-center"
         id="skills"
@@ -267,8 +267,8 @@ export default function Home() {
             </CardContainer>
           </div>
         </div>
-      </section>
-      <section
+      </section> */}
+      {/* <section
         className="flex flex-col min-h-screen font-new-font w-screen items-center text-black "
         id="projects"
       >
@@ -318,8 +318,8 @@ export default function Home() {
             );
           })}
         </div>
-      </section>
-      <section
+      </section> */}
+      {/* <section
         className="flex flex-col min-h-screen font-new-font w-screen bg-transparent gap-20 p-10 text-black"
         id="work"
       >
@@ -498,18 +498,15 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
-
-      <section className="flex flex-col items-center font-new-font w-screen gap-5 p-10 text-black text-center">
-        {/* <span className="text-[20px]">
-          Keep an eye out for more on this website in near future!
-        </span> */}
+      </section> */}
+      {/* <section className="flex flex-col items-center font-new-font w-screen gap-5 p-10 text-black text-center">
+      
         <span className="font-bold">
           {" "}
           Developed with Next.js, Tailwind & Spline
         </span>
         <span> &copy; Chaitanya Chaurasia, 2024 </span>
-      </section>
+      </section> */}
     </main>
   );
 }
