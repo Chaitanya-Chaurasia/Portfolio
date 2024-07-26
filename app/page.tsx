@@ -1,22 +1,20 @@
-"use client";
-import Navbar from "./components/navbar";
-import profile from "@/public/profile.jpeg";
-import mesh from "@/public/mesh.svg";
-import github from "@/public/github.svg";
-import linkedin from "@/public/linkedin.svg";
-import devpost from "@/public/devpost.svg";
-import gmail from "@/public/gmail.svg";
-import Image from "next/image";
-import legalaid from "@/public/legalaid.png";
-import inc from "@/public/incognito.png";
-import ww from "@/public/ww.png";
-import ocean from "@/public/bg.jpg";
+import * as React from "react";
+
+import { Button } from "@/components/ui/button";
+import { NavigationMenuDemo } from "@/components/navbar";
+import IntroCard from "@/components/IntroCard";
+import ImageCard from "@/components/ImageCard";
+import me from "@/public/profile.jpeg";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white items-center w-screen flex">
-      <div>
-        
+    <main className="bg-white min-h-screen p-10">
+      <div className="flex flex-col items-center">
+        <NavigationMenuDemo />
+        <div className="flex flex-row w-screen p-10 items-center gap-10 justify-center">
+          <ImageCard />
+          <IntroCard />
+        </div>
       </div>
     </main>
   );
