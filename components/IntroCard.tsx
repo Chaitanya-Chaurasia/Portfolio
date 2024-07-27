@@ -43,7 +43,7 @@ const IntroCard = () => {
         <TwitterLogoIcon height={20} width={20} />
         <InstagramLogoIcon height={20} width={20} />
         <Separator orientation="vertical"/> 
-        <span className="text-gray-500">cchauras@asu.edu</span>
+        <span className="font-normal">cchauras@asu.edu</span>
       </CardTitle>
       <CardTitle className="flex flex-row gap-2 items-center justify-start text-sm font-normal ">
         My local time:
