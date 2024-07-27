@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const ImageCard = (img: any) => {
   return (
     <Card className="w-[350px]">
-      <Image src={me} alt="image" className="rounded-xl" />
+      <Image src={me} alt="image" className="rounded-xl h-full w-full" />
     </Card>
   );
 };
