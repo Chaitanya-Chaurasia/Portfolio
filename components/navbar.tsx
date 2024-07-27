@@ -60,7 +60,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Navbar() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="">
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>

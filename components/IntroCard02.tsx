@@ -23,11 +23,8 @@ const IntroCard02 = () => {
             <span className="font-medium">
               full-stack application developer
             </span>{" "}
-            from the vibrant and convivial land of India. I love building
-            things, seeing it as a way to channel and{" "}
-            <span className="font-medium">
-              unleash my creativity.
-            </span>
+            from the vibrant and convivial land of India. I build innovative and
+            creative solutions for a living.
             <br />
             <br />
             This pursuit of creativity has brought me all the way to the US,

@@ -13,10 +13,10 @@ import { Separator } from "./ui/separator";
 const getMyTime = () => {
   const currentTime = new Date();
   const hours = currentTime.getHours();
-  const minutes = currentTime.getMinutes();
+  const minutes = currentTime.getMinutes() >= 10 ? currentTime.getMinutes().toString() : "0" + currentTime.getMinutes(); 
   const suffix = hours >= 12 ? "PM" : "AM";
 
-  return " " + hours.toString() + ":" + minutes.toString() + " " + suffix;
+  return " " + hours.toString() + ":" + minutes + " " + suffix;
 };
 
 const IntroCard = () => {
