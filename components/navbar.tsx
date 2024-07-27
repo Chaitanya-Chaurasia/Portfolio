@@ -15,7 +15,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import me from "@/public/myAvatar.svg";
+// import me from "@/public/myAvatar.svg";
 
 import Image from "next/image";
 import { ModeToggle } from "./ui/dark-mode";
@@ -62,7 +62,7 @@ export function Navbar() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-      <NavigationMenuItem>
+        <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Home

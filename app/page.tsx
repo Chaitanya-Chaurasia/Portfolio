@@ -7,10 +7,10 @@ import IntroCard02 from "@/components/IntroCard02";
 
 export default function Home() {
   return (
-    <main className="h-screen p-10">
+    <main className="min-h-screen p-2">
       <div className="flex flex-col items-center justify-center gap-10">
         <Navbar />
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-top gap-10 justify-center lg:items-top">
+        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center lg:items-top">
           <ImageCard />
           <IntroCard />
           <IntroCard02 />
