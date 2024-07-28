@@ -1,13 +1,15 @@
 import React from "react";
 import { Card, CardHeader } from "./ui/card";
+import { BackpackIcon } from "@radix-ui/react-icons";
 
 const SkillCard02 = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none">
+    <Card className="w-[350px] bg-transparent border-none overflow-visible">
       <CardHeader>
         <span>
-          <h2 className="tracking-tight text-3xl font-bold">
-            What I Have to Offer
+          <h2 className="tracking-tight text-3xl font-bold flex items-center gap-2 ">
+            <BackpackIcon />
+            What I Offer
           </h2>
           <br />
           To come up with solutions, identifying a problem that needs solving is
@@ -16,18 +18,19 @@ const SkillCard02 = () => {
           consumers.
           <br />
           <br />
-          Given my experience with the aforementioned skillset, I have readily
-          developed
-          <span className="font-bold">
+          Given my experience with the aforementioned skillset, I have
+          experience developing
+          <span className="font-semibold">
             {" "}
             high quality, industry-standard software
           </span>{" "}
           for clients who look for change, including designing and building{" "}
-          <span className="font-bold">dashboards, internal tools</span> and{" "}
-          <span className="font-bold">interfaces. </span> I also readily
-          participate in hackathons, winning some of the prestigious ones, and
-          getting recognized by companies such as
-          <span className="font-bold"> Google</span>!
+          <span className="font-semibold">
+            dashboards, internal tools
+          </span> and <span className="font-semibold">interfaces. </span> I also
+          readily participate in hackathons, winning some of the prestigious
+          ones, and getting recognized by companies such as
+          <span className="font-semibold"> Google</span>!
           <br />
           <br />
           Lets get in touch if you want to bring an idea to life.

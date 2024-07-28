@@ -5,7 +5,7 @@ const CurrentCard = () => {
   return (
     <Card className="w-[350px] bg-transparent border-none">
       <CardHeader>
-        <h2 className="tracking-tight font-bold text-4xl">My Two Cents</h2>
+        <h2 className="tracking-tight font-bold text-4xl text-pink-600">My Two Cents</h2>
         <br />
         <span>
           To start off, I'm currently a student, pursuing my{" "}

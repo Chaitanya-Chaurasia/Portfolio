@@ -10,7 +10,7 @@ const IntroCard02 = () => {
           <h2 className="tracking-tight text-5xl font-extrabold">
             <span className="text-yellow-500">eat,</span>{" "}
             <span className="text-violet-400"> code,</span>{" "}
-            <span className="text-yellow-800">deploy,</span>{" "}
+            <span className="text-yellow-800">debug😖,</span>{" "}
             <span className="text-red-400">sleep,</span>{" "}
             <span className="text-blue-500">repeat!</span>
           </h2>

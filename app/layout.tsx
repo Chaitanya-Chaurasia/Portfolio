@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Inter } from 'next/font/google'
- 
-const inter = Inter({ subsets: ['latin'] })
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 import "./globals.css";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Chaitanya Chaurasia",
@@ -17,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`min-h-screen overflow-x-hidden flex flex-col bodymain ${inter.className}`}>
+      <body
+        className={`min-h-screen overflow-x-hidden flex flex-col bodymain ${inter.className}`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -26,6 +29,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   );
