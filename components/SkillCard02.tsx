@@ -6,7 +6,7 @@ const SkillCard02 = () => {
     <Card className="w-[350px] bg-transparent border-none">
       <CardHeader>
         <span>
-          <h2 className="tracking-tight text-xl font-bold">
+          <h2 className="tracking-tight text-3xl font-bold">
             What I Have to Offer
           </h2>
           <br />
@@ -16,12 +16,18 @@ const SkillCard02 = () => {
           consumers.
           <br />
           <br />
-          Given my expertise and longevity with the aforementioned skillset, I
-          have readily developed
-          <span className="font-bold"> high quality, industry-standard software</span> for clients who
-          look for change. I also readily participate in
-          hackathons all over the nation, winning some of the prestigious ones,
-          and getting recognized by companies such as <span className="font-bold"> Google</span>!
+          Given my experience with the aforementioned skillset, I have readily
+          developed
+          <span className="font-bold">
+            {" "}
+            high quality, industry-standard software
+          </span>{" "}
+          for clients who look for change, including designing and building{" "}
+          <span className="font-bold">dashboards, internal tools</span> and{" "}
+          <span className="font-bold">interfaces. </span> I also readily
+          participate in hackathons, winning some of the prestigious ones, and
+          getting recognized by companies such as
+          <span className="font-bold"> Google</span>!
           <br />
           <br />
           Lets get in touch if you want to bring an idea to life.

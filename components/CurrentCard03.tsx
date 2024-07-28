@@ -26,6 +26,7 @@ const CurrentCard03 = () => {
           If you have more time, continue scrolling down to learn about what I
           have learnt. and how I want to contribute to the society.
           <br />
+          <br />
         </span>
         <div className="flex gap-2 items-center">
           <span className="flex-1" />

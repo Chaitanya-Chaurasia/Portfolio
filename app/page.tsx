@@ -9,6 +9,8 @@ import CurrentCard from "@/components/CurrentCard";
 import CurrentCard03 from "@/components/CurrentCard03";
 import SkillCard from "@/components/SkillCard";
 import SkillCard02 from "@/components/SkillCard02";
+import { Separator } from "@/components/ui/separator";
+import SkillCard03 from "@/components/SkillCard03";
 
 export default function Home() {
   return (
@@ -20,13 +22,14 @@ export default function Home() {
           <IntroCard />
           <IntroCard02 />
         </div>
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center lg:items-top">
+        <div className="flex flex-col lg:flex-row w-screen p-10 gap-10 justify-center items-top">
           <CurrentCard />
           <CurrentCard02 />
           <CurrentCard03 />
         </div>
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center lg:items-top">
+        <div className="flex flex-col lg:flex-row w-screen p-10 items-top gap-10 justify-center">
           <SkillCard />
+          <SkillCard03 />
           <SkillCard02 />
         </div>
       </div>
