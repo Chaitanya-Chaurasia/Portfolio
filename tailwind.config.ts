@@ -23,10 +23,6 @@ const config = {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
-        backgroundImage: {
-          "gradient-to-br":
-            "linear-gradient(to bottom right, #48E8E7, #B817EC)",
-        },
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",

@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="min-h-screen p-2">
       <div className="flex flex-col items-center justify-center gap-10">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
           <ImageCard />
           <IntroCard />
@@ -42,11 +42,14 @@ export default function Home() {
           <SkillCard02 />
         </div>
         <div className="flex flex-col w-screen p-10 items-center gap-10 justify-center">
-          <h2 className="tracking-tight text-2xl font-semibold text-center w-[550px]" style={{
-            background: "linear-gradient(to right, #0EB5E6 0%, #CE3BCF 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent"
-          }}>
+          <h2
+            className="tracking-tight text-2xl font-semibold text-center w-[550px]"
+            style={{
+              background: "linear-gradient(to right, #0EB5E6 0%, #CE3BCF 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
             Well, that was a little bit about me. Feel free to check out other
             links and keep an eye out for updates. Back to work then, chop chop!
             <br />

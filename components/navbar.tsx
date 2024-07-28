@@ -60,7 +60,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Navbar() {
   return (
-    <NavigationMenu className="">
+    <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
@@ -141,9 +141,6 @@ export function Navbar() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        {/* <NavigationMenuItem>
-          <Image src={me} alt="logo" className="h-9 w-9 rounded-full" />
-        </NavigationMenuItem> */}
         <NavigationMenuItem>
           <ModeToggle />
         </NavigationMenuItem>
