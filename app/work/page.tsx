@@ -8,6 +8,9 @@ import { Separator } from "@/components/ui/separator";
 import Work02 from "@/components/work/Work02";
 import Work01 from "@/components/work/Work01";
 import Work03 from "@/components/work/Work03";
+import Work04 from "@/components/work/Work04";
+
+import garfield from "@/public/garfield.gif"
 
 const WorkPage = () => {
   return (
@@ -21,13 +24,17 @@ const WorkPage = () => {
           <WorkIntro02 />
         </div>
         <Separator className="w-96" />
-        <h2 className="tracking-tight text-3xl font-bold">
+        <h2 className="tracking-tight text-3xl font-bold flex items-center flex-grow">
           Professional Experience
+          <Image src = {garfield} alt = "gif" height={100} />
         </h2>
         <div className="flex flex-col lg:flex-row items-top justify-center gap-2">
           <Work01 />
           <Work02 />
-          {/* <Work03 /> */}
+        </div>
+        <div className="flex flex-col lg:flex-row items-top justify-center gap-2">
+          <Work03 />
+          <Work04 />
         </div>
       </div>
     </main>
