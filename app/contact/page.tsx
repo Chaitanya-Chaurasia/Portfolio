@@ -12,7 +12,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className="p-10 bg-gradient-to-b from-white dark:from-black to-pink-100 min-h-screen">
+    <main className="p-10 bg-gradient-to-b from-white to-pink-100 min-h-screen dark:from-black">
       <div className="flex flex-col items-center justify-center gap-10">
         <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
           The key to{" "}
@@ -23,14 +23,28 @@ const page = () => {
           </span>{" "}
           today!
         </h2>
-        <span className="w-96 text-center">Whether you're looking to collaborate, just say hi, or looking forward to having a chat, I'm all down for it. Go ahead, drop me a message and I'll get back to you within 24 hours.</span>
+        <span className="w-96 text-center">
+          Whether you're looking to collaborate, just say hi, or looking forward
+          to having a chat, I'm all down for it. Go ahead, drop me a message and
+          I'll get back to you within 24 hours.
+        </span>
         <Separator className="w-96" />
         <div className="w-[350px] flex flex-col items-center justify-center gap-2">
-          <Input type="email" placeholder="Email" required />
-          <Textarea placeholder="Type your message here." spellCheck required />
+          <Input
+            type="email"
+            placeholder="Email"
+            required
+            className="dark:font-bold"
+          />
+          <Textarea
+            placeholder="Type your message here."
+            spellCheck
+            required
+            className="dark:font-bold"
+          />
           <div className="flex gap-2">
-            <Button className="text-xs">Send Message</Button>
-            <Button className="text-xs" disabled>
+            <Button className="text-xs font-semibold">Send Message</Button>
+            <Button className="text-xs font-semibold" disabled>
               Subscribe to my newsletter (soon)
             </Button>
           </div>

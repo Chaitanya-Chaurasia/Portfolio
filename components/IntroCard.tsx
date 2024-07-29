@@ -22,7 +22,7 @@ const getMyTime = () => {
 const IntroCard = () => {
   return (
     <Card className="w-[350px] p-6 flex flex-col gap-2 text-card-foreground shadow bg-transparent">
-      <CardTitle className="text-4xl font-extrabold tracking-tight lg:text-5xl">
+      <CardTitle className="text-4xl font-bold tracking-tight lg:text-5xl">
         Hi, I'm <span className="text-green-400">Chaitanya,</span>
         <br /> a budding{" "}
         <span className="text-white drop-shadow-[0_0px_1.2px_rgba(0,0,0,0.8)]">

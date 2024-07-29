@@ -6,8 +6,10 @@ import { Toaster } from "sonner";
 import { Navbar } from "@/components/navbar";
 import { useTheme } from "next-themes";
 
-
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Chaitanya Chaurasia",
@@ -19,7 +21,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
       <body

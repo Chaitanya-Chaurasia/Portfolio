@@ -1,6 +1,4 @@
 import * as React from "react";
-
-import { Navbar } from "@/components/navbar";
 import IntroCard from "@/components/IntroCard";
 import ImageCard from "@/components/ImageCard";
 import IntroCard02 from "@/components/IntroCard02";

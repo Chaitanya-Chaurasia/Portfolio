@@ -7,7 +7,7 @@ const IntroCard02 = () => {
     <div className="flex flex-col gap-2 justify-center h-full">
       <Card className="w-[350px] bg-transparent border-none">
         <CardHeader>
-          <h2 className="tracking-tight text-5xl font-extrabold">
+          <h2 className="tracking-tight text-5xl font-bold">
             <span className="text-yellow-500">eat,</span>{" "}
             <span className="text-violet-400"> code,</span>{" "}
             <span className="text-yellow-800">debug😖,</span>{" "}
