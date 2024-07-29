@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
-
+import { ThemeProvider } from "@/components/theme-provider";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
+import { Navbar } from "@/components/navbar";
+import { useTheme } from "next-themes";
+
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Chaitanya Chaurasia",
@@ -12,15 +19,29 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      />
-      <body className="min-h-screen flex flex-col bodymain">{children}</body>
+      <body
+        className={`min-h-screen overflow-x-hidden flex flex-col
+           bodymain ${inter.className}`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div
+            id="navbar"
+            className="w-full flex items-center justify-center p-4 sticky top-0 z-50 dark:bg-[#09090b] bg-white shadow-white shadow-xl dark:shadow-[#09090b]"
+          >
+            <Navbar />
+          </div>
+          <main className="flex-grow">{children}</main>
+        </ThemeProvider>
+        <Toaster />
+      </body>
     </html>
   );
 }
