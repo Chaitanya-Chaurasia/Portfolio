@@ -14,6 +14,7 @@ import garfield from "@/public/garfield.gif";
 import comic from "@/public/comic.gif";
 import Free01 from "@/components/work/Free01";
 import Free02 from "@/components/work/Free02";
+import Free03 from "@/components/work/Free03";
 
 const WorkPage = () => {
   return (
@@ -52,6 +53,7 @@ const WorkPage = () => {
         <div className="flex flex-col lg:flex-row items-top justify-center gap-2">
           <Free01 />
           <Free02 />
+          <Free03 />
         </div>
       </div>
     </main>
