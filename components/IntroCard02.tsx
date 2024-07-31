@@ -33,9 +33,7 @@ const IntroCard02 = () => {
               scintillating and enriching
             </span>{" "}
             journey. I've realized how much more there is to learn and grow.{" "}
-            <span className="font-medium">
-              From here on, the sky's the limit!
-            </span>
+            <span className="font-medium">From here on, sky's the limit!</span>
           </h2>
         </CardHeader>
       </Card>
