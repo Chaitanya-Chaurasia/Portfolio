@@ -15,7 +15,12 @@ import Free03 from "@/components/work/Free03";
 
 import garfield from "@/public/garfield.gif";
 import comic from "@/public/comic.gif";
-import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import {
+  GitHubLogoIcon,
+  InstagramLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 
 const WorkPage = () => {
   return (
@@ -63,7 +68,7 @@ const WorkPage = () => {
           </h2>
           <br />
           <br />
-          <span className="text-center">
+          <span className="text-center ">
             Whose woods these are I think I know.
             <br />
             His house is in the village though; <br />
@@ -71,7 +76,7 @@ const WorkPage = () => {
             <br /> To watch his woods fill up with snow.
           </span>
           <br />
-          <span className="text-center">
+          <span className="text-center ">
             My little horse must think it queer <br />
             To stop without a farmhouse near
             <br />
@@ -79,7 +84,7 @@ const WorkPage = () => {
             The darkest evening of the year.
           </span>
           <br />
-          <span className="text-center">
+          <span className="text-center ">
             He gives his harness bells a shake <br />
             To ask if there is some mistake.
             <br />
@@ -87,7 +92,7 @@ const WorkPage = () => {
             Of easy wind and downy flake.
           </span>
           <br />
-          <span className="text-center">
+          <span className="text-center ">
             The woods are lovely, dark and deep,
             <br />
             But I have promises to keep,
@@ -101,7 +106,6 @@ const WorkPage = () => {
               before I sleep.
             </span>
           </span>
-          
         </div>
         <Separator className="w-96" />
         <div className="flex items-center justify-center gap-10 mb-20">
