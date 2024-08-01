@@ -7,10 +7,11 @@ import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
   TwitterLogoIcon,
+  FigmaLogoIcon,
 } from "@radix-ui/react-icons";
 import React from "react";
 import ImageVortex from "@/components/ImageVortex";
-
+import { ChromaDesc, WaitlistChroma, ChromaIntro } from "@/components/Chroma";
 const ProjectPage = () => {
   return (
     <main className="p-10 ">
@@ -23,9 +24,11 @@ const ProjectPage = () => {
           As an engineer, I try to find creative ways I can make lives easier.
         </span>
         <Separator className="w-96" />
-        
-        <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
-        </h2>
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-2">
+          <ChromaIntro />
+          <ChromaDesc />
+          <WaitlistChroma />
+        </div>
       </div>
     </main>
   );
