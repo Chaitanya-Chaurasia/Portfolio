@@ -1,11 +1,21 @@
+"use client";
 import React from "react";
-import { Card, CardContent } from "./ui/card";
 import Image from "next/image";
+import me from "@/public/profile.jpeg";
 import legal from "@/public/legalaid.png";
 import incog from "@/public/incognito.png";
 import boba from "@/public/boba.png";
-import grad from "@/public/gradbg.png";
-const ImageVortex = () => {
+import { Card, CardContent } from "@/components/ui/card";
+
+export const ImageCard = (img: any) => {
+  return (
+    <Card className="w-[350px]">
+      <Image src={me} alt="image" className="rounded-xl h-full w-full" />
+    </Card>
+  );
+};
+
+export const ImageVortex = () => {
   return (
     <Card className="border-none drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)] ">
       <CardContent className="flex flex-col lg:flex-row items-center justify-center gap-4">
@@ -30,5 +40,3 @@ const ImageVortex = () => {
     </Card>
   );
 };
-
-export default ImageVortex;

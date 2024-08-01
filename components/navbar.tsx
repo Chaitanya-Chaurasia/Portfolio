@@ -2,9 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-
 import { cn } from "@/lib/utils";
-// import { Icons } from "@/components/icons"
 import { Icon } from "@radix-ui/react-select";
 import {
   NavigationMenu,
@@ -16,7 +14,6 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 // import me from "@/public/myAvatar.svg";
-
 import Image from "next/image";
 import { ModeToggle } from "./ui/dark-mode";
 

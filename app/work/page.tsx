@@ -1,18 +1,11 @@
 import { Card } from "@/components/ui/card";
-import WorkIntro from "@/components/WorkIntro";
+import { WorkIntro, WorkIntro02 } from "@/components/WorkIntro";
 import Image from "next/image";
 import React from "react";
 import para from "@/public/para.jpeg";
-import WorkIntro02 from "@/components/WorkIntro02";
 import { Separator } from "@/components/ui/separator";
-import Work02 from "@/components/work/Work02";
-import Work01 from "@/components/work/Work01";
-import Work03 from "@/components/work/Work03";
-import Work04 from "@/components/work/Work04";
-import Free01 from "@/components/work/Free01";
-import Free02 from "@/components/work/Free02";
-import Free03 from "@/components/work/Free03";
-
+import { Work01, Work02, Work03, Work04 } from "@/components/Work";
+import { Free01, Free02, Free03 } from "@/components/Free";
 import garfield from "@/public/garfield.gif";
 import comic from "@/public/comic.gif";
 import {

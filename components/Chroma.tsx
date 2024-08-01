@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Card, CardHeader } from "./ui/card";
 import { Input } from "./ui/input";
@@ -41,15 +43,14 @@ export const ChromaDesc = () => {
       <CardHeader>
         <h2 className="tracking-tight text-xl font-bold text-center ">Why?</h2>
         <span className="text-center">
-          If you've worked with React.js, you might have seen how annoying it is to
-          style components when it comes to color combinations, gradients and
-          image sizing. 
+          If you've worked with React.js, you might have seen how annoying it is
+          to style components when it comes to color combinations, gradients and
+          image sizing.
           <br />
           <br /> Well, worry no more, because now you can use pre-built
-          components to acheive this feat.
-          For example, the image vortex and drop shadow on the very top of the
-          page is a part of my component library that lets you do that in 2-3
-          lines.
+          components to acheive this feat. For example, the image vortex and
+          drop shadow on the very top of the page is a part of my component
+          library that lets you do that in 2-3 lines.
         </span>
       </CardHeader>
     </Card>
@@ -59,18 +60,20 @@ export const ChromaDesc = () => {
 export const WaitlistChroma = () => {
   return (
     <Card className="w-[280px] h-[300px] bg-gradient-to-t from-inherit to-lime-500">
-      <CardHeader className="flex flex-col items-center justify-center h-full gap-10">
+      <CardHeader className="flex flex-col items-center justify-center h-full gap-5">
         <h2 className="tracking-tight text-center font-light">
           Sign up with to get notifications on product launch, updates and
           more...
         </h2>
         <Input placeholder="Email" />
+        <Button size="sm" className="text-xs">
+          Subscribe
+        </Button>
         <div className="flex gap-2 items-center">
-          <Button variant="ghost">
+          <Button variant="ghost" disabled className="p-0">
             <FigmaLogoIcon />
           </Button>
-          &
-          <Button variant="ghost">
+          <Button variant="ghost" disabled className="p-0">
             <GitHubLogoIcon />
           </Button>
           <span className="text-xs">coming soon!</span>

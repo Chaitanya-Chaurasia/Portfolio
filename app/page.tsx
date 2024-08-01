@@ -1,13 +1,12 @@
 import * as React from "react";
-import IntroCard from "@/components/IntroCard";
-import ImageCard from "@/components/ImageCard";
-import IntroCard02 from "@/components/IntroCard02";
-import CurrentCard02 from "@/components/CurrentCard02";
-import CurrentCard from "@/components/CurrentCard";
-import CurrentCard03 from "@/components/CurrentCard03";
-import SkillCard from "@/components/SkillCard";
-import SkillCard02 from "@/components/SkillCard02";
-import SkillCard03 from "@/components/SkillCard03";
+import { IntroCard, IntroCard02 } from "@/components/IntroCard";
+import { ImageCard } from "@/components/CustomComponents";
+import {
+  CurrentCard,
+  CurrentCard02,
+  CurrentCard03,
+} from "@/components/CurrentCard";
+import { SkillCard, SkillCard02, SkillCard03 } from "@/components/SkillCard";
 import Image from "next/image";
 import mario from "@/public/mario.gif";
 import Footer from "@/components/Footer";
@@ -16,7 +15,6 @@ export default function Home() {
   return (
     <main className="min-h-screen p-2">
       <div className="flex flex-col items-center justify-center gap-10">
-        {/* <Navbar /> */}
         <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
           <ImageCard />
           <IntroCard />
