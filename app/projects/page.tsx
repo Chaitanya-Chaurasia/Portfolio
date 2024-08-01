@@ -8,11 +8,7 @@ import {
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
-import legal from "@/public/legalaid.png";
-import incog from "@/public/incognito.png";
-import boba from "@/public/boba.png";
 import React from "react";
-import Image from "next/image";
 import ImageVortex from "@/components/ImageVortex";
 
 const ProjectPage = () => {
@@ -20,15 +16,16 @@ const ProjectPage = () => {
     <main className="p-10 ">
       <div className="flex flex-col items-center justify-center gap-10">
         <ImageVortex />
-        <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
+        <h2 className="tracking-tight text-5xl font-extrabold text-center max-w-[550px] text-wrap drop-shadow-[0_0px_79px_rgba(151,95,217,1)]">
           Projects I feel can make a difference out there!{" "}
         </h2>
         <span className="w-96 text-center">
-          Whether you're looking to collaborate, just say hi, or looking forward
-          to having a chat, I'm all down for it. Go ahead, drop me a message and
-          I'll get back to you within 24 hours.
+          As an engineer, I try to find creative ways I can make lives easier.
         </span>
         <Separator className="w-96" />
+        
+        <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
+        </h2>
       </div>
     </main>
   );

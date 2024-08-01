@@ -4,16 +4,15 @@ import Image from "next/image";
 import legal from "@/public/legalaid.png";
 import incog from "@/public/incognito.png";
 import boba from "@/public/boba.png";
-import { AspectRatio } from "./ui/aspect-ratio";
-
+import grad from "@/public/gradbg.png";
 const ImageVortex = () => {
   return (
-    <Card className="border-none">
+    <Card className="border-none drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)] ">
       <CardContent className="flex flex-col lg:flex-row items-center justify-center gap-4">
         <Image
           src={legal}
           alt="boba"
-          className="rounded-xl -rotate-12 mt-20 hover:scale-110 transition-all shadow-lg shadow-gray-500 hover:z-[1000] "
+          className="rounded-xl -rotate-12 mt-20 hover:scale-110 transition-all shadow-lg shadow-gray-500 hover:z-[1000]"
           height={160}
         />
         <Image
