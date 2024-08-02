@@ -4,10 +4,11 @@ import GavelIcon from "@mui/icons-material/Gavel";
 import VpnLockIcon from "@mui/icons-material/VpnLock";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
+import GroupsIcon from '@mui/icons-material/Groups';
 import { Button } from "./ui/button";
 import { GitHubLogoIcon, ThickArrowUpIcon } from "@radix-ui/react-icons";
 import PublicIcon from "@mui/icons-material/Public";
-
+import LinkIcon from '@mui/icons-material/Link';
 const projects = [
   {
     name: "LegalAId",
@@ -32,18 +33,18 @@ const projects = [
 const schoolProjects = [
   {
     name: "BobaBrain",
-    desc: "Exams are approaching? Stressed and need an AI teacher? Presenting BobaBrain, the new age AI professor! Upload your course notes and videos, and ask about anything. Get in-depth answers on all uploaded material, be it an audio or a video. What's more- Quizzes, Flashcards, AI Summary & Mind Maps!",
+    desc: "Exams are approaching? Stressed and need an AI teacher? Presenting BobaBrain, the new age AI professor! Upload your course notes and videos, and ask anything. What's more- Quizzes, Flashcards, AI Summary & Mind Maps!",
     prize: "Upcoming Startup. Check it out at bobabrain.ai.",
   },
   {
     name: "EffortLogger",
-    desc: "Presenting an Agile-based productivity tool for Software teams. Log and store timings for different tasks, hold Planning Poker sessions with multiple users, and keep track of backlog items.",
+    desc: "Presenting an Agile-based productivity tool for Software teams. Log and store timings for different tasks, hold Planning Poker sessions with multiple users, and keep track of backlog items. What's more, create chat sessions for different tasks.",
     prize: "Part of CSE360 - Introduction to Software Engineering Principles",
     link: "https://github.com/Chaitanya-Chaurasia/LegalAid",
   },
   {
     name: "DocChain",
-    desc: "Tired of waiting long queues for visa approval, or to update your SSN? Worry no more, because I present to you, a decentralized, blockchain-based solution that lets you do it all from home. ",
+    desc: "Tired of waiting long queues for visa approval, or to update your SSN? Worry no more, because we present to you, a decentralized, blockchain-based solution that lets you do it all from home. Offers top-notch security, with end-to-end encryption.",
     prize: "Built @ HackPrinceton 2023, Princeton University",
 
     link: "https://devpost.com/software/icognito",
@@ -101,8 +102,8 @@ export const SchoolProjects = () => {
             <CardHeader>
               <h2 className="text-wrap tracking-tight text-4xl font-extrabold flex flex-row items-center gap-2">
                 {project.name}
-                {project.name === "EffortLogger" && <VpnLockIcon />}
-                {project.name === "DocChain" && <AccountBalanceIcon />}
+                {project.name === "EffortLogger" && <GroupsIcon />}
+                {project.name === "DocChain" && <LinkIcon />}
                 {project.name === "BobaBrain" && <LightbulbIcon />}
               </h2>
               <h2 className="text-wrap tracking-tight text-sm">

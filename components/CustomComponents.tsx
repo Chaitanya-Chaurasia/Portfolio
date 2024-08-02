@@ -22,7 +22,7 @@ export const ImageVortex = () => {
         <Image
           src={legal}
           alt="boba"
-          className="rounded-xl -rotate-12 mt-20 hover:scale-110 transition-all shadow-lg shadow-gray-500 hover:z-[1000] drop-shadow-[0_0px_79px_rgba(71,214,70,0.5)] "
+          className="rounded-xl -rotate-12 mt-20 hover:scale-110 transition-all shadow-lg shadow-gray-500 drop-shadow-[0_0px_79px_rgba(71,214,70,0.5)] "
           height={160}
         />
         <Image
@@ -33,7 +33,7 @@ export const ImageVortex = () => {
         <Image
           src={incog}
           alt="boba"
-          className="rounded-xl rotate-12 lg:mt-20 hover:scale-110 transition-all shadow-lg shadow-black hover:z-[1000] drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)] "
+          className="rounded-xl rotate-12 lg:mt-20 hover:scale-110 transition-all shadow-lg shadow-black drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)] "
           height={160}
         />
       </CardContent>
