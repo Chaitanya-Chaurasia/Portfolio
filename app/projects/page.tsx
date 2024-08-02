@@ -2,14 +2,14 @@ import { Separator } from "@/components/ui/separator";
 import React from "react";
 import { ImageVortex } from "@/components/CustomComponents";
 import { ChromaDesc, WaitlistChroma, ChromaIntro } from "@/components/Chroma";
-import { Projects } from "@/components/Projects";
+import { Projects, SchoolProjects } from "@/components/Projects";
 
 const ProjectPage = () => {
   return (
     <main className="p-10 ">
       <div className="flex flex-col items-center justify-center gap-10">
         <ImageVortex />
-        <h2 className="tracking-tight text-5xl font-extrabold text-center max-w-[550px] text-wrap drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)]">
+        <h2 className="tracking-tight text-6xl font-extrabold text-center max-w-[550px] text-wrap drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)]">
           Projects I feel can make a difference out there!{" "}
         </h2>
         <span className="w-96 text-center">
@@ -26,6 +26,7 @@ const ProjectPage = () => {
           Check these out
         </h2> */}
         <Projects />
+        <SchoolProjects />
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-2"></div>
       </div>
