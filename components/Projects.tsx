@@ -4,11 +4,19 @@ import GavelIcon from "@mui/icons-material/Gavel";
 import VpnLockIcon from "@mui/icons-material/VpnLock";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
-import GroupsIcon from '@mui/icons-material/Groups';
+import GroupsIcon from "@mui/icons-material/Groups";
 import { Button } from "./ui/button";
 import { GitHubLogoIcon, ThickArrowUpIcon } from "@radix-ui/react-icons";
 import PublicIcon from "@mui/icons-material/Public";
-import LinkIcon from '@mui/icons-material/Link';
+import LinkIcon from "@mui/icons-material/Link";
+
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 const projects = [
   {
     name: "LegalAId",
@@ -51,7 +59,73 @@ const schoolProjects = [
   },
 ];
 
-export function Projects() {
+export const SkillAccordion = () => {
+  return (
+    <Accordion type="single" collapsible className="w-full ">
+      <AccordionItem value="item-2">
+        <AccordionTrigger className="text-xl font-light">
+          Why I work on projects?
+        </AccordionTrigger>
+        <AccordionContent>
+          Well, Computer Science, or for any field for that matter, is not
+          limited to theory. What matters is how you can apply your skills and
+          ocntribute to your field.
+          <br />
+          <br />
+          And trust me, there's no better way than to work on projects.
+          Hands-on-experience imprints and polishes skills in your brain faster
+          than just going through a course.
+          <br />
+          <br />
+          And lastly, I develop because I love it. That's the most important
+          factor. I hope one my inventions has potential to help the society.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-1">
+        <AccordionTrigger className="text-xl font-light">
+          My Tech Stack
+        </AccordionTrigger>
+        <AccordionContent>
+          I usually use the <span className="font-semibold">T3</span> stack or{" "}
+          <span className="font-semibold">Next.js + RadixUI/shadcn</span> for my
+          personal projects. In fact, this website is developed on T3. Apart
+          from that, I keep on switching between old and newer technologies to
+          keep on learning.
+          <br />
+          <br />
+          For frontend development, I use{" "}
+          <span className="font-semibold">TypeScript</span> and{" "}
+          <span className="font-semibold">CSS</span>. For backend development, I
+          prefer sticking to <span className="font-semibold">Python </span>{" "}
+          because of the diverse range of libraries it offers. Other tools I use
+          on the go include <span className="font-semibold">SQL, Git</span> and{" "}
+          <span className="font-semibold">AWS</span> for{" "}
+          <span className="font-semibold">cloud services</span> and{" "}
+          <span className="font-semibold">deployment</span>.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger className="text-xl font-light">
+          How to start?
+        </AccordionTrigger>
+        <AccordionContent>
+          I'm really if you clicked on this one. My best advice is to identify
+          your strengths and interests. If you like designing websites and UI/UX
+          work, start working on a website; if you like more backend stuff,
+          design an API that does something as basic as getting weather
+          information from different cities.
+          <br />
+          <br />
+          So much information is available on the internet today, and that too
+          for free. Go to YouTube, Medium or GeeksForGeeks and get started.
+          Don't procrastinate, do it now!
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  );
+};
+
+export const Projects = () => {
   return (
     <div className="w-full flex lg:flex-row flex-col gap-4 items-top justify-center ">
       {Array.from(projects).map((project) => {
@@ -91,7 +165,7 @@ export function Projects() {
       })}
     </div>
   );
-}
+};
 
 export const SchoolProjects = () => {
   return (
