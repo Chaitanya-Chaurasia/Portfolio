@@ -9,22 +9,38 @@ import {
 import { SkillCard, SkillCard02, SkillCard03 } from "@/components/SkillCard";
 import Image from "next/image";
 import mario from "@/public/mario.gif";
+import code from "@/public/types-and-programming-languages-computer-programming-programmer-programming-language.jpg";
 import Footer from "@/components/Footer";
+
+import { Specialize } from "@/components/Specialize";
+import { Separator } from "@/components/ui/separator";
+import { url } from "inspector";
 
 export default function Home() {
   return (
     <main className="min-h-screen p-2">
-      <div className="flex flex-col items-center justify-center gap-10">
+      <div className="flex flex-col items-center justify-center">
+        {/* <div className="flex items-center h-screen">
+          <h2 className="tracking-tight text-5xl font-extrabold text-center ">
+            Welcome to my Website
+          </h2>
+        </div> */}
         <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
           <ImageCard />
           <IntroCard />
           <IntroCard02 />
         </div>
+        <Separator className="w-96 my-20" />
+        <div className="dark:drop-shadow-[0_0px_19px_rgba(200,14,170,0.8)] drop-shadow-[0_0px_60px_rgba(100,214,170,0.6)]">
+          <Specialize />
+        </div>
+        <Separator className="w-96 my-10" />
         <div className="flex flex-col lg:flex-row w-screen p-10 gap-10 justify-center items-top">
           <CurrentCard />
           <CurrentCard02 />
           <CurrentCard03 />
         </div>
+        ``
         <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center border">
           <Image src={mario} alt="mario" height={250} />
           <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
@@ -37,6 +53,7 @@ export default function Home() {
           <SkillCard03 />
           <SkillCard02 />
         </div>
+        <Separator className="w-96 my-10" />
         <div className="flex flex-col w-screen p-10 items-center gap-10 justify-center">
           <h2
             className="tracking-tight text-2xl font-semibold text-center w-[550px]"

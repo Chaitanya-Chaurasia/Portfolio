@@ -17,7 +17,7 @@ export const ImageCard = (img: any) => {
 
 export const ImageVortex = () => {
   return (
-    <Card className="border-none ">
+    <Card className="border-none drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)]">
       <CardContent className="flex flex-col lg:flex-row items-center justify-center gap-0">
         <Image
           src={legal}
