@@ -20,11 +20,6 @@ export default function Home() {
   return (
     <main className="min-h-screen p-2">
       <div className="flex flex-col items-center justify-center">
-        {/* <div className="flex items-center h-screen">
-          <h2 className="tracking-tight text-5xl font-extrabold text-center ">
-            Welcome to my Website
-          </h2>
-        </div> */}
         <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
           <ImageCard />
           <IntroCard />
@@ -40,7 +35,6 @@ export default function Home() {
           <CurrentCard02 />
           <CurrentCard03 />
         </div>
-        ``
         <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center border">
           <Image src={mario} alt="mario" height={250} />
           <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">

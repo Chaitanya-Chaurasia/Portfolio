@@ -43,19 +43,20 @@ const schoolProjects = [
     name: "BobaBrain",
     desc: "Exams are approaching? Stressed and need an AI teacher? Presenting BobaBrain, the new age AI professor! Upload your course notes and videos, and ask anything. What's more- Quizzes, Flashcards, AI Summary & Mind Maps!",
     prize: "Upcoming Startup. Check it out at bobabrain.ai.",
+    link: "https://bobabrain.ai",
   },
   {
     name: "EffortLogger",
     desc: "Presenting an Agile-based productivity tool for Software teams. Log and store timings for different tasks, hold Planning Poker sessions with multiple users, and keep track of backlog items. What's more, create chat sessions for different tasks.",
     prize: "Part of CSE360 - Introduction to Software Engineering Principles",
-    link: "https://github.com/Chaitanya-Chaurasia/LegalAid",
+    link: "https://github.com/Chaitanya-Chaurasia/Effort-Logger-with-Planning-Poker",
   },
   {
     name: "DocChain",
     desc: "Tired of waiting long queues for visa approval, or to update your SSN? Worry no more, because we present to you, a decentralized, blockchain-based solution that lets you do it all from home. Offers top-notch security, with end-to-end encryption.",
     prize: "Built @ HackPrinceton 2023, Princeton University",
 
-    link: "https://devpost.com/software/icognito",
+    link: "https://github.com/Chaitanya-Chaurasia/HackPrinceton",
   },
 ];
 
@@ -147,15 +148,13 @@ export const Projects = () => {
               <span className="flex items-center ">
                 <ThickArrowUpIcon />
                 <span className="text-xs p-2">10 upvotes</span>
-                <a href={project.link}>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button variant="ghost" size="icon" className="p-0">
-                    {(project.name === "LegalAId" ||
-                      project.name === "Incognito" ||
-                      project.name === "WealthWise") && <GitHubLogoIcon />}
-
-                    {project.name === "BobaBrain" && (
-                      <PublicIcon className="h-[18px]" />
-                    )}
+                    <GitHubLogoIcon />
                   </Button>
                 </a>
               </span>
@@ -188,13 +187,16 @@ export const SchoolProjects = () => {
               <span className="flex items-center ">
                 <ThickArrowUpIcon />
                 <span className="text-xs p-2">10 upvotes</span>
-                <a href={project.link}>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button variant="ghost" size="icon" className="p-0">
-                    {(project.name === "EffortLogger" ||
-                      project.name === "DocChain" ||
-                      project.name === "BobaBrain") && <GitHubLogoIcon />}
-
-                    {project.name === "BobaBrain" && (
+                    {project.name === "EffortLogger" ||
+                    project.name === "DocChain" ? (
+                      <GitHubLogoIcon />
+                    ) : (
                       <PublicIcon className="h-[18px]" />
                     )}
                   </Button>

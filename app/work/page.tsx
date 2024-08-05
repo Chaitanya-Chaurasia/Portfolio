@@ -12,7 +12,6 @@ import {
   GitHubLogoIcon,
   InstagramLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 
 const WorkPage = () => {
@@ -87,6 +86,7 @@ const WorkPage = () => {
           <br />
           <span className="text-center ">
             The woods are lovely, dark and deep,
+
             <br />
             But I have promises to keep,
             <br /> And <span className="font-semibold">miles to go</span> before
@@ -97,18 +97,36 @@ const WorkPage = () => {
         </div>
         <Separator className="w-96 my-10" />
         <div className="flex items-center justify-center gap-10 mb-20">
+           <a
+          href="https://github.com/Chaitanya-Chaurasia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GitHubLogoIcon height={20} width={20} className="hover:scale-125" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chai-t/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LinkedInLogoIcon
             height={20}
             width={20}
             className="hover:scale-125"
           />
-          <TwitterLogoIcon height={20} width={20} className="hover:scale-125" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/chaitanya_chaurasia/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <InstagramLogoIcon
             height={20}
             width={20}
             className="hover:scale-125"
           />
+        </a>
 
           <Separator orientation="vertical" className="h-[20px]" />
           <span className="font-medium text-muted-foreground text-sm">

@@ -44,10 +44,36 @@ export const IntroCard = () => {
         <Badge>💻 IDEXX</Badge>
       </CardTitle>
       <CardTitle className="flex flex-row gap-2 my-2 items-center">
-        <GitHubLogoIcon height={20} width={20} className="hover:scale-125" />
-        <LinkedInLogoIcon height={20} width={20} className="hover:scale-125" />
-        <TwitterLogoIcon height={20} width={20} className="hover:scale-125" />
-        <InstagramLogoIcon height={20} width={20} className="hover:scale-125" />
+        <a
+          href="https://github.com/Chaitanya-Chaurasia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubLogoIcon height={20} width={20} className="hover:scale-125" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chai-t/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedInLogoIcon
+            height={20}
+            width={20}
+            className="hover:scale-125"
+          />
+        </a>
+
+        <a
+          href="https://www.instagram.com/chaitanya_chaurasia/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <InstagramLogoIcon
+            height={20}
+            width={20}
+            className="hover:scale-125"
+          />
+        </a>
         <Separator orientation="vertical" className="h-[20px]" />
         <span className="font-medium text-muted-foreground text-sm">
           cchauras@asu.edu
