@@ -14,6 +14,11 @@ import { toast } from "sonner";
 import emailjs from "emailjs-com";
 import { SonicLoader } from "@/components/CustomComponents";
 
+const isEmailValid = (email: string): boolean => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+};
+
 const page = () => {
   const [loading, setLoading] = useState(false);
   const [senderEmail, setSenderEmail] = useState("");
@@ -27,34 +32,40 @@ const page = () => {
     e.preventDefault();
     setLoading(true);
 
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
-    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
-
-    console.log(serviceID, templateID, publicKey);
-
-    const templateParams = {
-      from_name: senderEmail,
-      to_name: "chaitanyalvis@gmail.com",
-      message: senderMessage,
-    };
-
-    const emailSent = await emailjs.send(
-      serviceID,
-      templateID,
-      templateParams,
-      publicKey
-    );
-
-    if (emailSent.status === 200) {
-      toast.success(`Email sent successfully from ${senderEmail}`);
+    if (!isEmailValid(senderEmail)) {
+      toast.error("Invalid email address");
     } else {
-      toast.error("Failed to send email");
+      const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
+      const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
+
+      console.log(serviceID, templateID, publicKey);
+
+      const templateParams = {
+        from_name: senderEmail,
+        to_name: "chaitanyalvis@gmail.com",
+        message: senderMessage,
+      };
+
+      const emailSent = await emailjs.send(
+        serviceID,
+        templateID,
+        templateParams,
+        publicKey
+      );
+
+      if (emailSent.status === 200) {
+        toast.success(`Email sent successfully from ${senderEmail}`);
+      } else {
+        toast.error("Failed to send email");
+      }
     }
 
     setLoading(false);
     setSenderEmail("");
     setSenderMessage("");
+
+    return;
   };
 
   return (
