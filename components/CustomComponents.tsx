@@ -5,7 +5,8 @@ import me from "@/public/profile.jpeg";
 import legal from "@/public/legalaid.png";
 import incog from "@/public/incognito.png";
 import boba from "@/public/boba.png";
-import { Card, CardContent } from "@/components/ui/card";
+import sonic from "@/public/sonic.gif";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 export const ImageCard = (img: any) => {
   return (
@@ -37,6 +38,19 @@ export const ImageVortex = () => {
           height={160}
         />
       </CardContent>
+    </Card>
+  );
+};
+
+export const SonicLoader = () => {
+  return (
+    <Card className="border-none">
+      <CardHeader className="flex flex-row items-center justify-center gap-10">
+        <Image src={sonic} alt="loader" height={50} />
+        <h2 className="tracking-tighter text-xs">
+          Hold tight! Delivering your message...
+        </h2>
+      </CardHeader>
     </Card>
   );
 };
