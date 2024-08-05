@@ -7,8 +7,8 @@ export const WorkIntro = () => {
     <Card className="w-[350px] border-none">
       <CardHeader>
         <h2 className="tracking-tight text-5xl font-extrabold">
-          What is <span className="underline bg-lime-400">life </span>without{" "}
-          <span className="text-fuchsia-400">work</span>, I say.
+          What is <span className="underline text-lime-400">life </span>without{" "}
+          <span className="text-fuchsia-400">work</span>, I ask.
         </h2>
         <br />
         <span>
@@ -39,7 +39,7 @@ export const WorkIntro02 = () => {
           successful people I have met have advised.
           <br />
           <br />
-          <h2 className="tracking-tight text-lg font-bold">
+          <h2 className="tracking-tight font-semibold">
             What am I working towards?
           </h2>
           <br />

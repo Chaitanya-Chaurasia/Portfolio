@@ -31,7 +31,7 @@ export default function Home() {
           <IntroCard02 />
         </div>
         <Separator className="w-96 my-20" />
-        <div className="dark:drop-shadow-[0_0px_19px_rgba(200,14,170,0.8)] drop-shadow-[0_0px_60px_rgba(100,214,170,0.6)]">
+        <div className="dark:drop-shadow-[0_0px_19px_rgba(200,14,170,0.8)] drop-shadow-[0_0px_60px_rgba(2,14,70,0.3)]">
           <Specialize />
         </div>
         <Separator className="w-96 my-10" />

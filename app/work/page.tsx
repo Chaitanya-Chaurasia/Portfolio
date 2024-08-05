@@ -26,7 +26,7 @@ const WorkPage = () => {
           <WorkIntro />
           <WorkIntro02 />
         </div>
-        <Separator className="w-96" />
+        <Separator className="w-96 my-10" />
         <h2 className="tracking-tight text-3xl font-bold">
           Professional Experience
         </h2>
@@ -38,7 +38,7 @@ const WorkPage = () => {
           <Work03 />
           <Work04 />
         </div>
-        <Separator className="w-96" />
+        <Separator className="w-96 my-10" />
         <div className="flex flex-col lg:flex-row items-center gap-10 m-6">
           <h2 className="tracking-tight text-3xl font-extrabold italic text-orange-500">
             Daily Humor
@@ -47,7 +47,7 @@ const WorkPage = () => {
           <Image src={garfield} alt="gif" height={100} />
         </div>
 
-        <Separator className="w-96" />
+        <Separator className="w-96 my-10" />
 
         <div className="flex flex-col lg:flex-row items-top justify-center gap-2">
           <Free01 />
@@ -89,18 +89,13 @@ const WorkPage = () => {
             The woods are lovely, dark and deep,
             <br />
             But I have promises to keep,
-            <br /> And{" "}
-            <span className="font-medium bg-fuchsia-300 text-white">
-              miles to go
-            </span>{" "}
-            before I sleep,
+            <br /> And <span className="font-semibold">miles to go</span> before
+            I sleep,
             <br /> And miles to go{" "}
-            <span className="font-medium bg-emerald-500 text-white">
-              before I sleep.
-            </span>
+            <span className="font-semibold">before I sleep.</span>
           </span>
         </div>
-        <Separator className="w-96" />
+        <Separator className="w-96 my-10" />
         <div className="flex items-center justify-center gap-10 mb-20">
           <GitHubLogoIcon height={20} width={20} className="hover:scale-125" />
           <LinkedInLogoIcon

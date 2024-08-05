@@ -10,10 +10,7 @@ export const Free01 = () => {
       <CardHeader>
         <h2 className="tracking-tight text-3xl font-bold">
           My <span className="text-red-300"> Journey</span> as a{" "}
-          <span className="bg-teal-400 text-lime-100 dark:text-white">
-            {" "}
-            Freelancer!
-          </span>
+          <span className="text-teal-400 "> Freelancer!</span>
         </h2>
         <br />
         We're about to touch 8 billion people on this planet. Thus, it is safe
