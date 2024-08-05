@@ -13,11 +13,7 @@ import React, { useState } from "react";
 import { toast } from "sonner";
 import emailjs from "emailjs-com";
 import { SonicLoader } from "@/components/CustomComponents";
-
-const isEmailValid = (email: string): boolean => {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
-};
+import { isEmailValid } from "@/lib/helper";
 
 const page = () => {
   const [loading, setLoading] = useState(false);

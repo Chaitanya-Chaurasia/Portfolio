@@ -1,10 +1,11 @@
 "use client";
-
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardHeader } from "./ui/card";
 import { Input } from "./ui/input";
 import { FigmaLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
+import { isEmailValid } from "@/lib/helper";
+import { toast } from "sonner";
 
 export const ChromaIntro = () => {
   return (
@@ -58,6 +59,26 @@ export const ChromaDesc = () => {
 };
 
 export const WaitlistChroma = () => {
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubscribe = (e: any) => {
+    // add email to database and send an alert saying subscribed.
+    e.preventDefault();
+    setLoading(true);
+    console.log("first");
+
+    if (!isEmailValid(email)) {
+      toast.error("Please enter a valid email address.");
+    } else {
+      toast.success("You subscribed to updates!");
+    }
+
+    setLoading(false);
+    setEmail("");
+
+    return;
+  };
   return (
     <Card className="w-[280px] h-[300px] bg-gradient-to-t from-inherit to-lime-500">
       <CardHeader className="flex flex-col items-center justify-center h-full gap-5">
@@ -65,8 +86,18 @@ export const WaitlistChroma = () => {
           Sign up with to get notifications on product launch, updates and
           more...
         </h2>
-        <Input placeholder="Email" />
-        <Button size="sm" className="text-xs">
+        <Input
+          placeholder="Email"
+          value={email}
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+        />
+        <Button
+          size="sm"
+          className="text-xs"
+          onClick={(e) => handleSubscribe(e)}
+        >
           Subscribe
         </Button>
         <div className="flex gap-2 items-center">
