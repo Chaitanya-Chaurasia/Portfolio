@@ -7,19 +7,21 @@ import { Card, CardHeader } from "./ui/card";
 export const Free01 = () => {
   return (
     <Card className="w-[350px] border-none">
-      <CardHeader>
+      <CardHeader className="text-sm">
         <h2 className="tracking-tight text-3xl font-bold">
           My <span className="text-red-300"> Journey</span> as a{" "}
           <span className="text-teal-400 "> Freelancer!</span>
         </h2>
         <br />
-        We're about to touch 8 billion people on this planet. Thus, it is safe
-        to say that there are a number of unique and magnificient ideas out
-        there. For instance, every hackathon I've been to, I've talked to
-        atleast 20 developers with a good, unique idea I have never thought or
-        heard of, and thats just out of a couple hundred students. Now then,
-        imagine the enormity of diverse ideas and creativity that lies out
-        there. As a developer, this makes me contribute to this
+        As we approach a global population of 8 billion, the sheer number of
+        unique and brilliant ideas is astounding. Every hackathon I attend
+        reveals at least 20 developers with innovative ideas I've never
+        encountered before, and that's just from a few hundred students.
+        <br />
+        <br />
+        Imagine the vast diversity of creativity worldwide. As a developer, this
+        motivates me to contribute actively. I love helping others build their
+        ideas.
       </CardHeader>
     </Card>
   );
@@ -28,12 +30,13 @@ export const Free01 = () => {
 export const Free02 = () => {
   return (
     <Card className="w-[350px] border-none">
-      <CardHeader>
-        forum as much as possible. I love helping other people build their
-        ideas. In the past year so, I've freelanced for over 10 clients
-        including both budding startups and established private firms. I've also
-        been fortunate to be a part of Echo Labs at Arizona State having brought
-        in more opportunities and opened new doors.
+      <CardHeader className="text-sm">
+        Over the past year, I've freelanced for over 10 clients, including
+        startups and established firms, and had the privilege of being part of
+        Echo Labs at Arizona State University. These experiences have tested my
+        skills and taught me invaluable lessons about the development process,
+        from initial stages to production. I'm deeply grateful to those who
+        believed in me and provided these opportunities.
         <br />
         <br />I really feel that this has been a a true test of skills. In the
         process, I have also learnt a lot of new things about what goes behind
@@ -52,15 +55,18 @@ export const Free03 = () => {
           Travel & Photography
         </h2>
         <br />
-        <span>
-          Two more things I really enjoy are travelling and capture some of the
-          moments I've lived. Its truly a privilege to travel, explore what
-          different parts of the world have in store.
+        <span className="text-sm">
+          I love traveling and capturing the moments I experience. It's truly a
+          privilege to explore different parts of the world. I use a Canon 3000D
+          for my photography. While it's not the most advanced camera, it suits
+          me well as I continue to learn and improve.
           <br />
-          <br /> I have a Canon 3000D, nothing fancy, but I'm still a rookie,
-          which is why I keep learning and, on top of that, do it because I
-          enjoy pursuing it. Find some of my clicks in the
-          <span className="font-semibold"> Blogs</span> section.
+          <br />
+          You'll catch some of my favorite shots in the{" "}
+          <span className="font-semibold"> Blogs</span> section., where I share
+          not just the images, but the stories and experiences behind them. For
+          me, photography is about about preserving memories and sharing the
+          beauty of our world with others.
         </span>
       </CardHeader>
     </Card>

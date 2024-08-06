@@ -44,14 +44,13 @@ export const ChromaDesc = () => {
       <CardHeader>
         <h2 className="tracking-tight text-xl font-bold text-center ">Why?</h2>
         <span className="text-center">
-          If you've worked with React.js, you might have seen how annoying it is
-          to style components when it comes to color combinations, gradients and
-          image sizing.
+          If you've worked with React.js, you know how annoying it is to style
+          components when it comes to color combinations, gradients and image
+          sizing. Writing huge blocks of CSS definitely becomes a chore in big
+          projects.
           <br />
           <br /> Well, worry no more, because now you can use pre-built
-          components to acheive this feat. For example, the image vortex and
-          drop shadow on the very top of the page is a part of my component
-          library that lets you do that in 2-3 lines.
+          components to acheive this feat.
         </span>
       </CardHeader>
     </Card>

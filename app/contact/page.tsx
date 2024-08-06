@@ -35,8 +35,6 @@ const page = () => {
       const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
       const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
 
-      console.log(serviceID, templateID, publicKey);
-
       const templateParams = {
         from_name: senderEmail,
         to_name: "chaitanyalvis@gmail.com",

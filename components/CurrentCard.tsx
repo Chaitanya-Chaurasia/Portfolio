@@ -13,7 +13,7 @@ export const CurrentCard = () => {
         <h2 className="tracking-tight font-bold text-4xl">My Two Cents</h2>
         <br />
         <span className="font-normal">
-          To start off, I'm currently a student, pursuing my{" "}
+          To start with, I'm currently a student, pursuing my{" "}
           <span className="italic">Bachelors of Science</span> at{" "}
           <span className="italic">Arizona State University</span>. I'll be
           entering my final year as a student and yeah, time really does fly by.
@@ -40,16 +40,17 @@ export const CurrentCard02 = () => {
     <Card className="w-[350px] bg-transparent border-none">
       <CardHeader>
         <span>
-          Life has really been benign to me. It has given me more than I could
-          ever have asked. To reciprocate this respect, I have come to the
-          conclusion that they are <span className="italic">management</span>{" "}
-          and <span className="italic">mindset</span> that differentiates the
+          Life has really been incredibly benign to me, giving me more than I
+          could ever have asked for. To reciprocate this respect, I have come to
+          respect its certain aspects. I can conclude that they are{" "}
+          <span className="italic">management</span> and{" "}
+          <span className="italic">mindset</span> that differentiates the
           successful from the ordinary.
           <br />
           <br />
           Over the past few years in college, I have evolved from a rookie to,
           well let me put it this way, an accomplished tyro (get the pun?) when
-          it comes to the two very indispensible skills. With time, I have
+          it comes to these two very indispensible skills. With time, I have
           adopted a versatile mindset, that has enabled me to evolve as a
           person, learn and become accomplished in new skills and to achieve
           excellence in whatever I indulge in.
@@ -89,7 +90,7 @@ export const CurrentCard03 = () => {
           <br />
           <br />
           <h2 className="tracking-tight text-lg font-bold">
-            Well, enough with this pedagogy, you don't say?
+            Well, enough with the pedagogy, you don't say?
           </h2>
           <br />
           If you have more time, continue scrolling down to learn about what I

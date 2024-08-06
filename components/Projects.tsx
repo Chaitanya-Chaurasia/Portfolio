@@ -64,7 +64,7 @@ export const SkillAccordion = () => {
   return (
     <Accordion type="single" collapsible className="w-full ">
       <AccordionItem value="item-2">
-        <AccordionTrigger className="text-xl font-light">
+        <AccordionTrigger className="text-lg">
           Why I work on projects?
         </AccordionTrigger>
         <AccordionContent>
@@ -83,9 +83,7 @@ export const SkillAccordion = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-1">
-        <AccordionTrigger className="text-xl font-light">
-          My Tech Stack
-        </AccordionTrigger>
+        <AccordionTrigger className="text-lg">My Tech Stack</AccordionTrigger>
         <AccordionContent>
           I usually use the <span className="font-semibold">T3</span> stack or{" "}
           <span className="font-semibold">Next.js + RadixUI/shadcn</span> for my
@@ -106,9 +104,7 @@ export const SkillAccordion = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="text-xl font-light">
-          How to start?
-        </AccordionTrigger>
+        <AccordionTrigger className="text-lg">How to start?</AccordionTrigger>
         <AccordionContent>
           I'm really if you clicked on this one. My best advice is to identify
           your strengths and interests. If you like designing websites and UI/UX

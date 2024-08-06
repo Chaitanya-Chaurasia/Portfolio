@@ -9,12 +9,9 @@ import {
 import { SkillCard, SkillCard02, SkillCard03 } from "@/components/SkillCard";
 import Image from "next/image";
 import mario from "@/public/mario.gif";
-import code from "@/public/types-and-programming-languages-computer-programming-programmer-programming-language.jpg";
 import Footer from "@/components/Footer";
-
 import { Specialize } from "@/components/Specialize";
 import { Separator } from "@/components/ui/separator";
-import { url } from "inspector";
 
 export default function Home() {
   return (
@@ -35,7 +32,7 @@ export default function Home() {
           <CurrentCard02 />
           <CurrentCard03 />
         </div>
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center border">
+        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center border my-20">
           <Image src={mario} alt="mario" height={250} />
           <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
             <span className="text-red-300">Mario says </span>
@@ -58,7 +55,7 @@ export default function Home() {
             }}
           >
             Well, that was a little bit about me. Feel free to check out other
-            links and keep an eye out for updates. Back to work then, chop chop!
+            links and keep an eye out for updates.
             <br />
             <br />
             Thank you.

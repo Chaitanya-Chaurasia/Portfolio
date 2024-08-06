@@ -35,17 +35,17 @@ export const SkillCard = () => {
           in their game.
           <br />
           <br />
-          Engineering has <span className="italic"> empowered </span> humanity
-          to achieve feats once thought impossible. It has enabled every man, no
-          matter where he lives, or what he does, to bring about a change. This
-          is what attracted me to engineering, and what still motivates me
-          everyday. It not only personifies but also serves as a testament to
-          our collective evolution.
+          Engineering has <span className="italic"> empowered </span> us to
+          achieve feats once thought impossible. It equips every person with a
+          potential to bring about a change. This is what attracted me to
+          engineering, and what still motivates me everyday. It not only
+          personifies but also serves as a testament to our collective
+          evolution.
           <br />
           <br />
-          If only <span className="italic"> Leonardo da Vinci</span> could
-          witness the helicopters flying today, an invention he conceptualized
-          over 500 years ago...
+          If only the <span className="italic"> Wright Brothers </span> could
+          witness the planes flying today, an invention they conceptualized over
+          150 years ago...
           <br />
           <br />
         </span>
@@ -56,7 +56,7 @@ export const SkillCard = () => {
 
 export const SkillCard02 = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none overflow-visible">
+    <Card className="w-[350px] bg-transparent border-none ">
       <CardHeader>
         <span>
           <h2 className="tracking-tight text-3xl font-bold flex items-center gap-2 ">
@@ -114,7 +114,7 @@ export const SkillCard03 = () => {
             leadership, adaptability, management
           </span>{" "}
           and <span className="font-semibold">effective, economic speech</span>.
-          Now, coming to technical skills, these are the skills I have used the
+          Coming to technical skills, these are the skills I have used the
           most:
         </span>
         <br />
