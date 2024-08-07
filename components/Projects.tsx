@@ -142,8 +142,7 @@ export const Projects = () => {
 
               <span className="text-wrap font-light">{project.desc}</span>
               <span className="flex items-center ">
-                <ThickArrowUpIcon />
-                <span className="text-xs p-2">10 upvotes</span>
+                <span className="text-xs">Check it out here</span>
                 <a
                   href={project.link}
                   target="_blank"
@@ -181,8 +180,7 @@ export const SchoolProjects = () => {
 
               <span className="text-wrap font-light">{project.desc}</span>
               <span className="flex items-center ">
-                <ThickArrowUpIcon />
-                <span className="text-xs p-2">10 upvotes</span>
+                <span className="text-xs p-0">Check it out at</span>
                 <a
                   href={project.link}
                   target="_blank"

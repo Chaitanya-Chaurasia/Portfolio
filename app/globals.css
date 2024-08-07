@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -60,7 +61,6 @@
 }
 
 #glass-card {
-
   box-shadow: 0 8px 32px 0 rgba(73, 31, 135, 0.232);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);

@@ -12,12 +12,11 @@ import mario from "@/public/mario.gif";
 import Footer from "@/components/Footer";
 import { Specialize } from "@/components/Specialize";
 import { Separator } from "@/components/ui/separator";
-
 export default function Home() {
   return (
     <main className="min-h-screen p-2">
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
+        <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top" >
           <ImageCard />
           <IntroCard />
           <IntroCard02 />

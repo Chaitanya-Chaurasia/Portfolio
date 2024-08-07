@@ -25,10 +25,7 @@ const getMyTime = () => {
 
 export const IntroCard = () => {
   return (
-    <Card
-      className="w-[350px] p-6 flex flex-col gap-2 text-card-foreground shadow bg-transparent"
-      id="glass-card"
-    >
+    <Card className="w-[350px] p-6 flex flex-col gap-2 text-card-foreground shadow bg-transparent">
       <CardTitle className="text-4xl font-bold tracking-tight lg:text-5xl">
         Hi, I'm <span className="text-green-400">Chaitanya,</span>
         <br /> a budding{" "}

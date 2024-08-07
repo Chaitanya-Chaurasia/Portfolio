@@ -50,7 +50,7 @@ export const ChromaDesc = () => {
           projects.
           <br />
           <br /> Well, worry no more, because now you can use pre-built
-          components to acheive this feat.
+          components to achieve this feat.
         </span>
       </CardHeader>
     </Card>
