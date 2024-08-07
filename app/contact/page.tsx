@@ -7,7 +7,6 @@ import {
   GitHubLogoIcon,
   InstagramLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import React, { useState } from "react";
 import { toast } from "sonner";
