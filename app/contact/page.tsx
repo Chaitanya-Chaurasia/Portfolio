@@ -14,7 +14,7 @@ import emailjs from "emailjs-com";
 import { SonicLoader } from "@/components/CustomComponents";
 import { isEmailValid } from "@/lib/helper";
 
-const page = () => {
+const ContactPage = () => {
   const [loading, setLoading] = useState(false);
   const [senderEmail, setSenderEmail] = useState("");
   const [senderMessage, setSenderMessage] = useState("");
@@ -74,9 +74,9 @@ const page = () => {
           today!
         </h2>
         <span className="w-96 text-center text-sm">
-          Whether you're looking to collaborate, just say hi, or looking forward
-          to having a chat, I'm all down for it. Go ahead, drop me a message and
-          I'll get back to you within 24 hours.
+          Whether you&apos;re looking to collaborate, just say hi, or looking forward
+          to having a chat, I&apos;m all down for it. Go ahead, drop me a message and
+          I&apos;ll get back to you within 24 hours.
         </span>
         <Separator className="w-96" />
         <div className="w-[350px] flex flex-col items-center justify-center gap-2">
@@ -163,4 +163,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ContactPage;

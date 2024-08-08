@@ -13,17 +13,17 @@ export const CurrentCard = () => {
         <h2 className="tracking-tighter font-bold text-4xl">My Two Cents</h2>
         <br />
         <span className="font-normal">
-          To start with, I'm currently a student, pursuing my{" "}
+          To start with, I&apos;m currently a student, pursuing my{" "}
           <span className="italic">Bachelors of Science</span> at{" "}
-          <span className="italic">Arizona State University</span>. I'll be
+          <span className="italic">Arizona State University</span>. I&apos;ll be
           entering my final year as a student and yeah, time really does fly by.
           <br />
           <br />
           Only yesterday was I in grade nine, going to school, sitting for
           tests, sharing lunch with my friends; only a few hours ago did I step
-          in as a freshman and fast forward to now, I'm ready to graduate and
-          step into the real-world. Sometimes, it simply overwhelmes me. And
-          yes, "it" really is out there.
+          in as a freshman and fast forward to now, I&apos;m ready to graduate
+          and step into the real-world. Sometimes, it simply overwhelmes me. And
+          yes, &quot;it&quot; really is out there.
           <br />
           <br />
           Everything has just been so quick and I wish I could go back in time,
@@ -79,8 +79,9 @@ export const CurrentCard03 = () => {
         <span>
           focused on the present moment, we are less likely to get lost in the
           past or the future. I believe that this principle, I call{" "}
-          <span className="italic">"The Timeless Way of Life,"</span> will be my
-          lamp as I find my away through this very dense forest called Life.
+          <span className="italic">&quot;The Timeless Way of Life,&quot;</span>{" "}
+          will be my lamp as I find my away through this very dense forest
+          called Life.
           <br />
           <br />
           Fifty years down, when I reflect, I should feel a sense of
@@ -90,7 +91,7 @@ export const CurrentCard03 = () => {
           <br />
           <br />
           <h2 className="tracking-tighter leading-4 text-lg font-bold">
-            Well, enough with the pedagogy, you don't say?
+            Well, enough with the pedagogy, you don&apos;t say?
           </h2>
           <br />
           If you have more time, continue scrolling down to learn about what I

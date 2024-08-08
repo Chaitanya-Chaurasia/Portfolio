@@ -29,7 +29,7 @@ export const IntroCard = () => {
       id="glass-card"
     >
       <CardTitle className="text-4xl font-bold tracking-tighter lg:text-5xl">
-        Hi, I'm <span className="text-green-400">Chaitanya,</span>
+        Hi, I&apos;m <span className="text-green-400">Chaitanya,</span>
         <br /> a budding{" "}
         <span className="text-white drop-shadow-[0_0px_1.2px_rgba(0,0,0,0.8)]">
           engineer
@@ -103,7 +103,7 @@ export const IntroCard02 = () => {
       <Card className="w-[350px] bg-transparent border-none">
         <CardHeader>
           <h2 className="tracking-tighter text-sm">
-            Hey, it's me. A small introduction, I'm a{" "}
+            Hey, it&apos;s me. A small introduction, I&apos;m a{" "}
             <span className="font-medium">
               full-stack application developer
             </span>{" "}
@@ -112,12 +112,12 @@ export const IntroCard02 = () => {
             <br />
             <br />
             This pursuit of creativity has brought me all the way to the US,
-            where I've embarked on a{" "}
+            where I&apos;ve embarked on a{" "}
             <span className="font-medium">
               scintillating and enriching
             </span>{" "}
-            journey. I've realized how much more there is to learn and grow.{" "}
-            <span className="font-medium">From here on, sky's the limit!</span>
+            journey. I&apos;ve realized how much more there is to learn and grow.{" "}
+            <span className="font-medium">From here on, sky&apos;s the limit!</span>
           </h2>
         </CardHeader>
       </Card>

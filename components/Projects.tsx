@@ -72,12 +72,12 @@ export const SkillAccordion = () => {
           ocntribute to your field.
           <br />
           <br />
-          And trust me, there's no better way than to work on projects.
+          And trust me, there&apos;s no better way than to work on projects.
           Hands-on-experience imprints and polishes skills in your brain faster
           than just going through a course.
           <br />
           <br />
-          And lastly, I develop because I love it. That's the most important
+          And lastly, I develop because I love it. That&apos;s the most important
           factor. I hope one my inventions has potential to help the society.
         </AccordionContent>
       </AccordionItem>
@@ -109,7 +109,7 @@ export const SkillAccordion = () => {
           How to start?
         </AccordionTrigger>
         <AccordionContent>
-          I'm really if you clicked on this one. My best advice is to identify
+          I&apos;m really if you clicked on this one. My best advice is to identify
           your strengths and interests. If you like designing websites and UI/UX
           work, start working on a website; if you like more backend stuff,
           design an API that does something as basic as getting weather
@@ -118,7 +118,7 @@ export const SkillAccordion = () => {
           <br />
           So much information is available on the internet today, and that too
           for free. Go to YouTube, Medium or GeeksForGeeks and get started.
-          Don't procrastinate, do it now!
+          Don&apos;t procrastinate, do it now!
         </AccordionContent>
       </AccordionItem>
     </Accordion>

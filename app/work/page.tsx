@@ -80,7 +80,7 @@ const WorkPage = () => {
             He gives his harness bells a shake <br />
             To ask if there is some mistake.
             <br />
-            The only other sound's the sweep <br />
+            The only other sound&apos;s the sweep <br />
             Of easy wind and downy flake.
           </span>
           <br />

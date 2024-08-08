@@ -44,7 +44,7 @@ export const ChromaDesc = () => {
       <CardHeader>
         <h2 className="tracking-tighter text-xl font-bold text-center ">Why?</h2>
         <span className="text-center">
-          If you've worked with React.js, you know how annoying it is to style
+          If you&apos;ve worked with React.js, you know how annoying it is to style
           components when it comes to color combinations, gradients and image
           sizing. Writing huge blocks of CSS definitely becomes a chore in big
           projects.

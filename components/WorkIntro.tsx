@@ -12,18 +12,17 @@ export const WorkIntro = () => {
         </h2>
         <br />
         <span className="text-[14px]">
-         
-          A lot of people I have spoken to tend to use the words "job" and
-          "work" interchangeably. Well, I agree to disagree on this one. To me,
-          "working on something" means putting in physical or mental effort to
-          achieve a goal. The goal could lie anywhere on a vast spectrum- from
-          something matereliastic, monetary in value to something as abstract as
-          success or satisfaction.
+          A lot of people I have spoken to tend to use the words &quot;job&quot;
+          and &quot;work&quot; interchangeably. Well, I agree to disagree on
+          this one. To me, &quot;working on something&quot; means putting in
+          physical or mental effort to achieve a goal. The goal could lie
+          anywhere on a vast spectrum- from something matereliastic, monetary in
+          value to something as abstract as success or satisfaction.
           <br />
           <br />
           Often, people get so immersed in their jobs that they start equating
-          them with work. I'm not saying that couldn't be the case, if it is, I
-          think you're on the right track.
+          them with work. I&apos;m not saying that couldn&apos;t be the case, if
+          it is, I think you&apos;re on the right track.
           <br />
           <br />
           If not, I urge everyone to take a step back
@@ -39,11 +38,12 @@ export const WorkIntro02 = () => {
       <CardHeader>
         <span className="text-[14px]">
           and think about what they truly want to achieve in life. Identify your
-          goals and start working towards them. That's what I call real work.
+          goals and start working towards them. That&apos;s what I call real
+          work.
           <br />
           <br />
-          I'm not alone in this belief— it's advice I've received from many
-          successful individuals.
+          I&apos;m not alone in this belief— it&apos;s advice I&apos;ve received
+          from many successful individuals.
           <br />
           <br />
           <h2 className="tracking-tighter font-semibold text-[16px]">
@@ -60,8 +60,8 @@ export const WorkIntro02 = () => {
           <br />
           <br />
           <span className="italic">
-            " Life is like art. You have to work hard to keep it simple and
-            still have meaning. "
+            &quot; Life is like art. You have to work hard to keep it simple and
+            still have meaning. &quot;
           </span>
           <br />
           <div className="text-right p-2 ">-Charles De Lint</div>

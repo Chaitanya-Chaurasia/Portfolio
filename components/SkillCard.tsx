@@ -28,7 +28,7 @@ export const SkillCard = () => {
             Why Engineering?
           </h2>
           <br />
-          What I'm about to say will resonate with any
+          What I&apos;m about to say will resonate with any
           <span className="italic"> Minecraft</span> player: Engineering is like
           that first <span className="italic"> diamond pickaxe</span> that has
           allowed humanity to unlock new realms, new possibilities, and level up
@@ -104,9 +104,9 @@ export const SkillCard03 = () => {
             My Skillset
           </h2>
           <br />
-          I'm only a student, but soon will become a professional. Keeping this
+          I&apos;m only a student, but soon will become a professional. Keeping this
           mind, I keep on polishing my skillset to keep up with the market. Now,
-          I don't talk only of technical competency but also of soft-skills.
+          I don&apos;t talk only of technical competency but also of soft-skills.
           <br />
           <br />
           Some of the most important ones I believe are{" "}

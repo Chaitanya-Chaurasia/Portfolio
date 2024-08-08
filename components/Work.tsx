@@ -40,9 +40,9 @@ export const Work01 = () => {
           </h2>
           <br />
           <span className="text-sm">
-            This summer, I'm at IDEXX, working with the Chemistry team on
+            This summer, I&apos;m at IDEXX, working with the Chemistry team on
             designing internal tools for testing a fleet of machines called{" "}
-            <span className="font-semibold">"Autocats." </span>
+            <span className="font-semibold">&quot;Autocats.&quot; </span>
             Autocats are a fleet of{" "}
             <span className="font-semibold">veterinary </span>
             machines used to prognose, diagnose and run sophisticated health
@@ -115,8 +115,8 @@ export const Work02 = () => {
               big Eiffel Tower-like pylons){" "}
             </span>{" "}
             and you could achieve the same/better performance by using an{" "}
-            <span className="font-semibold">"optimized" layout.</span> This was
-            our goal and we were also closely working with the{" "}
+            <span className="font-semibold">&quot;optimized&quot; layout.</span>{" "}
+            This was our goal and we were also closely working with the{" "}
             <span className="font-semibold">United Nations SDGs.</span>
             <br />
             <br />
