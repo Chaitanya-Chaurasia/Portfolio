@@ -6,7 +6,7 @@ export const WorkIntro = () => {
   return (
     <Card className="w-[350px] border-none">
       <CardHeader>
-        <h2 className="tracking-tight text-4xl font-extrabold">
+        <h2 className="tracking-tighter text-4xl font-extrabold">
           What is <span className="underline text-lime-400">life </span>without{" "}
           <span className="text-fuchsia-400">work</span>, I ask.
         </h2>
@@ -46,7 +46,7 @@ export const WorkIntro02 = () => {
           successful individuals.
           <br />
           <br />
-          <h2 className="tracking-tight font-semibold text-[16px]">
+          <h2 className="tracking-tighter font-semibold text-[16px]">
             So, what am I working towards?
           </h2>
           <br />

@@ -11,7 +11,7 @@ export const ChromaIntro = () => {
   return (
     <Card className="border-none w-[350px]">
       <CardHeader>
-        <h2 className="tracking-tight text-3xl font-extrabold text-center ">
+        <h2 className="tracking-tighter text-3xl font-extrabold text-center ">
           Presenting <br />
           <span
             className="underline text-6xl"
@@ -42,7 +42,7 @@ export const ChromaDesc = () => {
   return (
     <Card className="border-none w-[350px]">
       <CardHeader>
-        <h2 className="tracking-tight text-xl font-bold text-center ">Why?</h2>
+        <h2 className="tracking-tighter text-xl font-bold text-center ">Why?</h2>
         <span className="text-center">
           If you've worked with React.js, you know how annoying it is to style
           components when it comes to color combinations, gradients and image
@@ -70,7 +70,7 @@ export const WaitlistChroma = () => {
     if (!isEmailValid(email)) {
       toast.error("Please enter a valid email address.");
     } else {
-      toast.success("You subscribed to updates!");
+      toast.success("You were added to waitlist!");
     }
 
     setLoading(false);
@@ -97,7 +97,7 @@ export const WaitlistChroma = () => {
           className="text-xs"
           onClick={(e) => handleSubscribe(e)}
         >
-          Subscribe
+          Get on Waitlist
         </Button>
         <div className="flex gap-2 items-center">
           <Button variant="ghost" disabled className="p-0">

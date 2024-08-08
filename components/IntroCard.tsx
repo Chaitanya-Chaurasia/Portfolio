@@ -28,7 +28,7 @@ export const IntroCard = () => {
       className="w-[350px] p-6 flex flex-col gap-2 text-card-foreground shadow bg-transparent"
       id="glass-card"
     >
-      <CardTitle className="text-4xl font-bold tracking-tight lg:text-5xl">
+      <CardTitle className="text-4xl font-bold tracking-tighter lg:text-5xl">
         Hi, I'm <span className="text-green-400">Chaitanya,</span>
         <br /> a budding{" "}
         <span className="text-white drop-shadow-[0_0px_1.2px_rgba(0,0,0,0.8)]">
@@ -88,10 +88,10 @@ export const IntroCard = () => {
 
 export const IntroCard02 = () => {
   return (
-    <div className="flex flex-col gap-2 justify-center h-full">
+    <div className="flex flex-col justify-center h-full">
       <Card className="w-[350px] bg-transparent border-none">
         <CardHeader>
-          <h2 className="tracking-tight text-5xl font-extrabold">
+          <h2 className="tracking-tighter text-5xl font-extrabold">
             <span className="text-yellow-500">eat,</span>{" "}
             <span className="text-violet-400"> code,</span>{" "}
             <span className="text-yellow-800">debug😖,</span>{" "}
@@ -102,7 +102,7 @@ export const IntroCard02 = () => {
       </Card>
       <Card className="w-[350px] bg-transparent border-none">
         <CardHeader>
-          <h2 className="tracking-tight text-sm">
+          <h2 className="tracking-tighter text-sm">
             Hey, it's me. A small introduction, I'm a{" "}
             <span className="font-medium">
               full-stack application developer

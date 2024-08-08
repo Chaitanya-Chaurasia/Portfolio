@@ -18,7 +18,7 @@ const ProjectPage = () => {
     <main className="p-10 ">
       <div className="flex flex-col items-center justify-center gap-10">
         <ImageVortex />
-        <h2 className="tracking-tight text-6xl font-extrabold text-center max-w-[550px] text-wrap drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)]">
+        <h2 className="tracking-tighter text-6xl font-extrabold text-center max-w-[550px] text-wrap drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)]">
           Projects I feel can make a difference out there!{" "}
         </h2>
         <span className="w-96 text-center">

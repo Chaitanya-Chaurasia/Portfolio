@@ -6,10 +6,9 @@ import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
 import GroupsIcon from "@mui/icons-material/Groups";
 import { Button } from "./ui/button";
-import { GitHubLogoIcon, ThickArrowUpIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, PlusIcon } from "@radix-ui/react-icons";
 import PublicIcon from "@mui/icons-material/Public";
 import LinkIcon from "@mui/icons-material/Link";
-
 import {
   Accordion,
   AccordionContent,
@@ -62,9 +61,9 @@ const schoolProjects = [
 
 export const SkillAccordion = () => {
   return (
-    <Accordion type="single" collapsible className="w-full ">
+    <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-2">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-sm font-normal">
           Why I work on projects?
         </AccordionTrigger>
         <AccordionContent>
@@ -83,7 +82,9 @@ export const SkillAccordion = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-1">
-        <AccordionTrigger className="text-lg">My Tech Stack</AccordionTrigger>
+        <AccordionTrigger className="text-sm font-normal">
+          My Tech Stack
+        </AccordionTrigger>
         <AccordionContent>
           I usually use the <span className="font-semibold">T3</span> stack or{" "}
           <span className="font-semibold">Next.js + RadixUI/shadcn</span> for my
@@ -104,7 +105,9 @@ export const SkillAccordion = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="text-lg">How to start?</AccordionTrigger>
+        <AccordionTrigger className="text-sm font-normal">
+          How to start?
+        </AccordionTrigger>
         <AccordionContent>
           I'm really if you clicked on this one. My best advice is to identify
           your strengths and interests. If you like designing websites and UI/UX
@@ -124,10 +127,18 @@ export const SkillAccordion = () => {
 
 export const Projects = () => {
   return (
-    <div className="w-full flex lg:flex-row flex-col gap-4 items-top justify-center ">
+    <div className="w-full flex lg:flex-row flex-col gap-6 items-top justify-center">
       {Array.from(projects).map((project) => {
         return (
-          <Card key={project.name} className="w-[300px]">
+          <Card
+            key={project.name}
+            className="w-[300px]"
+            id="glass-card-project"
+          >
+            <PlusIcon className="absolute h-6 w-6 -top-3 -left-3  text-violet-500" />
+
+            <PlusIcon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+
             <CardHeader>
               <h2 className="text-wrap tracking-tight text-4xl font-extrabold flex flex-row items-center gap-2">
                 {project.name}
@@ -163,10 +174,17 @@ export const Projects = () => {
 
 export const SchoolProjects = () => {
   return (
-    <div className="w-full flex lg:flex-row flex-col gap-4 items-top justify-center ">
+    <div className="w-full flex lg:flex-row flex-col gap-6 items-top justify-center ">
       {Array.from(schoolProjects).map((project) => {
         return (
-          <Card key={project.name} className="w-[300px]">
+          <Card
+            key={project.name}
+            className="w-[300px]"
+            id="glass-card-project"
+          >
+            <PlusIcon className="absolute h-6 w-6 -top-3 -left-3  text-fuchsia-500" />
+
+            <PlusIcon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
             <CardHeader>
               <h2 className="text-wrap tracking-tight text-4xl font-extrabold flex flex-row items-center gap-2">
                 {project.name}

@@ -8,9 +8,9 @@ import { toast } from "sonner";
 
 export const CurrentCard = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none">
+    <Card className="w-[350px] bg-transparent border-none text-center">
       <CardHeader>
-        <h2 className="tracking-tight font-bold text-4xl">My Two Cents</h2>
+        <h2 className="tracking-tighter font-bold text-4xl">My Two Cents</h2>
         <br />
         <span className="font-normal">
           To start with, I'm currently a student, pursuing my{" "}
@@ -37,9 +37,9 @@ export const CurrentCard = () => {
 
 export const CurrentCard02 = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none">
+    <Card className="w-[350px] bg-transparent border-none  text-center">
       <CardHeader>
-        <span>
+        <span className="font-normal">
           Life has really been incredibly benign to me, giving me more than I
           could ever have asked for. To reciprocate this respect, I have come to
           respect its certain aspects. I can conclude that they are{" "}
@@ -74,7 +74,7 @@ export const CurrentCard03 = () => {
   };
 
   return (
-    <Card className="w-[350px] bg-transparent border-none">
+    <Card className="w-[350px] bg-transparent border-none  text-center">
       <CardHeader>
         <span>
           focused on the present moment, we are less likely to get lost in the
@@ -89,7 +89,7 @@ export const CurrentCard03 = () => {
           everyday!
           <br />
           <br />
-          <h2 className="tracking-tight text-lg font-bold">
+          <h2 className="tracking-tighter leading-4 text-lg font-bold">
             Well, enough with the pedagogy, you don't say?
           </h2>
           <br />
@@ -98,11 +98,12 @@ export const CurrentCard03 = () => {
           <br />
           <br />
         </span>
-        <div className="flex items-center">
+        <div className="flex items-center gap-2">
           <span className="flex-1" />
           <span className="text-sm ">{like} likes</span>
           <Button
             variant="ghost"
+            size="icon"
             onClick={() => {
               if (clicked) {
                 setClicked(false);
@@ -116,7 +117,11 @@ export const CurrentCard03 = () => {
             {clicked && <HeartFilledIcon />}
             {!clicked && <HeartIcon />}
           </Button>
-          <Button variant="ghost" onClick={() => toast("Copied to Clipboard!")}>
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => toast("Copied to Clipboard!")}
+          >
             <CopyIcon onClick={copyText} />
           </Button>
         </div>

@@ -26,7 +26,7 @@ const WorkPage = () => {
           <WorkIntro02 />
         </div>
         <Separator className="w-96 my-10" />
-        <h2 className="tracking-tight text-3xl font-bold">
+        <h2 className="tracking-tighter text-3xl font-bold">
           Professional Experience
         </h2>
         <div className="flex flex-col lg:flex-row items-top justify-center gap-2">
@@ -55,7 +55,7 @@ const WorkPage = () => {
         </div>
         <Separator className="w-96 my-10" />
         <div className="flex flex-col items-center justify-center gap-2">
-          <h2 className="tracking-tight text-xl font-semibold">
+          <h2 className="tracking-tighter text-xl font-semibold">
             As <span>Robert Frost</span>, so eloquently, writes,
           </h2>
           <br />

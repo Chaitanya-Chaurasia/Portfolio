@@ -20,10 +20,10 @@ import { SketchLogoIcon } from "@radix-ui/react-icons";
 
 export const SkillCard = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none">
+    <Card className="w-[350px] bg-transparent border-none text-center">
       <CardHeader>
         <span>
-          <h2 className="tracking-tight text-3xl font-bold flex items-center gap-2">
+          <h2 className="tracking-tighter text-3xl font-bold flex items-center gap-2 justify-center">
             <RocketIcon />
             Why Engineering?
           </h2>
@@ -56,10 +56,10 @@ export const SkillCard = () => {
 
 export const SkillCard02 = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none ">
+    <Card className="w-[350px] bg-transparent border-none  text-center">
       <CardHeader>
         <span>
-          <h2 className="tracking-tight text-3xl font-bold flex items-center gap-2 ">
+          <h2 className="tracking-tighter text-3xl font-bold flex items-center gap-2 justify-center">
             <BackpackIcon />
             What I Offer
           </h2>
@@ -96,10 +96,10 @@ export const SkillCard02 = () => {
 
 export const SkillCard03 = () => {
   return (
-    <Card className="w-[350px] bg-transparent border-none">
+    <Card className="w-[350px] bg-transparent border-none text-center">
       <CardHeader>
         <span>
-          <h2 className="tracking-tight text-3xl font-bold flex items-center gap-2">
+          <h2 className="tracking-tighter text-3xl font-bold flex items-center gap-2 justify-center">
             <SketchLogoIcon />
             My Skillset
           </h2>
@@ -114,8 +114,7 @@ export const SkillCard03 = () => {
             leadership, adaptability, management
           </span>{" "}
           and <span className="font-semibold">effective, economic speech</span>.
-          Coming to technical skills, these are the skills I have used the
-          most:
+          Coming to technical skills, these are the skills I have used the most:
         </span>
         <br />
         <div className="flex text-sm font-medium items-center gap-2">

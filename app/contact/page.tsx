@@ -64,7 +64,7 @@ const page = () => {
   return (
     <main className="p-10 bg-gradient-to-b from-white to-pink-100 min-h-screen dark:from-black">
       <div className="flex flex-col items-center justify-center gap-10">
-        <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
+        <h2 className="tracking-tighter text-5xl font-extrabold text-center w-[550px]">
           The key to{" "}
           <span className="underline text-indigo-400">building a tomorrow</span>{" "}
           together, is to{" "}

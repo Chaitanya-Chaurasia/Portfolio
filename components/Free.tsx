@@ -8,7 +8,7 @@ export const Free01 = () => {
   return (
     <Card className="w-[350px] border-none">
       <CardHeader className="text-sm">
-        <h2 className="tracking-tight text-3xl font-bold">Freelancing!</h2>
+        <h2 className="tracking-tighter text-3xl font-bold">Freelancing!</h2>
         <br />
         As we approach a global population of 8 billion, the sheer number of
         unique and brilliant ideas is astounding. Every hackathon I attend
@@ -48,7 +48,7 @@ export const Free03 = () => {
   return (
     <Card className="w-[350px] border-none">
       <CardHeader>
-        <h2 className="tracking-tight text-3xl font-bold flex gap-2 items-center">
+        <h2 className="tracking-tighter text-3xl font-bold flex gap-2 items-center">
           Travel & Photography
         </h2>
         <br />

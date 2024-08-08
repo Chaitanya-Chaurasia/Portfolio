@@ -14,16 +14,16 @@ import { Specialize } from "@/components/Specialize";
 import { Separator } from "@/components/ui/separator";
 export default function Home() {
   return (
-    <main className="min-h-screen p-2 ">
+    <main className="min-h-screen p-2">
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
+        <div className="flex flex-col lg:flex-row w-screen p-4 items-center lg:gap-20 gap-10 justify-center lg:items-top">
           <ImageCard />
           <IntroCard />
-          <IntroCard02 />
         </div>
-        <Separator className="w-96 my-20" />
-        <div className=" flex items-center w-full justify-center">
+        <Separator className="w-96 mt-20" />
+        <div className="flex flex-col lg:flex-row w-screen p-4 items-center lg:gap-20 gap-10 justify-center lg:items-top">
           <Specialize />
+          <IntroCard02 />
         </div>
         <Separator className="w-96 my-10" />
         <div className="flex flex-col lg:flex-row w-screen p-10 gap-10 justify-center items-top">
@@ -31,9 +31,9 @@ export default function Home() {
           <CurrentCard02 />
           <CurrentCard03 />
         </div>
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center my-20">
+        <div className="flex flex-col w-screen p-10 items-center gap-10 justify-center my-20">
           <Image src={mario} alt="mario" height={250} />
-          <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
+          <h2 className="tracking-tighter text-5xl font-extrabold text-center w-[550px]">
             <span className="text-red-300">Mario says </span>
             <span className="text-green-300">keep scrolling! </span>
           </h2>
