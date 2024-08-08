@@ -42,15 +42,18 @@ export const ChromaDesc = () => {
   return (
     <Card className="border-none w-[350px]">
       <CardHeader>
-        <h2 className="tracking-tighter text-xl font-bold text-center ">Why?</h2>
-        <span className="text-center">
-          If you&apos;ve worked with React.js, you know how annoying it is to style
-          components when it comes to color combinations, gradients and image
-          sizing. Writing huge blocks of CSS definitely becomes a chore in big
-          projects.
+        <h2 className="tracking-tighter text-xl font-bold text-center ">
+          Why?
+        </h2>
+        <span className="text-center text-sm">
+          If you&apos;ve worked with React.js, you know how annoying it is to
+          style components when it comes to color combinations, gradients and
+          image sizing. Writing huge blocks of CSS definitely becomes a chore in
+          big projects.
           <br />
           <br /> Well, worry no more, because now you can use pre-built
-          components to achieve this feat.
+          components to achieve this feat. In fact, a lot fo styled components
+          on this website have been created using Chroma.
         </span>
       </CardHeader>
     </Card>
