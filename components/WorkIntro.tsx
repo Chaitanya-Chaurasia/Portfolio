@@ -13,7 +13,7 @@ export const WorkIntro = () => {
         <br />
         <span className="text-[14px]">
          
-          A lot of people I have spoken to, tend to use the words "job" and
+          A lot of people I have spoken to tend to use the words "job" and
           "work" interchangeably. Well, I agree to disagree on this one. To me,
           "working on something" means putting in physical or mental effort to
           achieve a goal. The goal could lie anywhere on a vast spectrum- from
@@ -42,7 +42,7 @@ export const WorkIntro02 = () => {
           goals and start working towards them. That's what I call real work.
           <br />
           <br />
-          I'm not alone in this belief—it's advice I've received from many
+          I'm not alone in this belief— it's advice I've received from many
           successful individuals.
           <br />
           <br />

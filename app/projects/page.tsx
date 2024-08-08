@@ -32,8 +32,11 @@ const ProjectPage = () => {
           <WaitlistChroma />
         </div>
         <Separator className="w-96 my-10" />
-        <Projects />
-        <SchoolProjects />
+        <div className="flex flex-col items-center justify-center gap-6">
+          <Projects />
+          <SchoolProjects />
+        </div>
+
         <h2 className="tracking-tight text-xl font-light text-center text-wrap drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)] my-20">
           any many more on the way...{" "}
         </h2>

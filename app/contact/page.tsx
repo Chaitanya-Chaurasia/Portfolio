@@ -64,7 +64,7 @@ const page = () => {
   return (
     <main className="p-10 bg-gradient-to-b from-white to-pink-100 min-h-screen dark:from-black">
       <div className="flex flex-col items-center justify-center gap-10">
-        <h2 className="tracking-tighter text-5xl font-extrabold text-center w-[550px]">
+        <h2 className="tracking-tighter text-5xl font-extrabold text-center text-pretty w-[350px]">
           The key to{" "}
           <span className="underline text-indigo-400">building a tomorrow</span>{" "}
           together, is to{" "}
@@ -73,7 +73,7 @@ const page = () => {
           </span>{" "}
           today!
         </h2>
-        <span className="w-96 text-center">
+        <span className="w-96 text-center text-sm">
           Whether you're looking to collaborate, just say hi, or looking forward
           to having a chat, I'm all down for it. Go ahead, drop me a message and
           I'll get back to you within 24 hours.

@@ -26,7 +26,7 @@ export default function Home() {
           <IntroCard02 />
         </div>
         <Separator className="w-96 my-10" />
-        <div className="flex flex-col lg:flex-row w-screen p-10 gap-10 justify-center items-top">
+        <div className="flex flex-col lg:flex-row w-screen p-10 gap-10 justify-center items-center lg:items-top">
           <CurrentCard />
           <CurrentCard02 />
           <CurrentCard03 />
@@ -38,7 +38,7 @@ export default function Home() {
             <span className="text-green-300">keep scrolling! </span>
           </h2>
         </div>
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-top gap-10 justify-center">
+        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center">
           <SkillCard />
           <SkillCard03 />
           <SkillCard02 />
@@ -46,7 +46,7 @@ export default function Home() {
         <Separator className="w-96 my-10" />
         <div className="flex flex-col w-screen p-10 items-center gap-10 justify-center">
           <h2
-            className="tracking-tight text-2xl font-semibold text-center w-[550px]"
+            className="tracking-tight text-2xl font-semibold text-center text-pretty w-52"
             style={{
               background: "linear-gradient(to right, #0EB5E6 0%, #CE3BCF 100%)",
               WebkitBackgroundClip: "text",

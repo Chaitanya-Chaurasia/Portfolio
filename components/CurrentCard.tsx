@@ -20,10 +20,10 @@ export const CurrentCard = () => {
           <br />
           <br />
           Only yesterday was I in grade nine, going to school, sitting for
-          tests, sharing lunch with my friends, only a few hours ago did I step
+          tests, sharing lunch with my friends; only a few hours ago did I step
           in as a freshman and fast forward to now, I'm ready to graduate and
-          step into the real-word. Sometimes, it simply overwhelmes me. And yes,
-          "it" really is out there.
+          step into the real-world. Sometimes, it simply overwhelmes me. And
+          yes, "it" really is out there.
           <br />
           <br />
           Everything has just been so quick and I wish I could go back in time,
@@ -42,18 +42,18 @@ export const CurrentCard02 = () => {
         <span className="font-normal">
           Life has really been incredibly benign to me, giving me more than I
           could ever have asked for. To reciprocate this respect, I have come to
-          respect its certain aspects. I can conclude that they are{" "}
-          <span className="italic">management</span> and{" "}
-          <span className="italic">mindset</span> that differentiates the
-          successful from the ordinary.
+          respect its certain aspects.
           <br />
-          <br />
-          Over the past few years in college, I have evolved from a rookie to,
-          well let me put it this way, an accomplished tyro (get the pun?) when
-          it comes to these two very indispensible skills. With time, I have
-          adopted a versatile mindset, that has enabled me to evolve as a
-          person, learn and become accomplished in new skills and to achieve
-          excellence in whatever I indulge in.
+          <br />I have also come to the conclusion that
+          <span className="italic"> management</span> and{" "}
+          <span className="italic"> mindset</span> are the two skills that
+          separate the successful from the ordinary. Over the past few years in
+          college, I have evolved from a rookie to, well let me put it this way,
+          an accomplished tyro (get the pun?) when it comes to these two very
+          indispensible skills. With time, I have adopted a versatile mindset,
+          that has enabled me to evolve as a person, learn and become
+          accomplished in new skills and to achieve excellence in whatever I
+          devote time to.
           <br />
           <br />I believe that time, like a wise old owl, guides us to the best
           of our ability. It has taught me that when we are

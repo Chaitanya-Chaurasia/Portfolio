@@ -60,7 +60,7 @@ export const Free03 = () => {
           <br />
           <br />
           You'll catch some of my favorite shots in the{" "}
-          <span className="font-semibold"> Blogs</span> section., where I share
+          <span className="font-semibold"> Blogs</span> section, where I share
           not just the images, but the stories and experiences behind them. For
           me, photography is about about preserving memories and sharing the
           beauty of our world with others.
