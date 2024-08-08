@@ -31,7 +31,7 @@ export default function Home() {
           <CurrentCard02 />
           <CurrentCard03 />
         </div>
-        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center border my-20">
+        <div className="flex flex-col lg:flex-row w-screen p-10 items-center gap-10 justify-center my-20">
           <Image src={mario} alt="mario" height={250} />
           <h2 className="tracking-tight text-5xl font-extrabold text-center w-[550px]">
             <span className="text-red-300">Mario says </span>

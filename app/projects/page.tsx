@@ -32,16 +32,15 @@ const ProjectPage = () => {
           <WaitlistChroma />
         </div>
         <Separator className="w-96 my-10" />
-        <div className="flex flex-col lg:flex-row gap-2 w-[350px]">
-          <SkillAccordion />
-        </div>
-        <Separator className="w-96 my-10" />
         <Projects />
         <SchoolProjects />
         <h2 className="tracking-tight text-xl font-light text-center text-wrap drop-shadow-[0_0px_79px_rgba(171,214,70,0.5)] my-20">
           any many more on the way...{" "}
         </h2>
-        <div className="flex items-center justify-center gap-10 mb-20">
+        <div className="flex flex-col lg:flex-row gap-2 w-[350px]">
+          <SkillAccordion />
+        </div>
+        <div className="flex items-center justify-center gap-10 my-20">
           <a
             href="https://github.com/Chaitanya-Chaurasia"
             target="_blank"
