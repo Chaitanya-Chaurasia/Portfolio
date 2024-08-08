@@ -23,8 +23,6 @@ export default function Home() {
         </div>
         <Separator className="w-96 my-20" />
         <div className=" flex items-center w-full justify-center">
-          {/* Radial gradient for the container to give a faded look */}
-
           <Specialize />
         </div>
         <Separator className="w-96 my-10" />
