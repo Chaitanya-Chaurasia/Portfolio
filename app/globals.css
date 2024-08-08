@@ -61,7 +61,34 @@
 }
 
 #glass-card {
-  box-shadow: 0 8px 32px 0 rgba(73, 31, 135, 0.232);
+  box-shadow: 0 8px 32px 0 rgba(118, 203, 116, 0.229);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+#glass-card-navbar {
+  box-shadow: 0 8px 32px 0 rgba(178, 122, 211, 0.238);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+#glass-card-project {
+  box-shadow: 0 8px 32px 0 rgba(38, 163, 36, 0.229);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+#glass-card-work {
+  box-shadow: 0 8px 32px 0 rgba(55, 119, 208, 0.093);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;

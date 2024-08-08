@@ -23,7 +23,7 @@ import FunctionsIcon from "@mui/icons-material/Functions";
 
 export const Work01 = () => {
   return (
-    <Card className="w-[450px]">
+    <Card className="w-[450px]" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
           <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center">
@@ -86,7 +86,7 @@ export const Work01 = () => {
 
 export const Work02 = () => {
   return (
-    <Card className="w-[450px]">
+    <Card className="w-[450px]" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
           <h2 className="tracking-tight font-semibold text-lg flex items-center gap-1">
@@ -150,7 +150,7 @@ export const Work02 = () => {
 
 export const Work03 = () => {
   return (
-    <Card className="w-[450px]">
+    <Card className="w-[450px]" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
           <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center">
@@ -208,7 +208,7 @@ export const Work03 = () => {
 
 export const Work04 = () => {
   return (
-    <Card className="w-[450px]">
+    <Card className="w-[450px]" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
           <h2 className="tracking-tight font-semibold text-lg flex items-center gap-1">
