@@ -19,7 +19,7 @@ import { Pencil2Icon } from "@radix-ui/react-icons";
 import sf from "@/public/sf.jpeg";
 export function Navbar() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="border p-2 rounded-3xl" id="glass-card">
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>

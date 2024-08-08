@@ -10,7 +10,7 @@ const Footer = () => {
       borderRadius="1.75rem"
       className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
     >
-      <Card className="bg-transparent text-center">
+      <Card className="bg-transparent text-center border-none">
         <CardHeader>
           <h2 className="tracking-tight text-sm text-muted-foreground flex gap-2 items-center justify-center">
             &copy;Chaitanya Chaurasia, 2024.{" "}

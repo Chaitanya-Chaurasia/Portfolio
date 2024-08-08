@@ -14,7 +14,7 @@ import { Specialize } from "@/components/Specialize";
 import { Separator } from "@/components/ui/separator";
 export default function Home() {
   return (
-    <main className="min-h-screen p-2">
+    <main className="min-h-screen p-2 ">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col lg:flex-row w-screen p-4 items-center gap-10 justify-center lg:items-top">
           <ImageCard />
@@ -22,7 +22,9 @@ export default function Home() {
           <IntroCard02 />
         </div>
         <Separator className="w-96 my-20" />
-        <div className="dark:drop-shadow-[0_0px_19px_rgba(200,14,170,0.8)] drop-shadow-[0_0px_60px_rgba(2,14,70,0.3)]">
+        <div className=" flex items-center w-full justify-center">
+          {/* Radial gradient for the container to give a faded look */}
+
           <Specialize />
         </div>
         <Separator className="w-96 my-10" />

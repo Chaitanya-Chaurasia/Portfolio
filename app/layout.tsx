@@ -31,13 +31,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-            <div
-              id="navbar"
-              className="w-full flex items-center justify-center p-4 sticky top-0 z-50 dark:bg-[#09090b] bg-white shadow-white shadow-xl dark:shadow-[#09090b]"
-            >
-              <Navbar />
-            </div>
-            <main className="flex-grow">{children}</main>
+          <div className=" w-auto flex items-center justify-center p-4 sticky top-0 z-50 dark:bg-[#09090b] bg-white shadow-white shadow-xl dark:shadow-[#09090b]">
+            <Navbar />
+          </div>
+          <main className="flex-grow dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative">
+            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_top,transparent_70%,black)]"></div>
+            {children}
+          </main>
         </ThemeProvider>
         <Toaster />
       </body>
