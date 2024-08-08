@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "../components/Navbar";
 const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
