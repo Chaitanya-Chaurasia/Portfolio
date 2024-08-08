@@ -7,7 +7,6 @@ import {
   GitHubLogoIcon,
   InstagramLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import { Separator } from "./ui/separator";
 

@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import { Navbar } from "@/components/Navbar";
-import { FollowerPointerCard } from "@/components/ui/following-pointer";
 const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -32,7 +31,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <FollowerPointerCard>
             <div
               id="navbar"
               className="w-full flex items-center justify-center p-4 sticky top-0 z-50 dark:bg-[#09090b] bg-white shadow-white shadow-xl dark:shadow-[#09090b]"
@@ -40,7 +38,6 @@ export default function RootLayout({
               <Navbar />
             </div>
             <main className="flex-grow">{children}</main>
-          </FollowerPointerCard>
         </ThemeProvider>
         <Toaster />
       </body>
