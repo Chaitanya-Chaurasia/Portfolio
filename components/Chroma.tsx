@@ -52,7 +52,7 @@ export const ChromaDesc = () => {
           big projects.
           <br />
           <br /> Well, worry no more, because now you can use pre-built
-          components to achieve this feat. In fact, a lot fo styled components
+          components to achieve this feat. In fact, a lot of styled components
           on this website have been created using Chroma.
         </span>
       </CardHeader>
