@@ -43,46 +43,6 @@ export function Navbar() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Blogs</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3">
-                <NavigationMenuLink asChild>
-                  <div className="flex h-full w-full select-none flex-col items-start justify-start rounded-md bg-gradient-to-b from-muted/50 to-muted p-2 no-underline outline-none focus:shadow-md">
-                    <div className="mb-2 text-lg font-semibold">
-                      Welcome to my Blogs Page <Pencil2Icon />
-                    </div>
-                    <p className="text-sm leading-tight text-muted-foreground">
-                      Take a minute to read my thoughts on ongoing affairs, new
-                      technologies and even my reflections and experiences. I
-                      believe that my experiences and learnings could definitely
-                      be of help to someone.
-                      <br />
-                      <br />
-                      If you know me and like my work, and want to recommend me,
-                      you can do so by adding a thank you note.
-                      <br />
-                      <br />
-                      This page is still in development. Releasing on the 15th
-                      of August.
-                    </p>
-                  </div>
-                </NavigationMenuLink>
-              </li>
-
-              <ListItem title="Photography">
-                <p>
-                  Live my experiences with me as you browse through my clicks.
-                </p>
-              </ListItem>
-              <ListItem className="items-center">
-                <Image src={sf} alt="sf" height={260} />
-                <p className="text-xs my-4">Clay Street, San Francisco, 2024</p>
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
           <Link href="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Get in touch
