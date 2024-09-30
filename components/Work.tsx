@@ -15,11 +15,16 @@ import {
   SpackOriginal,
   JavaOriginal,
   JiraOriginal,
+  TypescriptOriginal,
+  NextjsLine,
+  NextjsOriginal,
+  FirebaseOriginal,
 } from "devicons-react";
 import ScienceIcon from "@mui/icons-material/Science";
 import SsidChartIcon from "@mui/icons-material/SsidChart";
 import SchoolIcon from "@mui/icons-material/School";
 import FunctionsIcon from "@mui/icons-material/Functions";
+import PaidIcon from "@mui/icons-material/Paid";
 
 export const Work01 = () => {
   return (
@@ -40,7 +45,7 @@ export const Work01 = () => {
           </h2>
           <br />
           <span className="text-sm">
-            This summer, I&apos;m at IDEXX, working with the Chemistry team on
+            This summer, I was at IDEXX, working with the Chemistry team on
             designing internal tools for testing a fleet of machines called{" "}
             <span className="font-semibold">&quot;Autocats.&quot; </span>
             Autocats are a fleet of{" "}
@@ -48,7 +53,7 @@ export const Work01 = () => {
             machines used to prognose, diagnose and run sophisticated health
             tests.
             <br />
-            <br />I am developing an full-fledged{" "}
+            <br />I developed a full-fledged{" "}
             <span className="font-semibold">API</span> in{" "}
             <span className="font-semibold">C# (ASP.NET)</span> and{" "}
             <span className="font-semibold">Bash </span>, that enables
@@ -57,17 +62,16 @@ export const Work01 = () => {
               software installation, running remote tests, testing, remote
               health checkups{" "}
             </span>
-            and <span className="font-semibold">machine maintainance</span>. I
-            hope to deploy this feature before the end of my term. (hopefully
-            :)) 🤞
+            and <span className="font-semibold">machine maintainance</span>. And
+            yes, I was able to deploy this feature before the end of my term.
             <br />
             <br />
             In terms of productivity and learning, this has been an exceptional
             experience. From the interview process, to getting onboarded, and to
-            now almost finish, everything was so smooth and professional. I
-            think I was able to level up my inter-personal skills, better
-            communication for example, and also my technical prowess. I learnt a
-            lot, and also got a chance to meetup with the Best Seller{" "}
+            wrapping up, everything was so smooth and professional. I think I
+            was able to level up my inter-personal skills, better communication
+            for example, and also my technical prowess. I learnt a lot, and also
+            got a chance to meetup with the Best Seller{" "}
             <span className="font-semibold">Keith Ferrazzi</span>. If I could
             rate it, a 12/10.
             <br />
@@ -220,7 +224,8 @@ export const Work04 = () => {
             <Separator orientation="vertical" className="h-[20px]" />
             January, 2023 - May, 2024
           </h2>
-          <Separator className="my-2" />
+          {/* <Separator className="my-2" /> */}
+          <div className="my-2 " />
           <h2 className="tracking-tight font-semibold text-md">
             &#x2022; Undergraduate Teaching Assistant
           </h2>
@@ -252,6 +257,50 @@ export const Work04 = () => {
             outreach incoming freshman, provide support, organize annual college
             fests, volunteer all around the university, holding campus tours,
             and providing everything else that a freshman needs to feel at home!
+          </span>
+        </span>
+      </CardHeader>
+    </Card>
+  );
+};
+
+export const Work05 = () => {
+  return (
+    <Card className="w-[450px] lg:w-[915px]" id="glass-card-work">
+      <CardHeader>
+        <span className="flex flex-col gap-1">
+          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center">
+            B:Side Capital
+            <PaidIcon />
+          </h2>
+          <h2 className="tracking-tight font-semibold text-md ">
+            Full-Stack Software Engineering Intern
+          </h2>{" "}
+          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5">
+            Denver, Colorado
+            <Separator orientation="vertical" className="h-[20px]" />
+            September, 2024 - present
+          </h2>
+          <span className="text-sm">
+            <br />I am developing an robust, state-of-the-art
+            <span className="font-semibold"> financial dashboard</span> for
+            clients to view enhanced financial information about their business
+            including recent transactions, categorized spending with amount,
+            cashflow and account balance over time. I am also developing a{" "}
+            <span className="font-semibold">R</span>etrieval-
+            <span className="font-semibold">A</span>ugmented{" "}
+            <span className="font-semibold">G</span>eneration chatbot for
+            assistance for personal finance queries. I am leveraging{" "}
+            <span className="font-semibold">Plaid's</span> and{" "}
+            <span className="font-semibold">Stripe's</span> APIs to fetch and
+            push financial information.
+            <br />
+            <br />
+            <br />
+            <h2 className="font-semibold flex gap-2 items-center">
+              Tools I used: <TypescriptOriginal /> TypeScript &#x2022;{" "}
+              <NextjsOriginal /> Nextjs &#x2022; <FirebaseOriginal /> Firebase
+            </h2>
           </span>
         </span>
       </CardHeader>

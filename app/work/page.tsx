@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import para from "@/public/para.jpeg";
 import { Separator } from "@/components/ui/separator";
-import { Work01, Work02, Work03, Work04 } from "@/components/Work";
+import { Work01, Work02, Work03, Work04, Work05 } from "@/components/Work";
 import { Free01, Free02, Free03 } from "@/components/Free";
 import garfield from "@/public/garfield.gif";
 import comic from "@/public/comic.gif";
@@ -29,6 +29,9 @@ const WorkPage = () => {
         <h2 className="tracking-tighter text-3xl font-bold my-20">
           Professional Experience
         </h2>
+        <div className="flex items-center justify-center">
+          <Work05 />
+        </div>
         <div className="flex flex-col lg:flex-row items-top justify-center gap-4">
           <Work01 />
           <Work02 />
