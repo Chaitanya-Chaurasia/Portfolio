@@ -12,6 +12,8 @@ import mario from "@/public/mario.gif";
 import Footer from "@/components/Footer";
 import { Specialize } from "@/components/Specialize";
 import { Separator } from "@/components/ui/separator";
+
+
 export default function Home() {
   return (
     <main className="min-h-screen p-2">

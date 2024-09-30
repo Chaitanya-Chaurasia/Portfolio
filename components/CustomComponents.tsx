@@ -11,7 +11,12 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 export const ImageCard = (img: any) => {
   return (
     <Card className="w-[350px] border-none">
-      <Image src={me} alt="image" className="rounded-xl h-full w-full" />
+      <Image
+        src={me}
+        alt="image"
+        className="rounded-xl h-full w-full"
+        placeholder="blur"
+      />
     </Card>
   );
 };
