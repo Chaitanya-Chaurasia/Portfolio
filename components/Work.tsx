@@ -291,8 +291,8 @@ export const Work05 = () => {
             <span className="font-semibold">A</span>ugmented{" "}
             <span className="font-semibold">G</span>eneration chatbot for
             assistance for personal finance queries. I am leveraging{" "}
-            <span className="font-semibold">Plaid's</span> and{" "}
-            <span className="font-semibold">Stripe's</span> APIs to fetch and
+            <span className="font-semibold">Plaid&apos;s</span> and{" "}
+            <span className="font-semibold">Stripe&apos;s</span> APIs to fetch and
             push financial information.
             <br />
             <br />

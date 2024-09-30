@@ -69,7 +69,7 @@ export const SkillAccordion = () => {
         <AccordionContent>
           Well, Computer Science, or for any field for that matter, is not
           limited to theory. What matters is how you can apply your skills and
-          ocntribute to your field.
+          contribute to your field.
           <br />
           <br />
           And trust me, there&apos;s no better way than to work on projects.
@@ -77,8 +77,9 @@ export const SkillAccordion = () => {
           than just going through a course.
           <br />
           <br />
-          And lastly, I develop because I love it. That&apos;s the most important
-          factor. I hope one my inventions has potential to help the society.
+          And lastly, I develop because I love it. That&apos;s the most
+          important factor. I hope one my inventions has potential to help the
+          society.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-1">
@@ -109,10 +110,10 @@ export const SkillAccordion = () => {
           How to start?
         </AccordionTrigger>
         <AccordionContent>
-          I&apos;m really if you clicked on this one. My best advice is to identify
-          your strengths and interests. If you like designing websites and UI/UX
-          work, start working on a website; if you like more backend stuff,
-          design an API that does something as basic as getting weather
+          I&apos;m really glad you clicked on this one. My best advice is to
+          identify your strengths and interests. If you like designing websites
+          and UI/UX work, start working on a website; if you like more backend
+          stuff, design an API that does something as basic as getting weather
           information from different cities.
           <br />
           <br />
