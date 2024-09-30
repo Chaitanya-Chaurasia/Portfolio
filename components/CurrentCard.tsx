@@ -65,7 +65,7 @@ export const CurrentCard02 = () => {
 
 export const CurrentCard03 = () => {
   const [clicked, setClicked] = useState(false);
-  const [like, setLike] = useState(240);
+  const [like, setLike] = useState(342);
 
   const copyText = () => {
     const text =
