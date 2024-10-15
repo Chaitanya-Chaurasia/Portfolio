@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import { Navbar } from "../components/Navbar";
+import { Analytics } from "@vercel/analytics/react";
+
 const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -37,6 +39,7 @@ export default function RootLayout({
           <main className="flex-grow bg-fixed dark:bg-grid-small-white/[0.1] bg-grid-small-black/[0.2] relative overflow-hidden">
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_top,transparent_70%,black)]"></div>
             {children}
+            <Analytics />
           </main>
         </ThemeProvider>
         <Toaster />
