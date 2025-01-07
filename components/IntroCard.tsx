@@ -40,7 +40,7 @@ export const IntroCard = () => {
       <CardTitle className="p-0 flex flex-row gap-1 ">
         <Badge>he/him</Badge>
         <Badge>📌 Tempe, Arizona, USA</Badge>
-        <Badge>💻 IDEXX</Badge>
+        <Badge>💻 B:Side</Badge>
       </CardTitle>
       <CardTitle className="flex flex-row gap-2 my-2 items-center">
         <a
@@ -116,8 +116,11 @@ export const IntroCard02 = () => {
             <span className="font-medium">
               scintillating and enriching
             </span>{" "}
-            journey. I&apos;ve realized how much more there is to learn and grow.{" "}
-            <span className="font-medium">From here on, sky&apos;s the limit!</span>
+            journey. I&apos;ve realized how much more there is to learn and
+            grow.{" "}
+            <span className="font-medium">
+              From here on, sky&apos;s the limit!
+            </span>
           </h2>
         </CardHeader>
       </Card>

@@ -5,18 +5,12 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-// import me from "@/public/myAvatar.svg";
-import Image from "next/image";
 import { ModeToggle } from "./ui/dark-mode";
-import { Pencil2Icon } from "@radix-ui/react-icons";
-import sf from "@/public/sf.jpeg";
 export function Navbar() {
   return (
     <NavigationMenu className="border p-2 rounded-3xl" id="glass-card-navbar">
@@ -40,6 +34,16 @@ export function Navbar() {
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Projects
             </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="/Resume.pdf" passHref legacyBehavior>
+            <a
+              download="Resume_Chaitanya"
+              className={navigationMenuTriggerStyle()}
+            >
+              CV
+            </a>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
