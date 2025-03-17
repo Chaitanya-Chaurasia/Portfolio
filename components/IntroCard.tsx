@@ -8,7 +8,9 @@ import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
+import medium from "@/public/medium.svg";
 import { Separator } from "./ui/separator";
+import Image from "next/image";
 
 const getMyTime = () => {
   const currentTime = new Date();
@@ -72,6 +74,13 @@ export const IntroCard = () => {
             width={20}
             className="hover:scale-125"
           />
+        </a>
+        <a
+          href="https://medium.com/@chaitanyalvis"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src={medium} alt="logo" height={20} width={20} />
         </a>
         <Separator orientation="vertical" className="h-[20px]" />
         <span className="font-medium text-muted-foreground text-sm">
