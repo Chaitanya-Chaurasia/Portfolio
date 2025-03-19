@@ -19,6 +19,9 @@ import {
   NextjsLine,
   NextjsOriginal,
   FirebaseOriginal,
+  AnsibleOriginal,
+  AmazonwebservicesLineWordmark,
+  AmazonwebservicesOriginalWordmark,
 } from "devicons-react";
 import ScienceIcon from "@mui/icons-material/Science";
 import SsidChartIcon from "@mui/icons-material/SsidChart";
@@ -28,17 +31,17 @@ import PaidIcon from "@mui/icons-material/Paid";
 
 export const Work01 = () => {
   return (
-    <Card className="w-[450px]" id="glass-card-work">
+    <Card className="w-[450px] text-center" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
-          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center">
+          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center justify-center">
             IDEXX Laboratories
             <ScienceIcon />
           </h2>
           <h2 className="tracking-tight font-semibold text-md ">
             Embedded Software Engineering Intern
           </h2>{" "}
-          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5">
+          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5 justify-center">
             Portland, Maine
             <Separator orientation="vertical" className="h-[20px]" />
             June - August, 2024
@@ -46,7 +49,7 @@ export const Work01 = () => {
           <br />
           <span className="text-sm">
             This summer, I was at IDEXX, working with the Chemistry team on
-            designing internal tools for testing a fleet of machines called{" "}
+            designing internal tools to test a fleet of machines called{" "}
             <span className="font-semibold">&quot;Autocats.&quot; </span>
             Autocats are a fleet of{" "}
             <span className="font-semibold">veterinary </span>
@@ -76,7 +79,7 @@ export const Work01 = () => {
             rate it, a 12/10.
             <br />
             <br />
-            <h2 className="font-semibold flex gap-2 items-center">
+            <h2 className="font-semibold flex gap-2 items-center justify-center">
               Tools I used: <CsharpOriginal /> C# &#x2022; <LuaOriginal /> Lua
               &#x2022; <LinuxOriginal /> Linux &#x2022;
               <BashOriginal /> Bash
@@ -90,17 +93,17 @@ export const Work01 = () => {
 
 export const Work02 = () => {
   return (
-    <Card className="w-[450px]" id="glass-card-work">
+    <Card className="w-[450px] text-center" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
-          <h2 className="tracking-tight font-semibold text-lg flex items-center gap-1">
+          <h2 className="tracking-tight font-semibold text-lg flex items-center gap-1 justify-center">
             Indian Institute of Technology
             <FunctionsIcon />
           </h2>
           <h2 className="tracking-tight font-semibold text-md">
             Machine Learning Intern
           </h2>{" "}
-          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5">
+          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5 justify-center ">
             New Delhi, India
             <Separator orientation="vertical" className="h-[20px]" />
             May - August, 2023
@@ -141,7 +144,7 @@ export const Work02 = () => {
             interesting to work on.
             <br />
             <br />
-            <h2 className="font-semibold flex gap-2 items-center">
+            <h2 className="font-semibold flex gap-2 justify-center items-center">
               Tools I used: <PythonOriginal /> Python &#x2022; Linear
               Optimization &#x2022; Graphs
             </h2>
@@ -154,17 +157,17 @@ export const Work02 = () => {
 
 export const Work03 = () => {
   return (
-    <Card className="w-[450px]" id="glass-card-work">
+    <Card className="w-[450px] text-center" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
-          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center">
+          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center justify-center">
             Intuicomp Terascience
             <SsidChartIcon />
           </h2>
           <h2 className="tracking-tight font-semibold text-md">
             Data Science Intern
           </h2>{" "}
-          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5">
+          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5 justify-center">
             Gurugram, India
             <Separator orientation="vertical" className="h-[20px]" />
             March - May, 2023
@@ -199,7 +202,7 @@ export const Work03 = () => {
             journey, and made the most of this experience.
             <br />
             <br />
-            <h2 className="font-semibold flex gap-2 items-center">
+            <h2 className="font-semibold flex gap-2 items-center justify-center">
               Tools I used: <PythonOriginal /> Python &#x2022; <MysqlOriginal />{" "}
               MySQL &#x2022; <SpackOriginal /> Apache Spark
             </h2>
@@ -212,14 +215,14 @@ export const Work03 = () => {
 
 export const Work04 = () => {
   return (
-    <Card className="w-[450px]" id="glass-card-work">
+    <Card className="w-[450px] text-center" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
-          <h2 className="tracking-tight font-semibold text-lg flex items-center gap-1">
+          <h2 className="tracking-tight font-semibold text-lg flex items-center gap-1 justify-center">
             Arizona State University
             <SchoolIcon />
           </h2>
-          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5">
+          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5 justify-center">
             Tempe, Arizona
             <Separator orientation="vertical" className="h-[20px]" />
             January, 2023 - May, 2024
@@ -243,7 +246,7 @@ export const Work04 = () => {
             <span className="font-semibold">GameMaker Studio 2</span>.
           </span>
           <br />
-          <h2 className="font-semibold flex gap-2 items-center text-sm">
+          <h2 className="font-semibold flex gap-2 justify-center items-center text-sm">
             Tools I used: <JavaOriginal /> Java &#x2022; <MysqlOriginal /> MySQL
             &#x2022; <JiraOriginal /> Agile (Jira)
           </h2>
@@ -266,17 +269,17 @@ export const Work04 = () => {
 
 export const Work05 = () => {
   return (
-    <Card className="w-[450px] lg:w-[915px]" id="glass-card-work">
+    <Card className="w-[450px] lg:w-[915px] text-center" id="glass-card-work">
       <CardHeader>
         <span className="flex flex-col gap-1">
-          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center">
+          <h2 className="tracking-tight font-semibold text-lg flex gap-1 items-center justify-center">
             B:Side Capital
             <PaidIcon />
           </h2>
           <h2 className="tracking-tight font-semibold text-md ">
             Full-Stack Software Engineering Intern
           </h2>{" "}
-          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5">
+          <h2 className="tracking-tight font-normal text-sm flex text-muted-foreground gap-5 justify-center">
             Denver, Colorado
             <Separator orientation="vertical" className="h-[20px]" />
             September, 2024 - present
@@ -292,14 +295,15 @@ export const Work05 = () => {
             <span className="font-semibold">G</span>eneration chatbot for
             assistance for personal finance queries. I am leveraging{" "}
             <span className="font-semibold">Plaid&apos;s</span> and{" "}
-            <span className="font-semibold">Stripe&apos;s</span> APIs to fetch and
-            push financial information.
+            <span className="font-semibold">Stripe&apos;s</span> APIs to fetch
+            and push financial information.
             <br />
             <br />
             <br />
-            <h2 className="font-semibold flex gap-2 items-center">
-              Tools I used: <TypescriptOriginal /> TypeScript &#x2022;{" "}
-              <NextjsOriginal /> Nextjs &#x2022; <FirebaseOriginal /> Firebase
+            <h2 className="font-semibold flex gap-2 items-center justify-center lg:flex-row xs:flex-col">
+              Tools I used:
+              <TypescriptOriginal /> TypeScript &#x2022; <NextjsOriginal />{" "}
+              Nextjs &#x2022; <FirebaseOriginal /> Firebase
             </h2>
           </span>
         </span>

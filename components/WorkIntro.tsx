@@ -6,26 +6,27 @@ export const WorkIntro = () => {
   return (
     <Card className="w-[350px] border-none">
       <CardHeader>
-        <h2 className="tracking-tighter text-4xl font-extrabold">
+        <h2 className="tracking-tighter text-4xl font-extrabold text-center">
           What is <span className="underline text-lime-400">life </span>without{" "}
-          <span className="text-fuchsia-400">work</span>, I ask.
+          <span className="text-fuchsia-400">work</span>, I ask?
         </h2>
         <br />
-        <span className="text-[14px]">
-          A lot of people I have spoken to tend to use the words &quot;job&quot;
-          and &quot;work&quot; interchangeably. Well, I agree to disagree on
-          this one. To me, &quot;working on something&quot; means putting in
-          physical or mental effort to achieve a goal. The goal could lie
-          anywhere on a vast spectrum- from something matereliastic, monetary in
-          value to something as abstract as success or satisfaction.
+        <span className="text-[14px] text-center">
+          Most people I make conversation with tend to interchange the words
+          &quot;job&quot; and &quot;work&quot;. I implore them to retrospect. To
+          me, work should be a harbinger of jubilation- something that gets you
+          out of your bed every morning. The goal could be anything. Think of it
+          as a spectrum that includes a multitude of desires- from something
+          materialistic, monetary in value to something as abstract as success
+          or satisfaction.
           <br />
           <br />
-          Often, people get so immersed in their jobs that they start equating
-          them with work. I&apos;m not saying that couldn&apos;t be the case, if
-          it is, I think you&apos;re on the right track.
+          So often, people get so immersed in their jobs that they start
+          equating it with work. I&apos;m not denying saying that couldn&apos;t
+          be the case; if it is, you're on your way to become successful.
           <br />
           <br />
-          If not, I urge everyone to take a step back
+          If not, I urge everyone to take a step back and ponder.
         </span>
       </CardHeader>
     </Card>
@@ -36,22 +37,23 @@ export const WorkIntro02 = () => {
   return (
     <Card className="w-[350px] border-none">
       <CardHeader>
-        <span className="text-[14px]">
-          and think about what they truly want to achieve in life. Identify your
-          goals and start working towards them. That&apos;s what I call real
+        <span className="text-[14px] text-center">
+          Think about what you truly want to achieve in life. Identify your
+          goals and start working towards them. Now that&apos;s what I call real
           work.
           <br />
           <br />
-          I&apos;m not alone in this belief— it&apos;s advice I&apos;ve received
-          from many successful individuals.
+          And don't quote me on this— it&apos;s advice I&apos;ve received from
+          only so many successful people.
           <br />
           <br />
           <h2 className="tracking-tighter font-semibold text-[16px]">
             So, what am I working towards?
           </h2>
           <br />
-          My passion lies in creating unique, state-of-the-art solutions. One of
-          my ultimate goals is to develop something sustainable.
+          My passion lies in creating unique, state-of-the-art solutions that
+          deliver innovation and impact at scale. To give an idea, one of my
+          goals is to contribute towards achieving sustainability.
           <br />
           <br />
           Our planet is facing significant challenges, and contributing to a
