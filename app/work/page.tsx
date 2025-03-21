@@ -3,6 +3,7 @@ import { WorkIntro, WorkIntro02 } from "@/components/WorkIntro";
 import Image from "next/image";
 import React from "react";
 import para from "@/public/para.jpeg";
+import medium from "@/public/medium.svg";
 import { Separator } from "@/components/ui/separator";
 import { Work01, Work02, Work03, Work04, Work05 } from "@/components/Work";
 import { Free01, Free02, Free03 } from "@/components/Free";
@@ -133,7 +134,19 @@ const WorkPage = () => {
               className="hover:scale-125"
             />
           </a>
-
+          <a
+            href="https://medium.com/@chaitanyalvis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={medium}
+              alt="logo"
+              height={20}
+              width={20}
+              className="hover:scale-125"
+            />
+          </a>
           <Separator orientation="vertical" className="h-[20px]" />
           <span className="font-medium text-muted-foreground text-sm">
             cchauras@asu.edu

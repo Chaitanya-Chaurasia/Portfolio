@@ -12,6 +12,8 @@ import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
+import Image from "next/image";
+import medium from "@/public/medium.svg";
 
 const ProjectPage = () => {
   return (
@@ -73,6 +75,19 @@ const ProjectPage = () => {
             rel="noopener noreferrer"
           >
             <InstagramLogoIcon
+              height={20}
+              width={20}
+              className="hover:scale-125"
+            />
+          </a>
+          <a
+            href="https://medium.com/@chaitanyalvis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={medium}
+              alt="logo"
               height={20}
               width={20}
               className="hover:scale-125"

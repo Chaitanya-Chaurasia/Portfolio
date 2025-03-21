@@ -77,7 +77,7 @@ export const SkillAccordion = () => {
           than just going through a course.
           <br />
           <br />
-          And lastly, I develop because I love it. That&apos;s the most
+          And lastly, I develop because I love doing that. That&apos;s the most
           important factor. I hope one my inventions has potential to help the
           society.
         </AccordionContent>
