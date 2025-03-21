@@ -1,21 +1,21 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import me from "@/public/profile.jpeg";
+import me from "@/public/prof.jpeg";
 import legal from "@/public/legalaid.png";
 import incog from "@/public/incognito.png";
 import boba from "@/public/boba.png";
 import sonic from "@/public/sonic.gif";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
-export const ImageCard = (img: any) => {
+export const ImageCard = () => {
   return (
     <Card className="w-[350px] border-none">
       <Image
         src={me}
         alt="image"
         className="rounded-xl h-full w-full"
-        placeholder="blur"
+        placeholder="empty"
       />
     </Card>
   );
