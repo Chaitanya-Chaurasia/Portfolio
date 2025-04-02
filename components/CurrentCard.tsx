@@ -65,7 +65,7 @@ export const CurrentCard02 = () => {
 
 export const CurrentCard03 = () => {
   const [clicked, setClicked] = useState(false);
-  const [like, setLike] = useState(342);
+  const [like, setLike] = useState(4.6);
 
   const copyText = () => {
     const text =
@@ -77,8 +77,9 @@ export const CurrentCard03 = () => {
     <Card className="w-[350px] bg-transparent border-none  text-center">
       <CardHeader>
         <span>
-          focused on what's going on in the moment, we are less likely to get
-          lost in the past or the future. I believe that this principle, I call{" "}
+          focused on what&apos;s going on in the moment, we are less likely to
+          get lost in the past or the future. I believe that this principle, I
+          call{" "}
           <span className="italic">&quot;The Timeless Way of Life,&quot;</span>{" "}
           will be my lamp as I find my away through this very dense forest
           called Life.
@@ -101,7 +102,7 @@ export const CurrentCard03 = () => {
         </span>
         <div className="flex items-center gap-2">
           <span className="flex-1" />
-          <span className="text-sm ">{like} likes</span>
+          <span className="text-sm ">{like}k likes</span>
           <Button
             variant="ghost"
             size="icon"

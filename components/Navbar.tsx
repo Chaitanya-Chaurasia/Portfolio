@@ -37,13 +37,18 @@ export function Navbar() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/Resume.pdf" passHref legacyBehavior>
+          {/* <Link href="/Resume.pdf" passHref legacyBehavior>
             <a
               download="Resume_Chaitanya"
               className={navigationMenuTriggerStyle()}
             >
               CV
             </a>
+          </Link> */}
+          <Link href="/cv" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              CV
+            </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>

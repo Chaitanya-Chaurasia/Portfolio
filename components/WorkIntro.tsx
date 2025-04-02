@@ -23,7 +23,7 @@ export const WorkIntro = () => {
           <br />
           So often, people get so immersed in their jobs that they start
           equating it with work. I&apos;m not denying saying that couldn&apos;t
-          be the case; if it is, you're on your way to become successful.
+          be the case; if it is, you&apos;re on your way to become successful.
           <br />
           <br />
           If not, I urge everyone to take a step back and ponder.
@@ -43,8 +43,8 @@ export const WorkIntro02 = () => {
           work.
           <br />
           <br />
-          And don't quote me on this— it&apos;s advice I&apos;ve received from
-          only so many successful people.
+          And don&apos;t quote me on this— it&apos;s advice I&apos;ve received
+          from only so many successful people.
           <br />
           <br />
           <h2 className="tracking-tighter font-semibold text-[16px]">

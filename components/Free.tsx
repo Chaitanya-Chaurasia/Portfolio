@@ -11,9 +11,9 @@ export const Free01 = () => {
         <h2 className="tracking-tighter text-3xl font-bold">Freelancing!</h2>
         <br />
         As we approach a global population of 8 billion, the sheer number of
-        unique and brilliant ideas is staggering. Every hackathon I've attended
-        reveals at least 10-20 innovative ideas I&apos;ve never encountered
-        before, and that&apos;s only from a couple hundred students.
+        unique and brilliant ideas is staggering. Every hackathon I&apos;ve
+        attended reveals at least 10-20 innovative ideas I&apos;ve never
+        encountered before, and that&apos;s only from a couple hundred students.
         <br />
         <br />
         Imagine then, the vast diversity of creativity worldwide. As a
