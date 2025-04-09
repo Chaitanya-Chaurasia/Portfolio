@@ -45,9 +45,9 @@ export function Navbar() {
               CV
             </a>
           </Link> */}
-          <Link href="/cv" legacyBehavior passHref>
+          <Link href="/blog" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              CV
+              Blog
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

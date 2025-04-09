@@ -115,8 +115,9 @@ export const SkillCard03 = () => {
           <span className="font-semibold">
             leadership, adaptability, management
           </span>{" "}
-          and <span className="font-semibold">effective, economic speech</span>.
-          Coming to technical skills, these are the skills I have used the most:
+          and <span className="font-semibold">effective, impactful speech</span>
+          . Coming to technical skills, these are the skills I have used the
+          most:
         </span>
         <br />
         <div className="flex text-sm font-medium items-center gap-2">
